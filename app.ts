@@ -1,5 +1,5 @@
 import { Application } from 'express';
-import { logger } from '~/config/winston';
+import { logger } from './src/config/winston';
 
 const express = require('express');
 const fileUpload = require('express-fileupload');
