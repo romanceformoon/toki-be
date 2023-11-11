@@ -43,7 +43,7 @@ export const discordLogin = async (req: Request, res: Response) => {
             expiresIn: '1h',
             algorithm: 'HS256',
         });
-        const refreshToken = jwt.sign({}, JWT_SECRET_KEY, {
+        const refreshToken = jwt.sign({ uid: 1 }, JWT_SECRET_KEY, {
             expiresIn: '14d',
             algorithm: 'HS256',
         });
