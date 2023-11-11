@@ -39,14 +39,22 @@ export const discordLogin = async (req: Request, res: Response) => {
 
         const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY as jwt.Secret;
 
-        const accessToken = jwt.sign({ uid: 1 }, JWT_SECRET_KEY, {
-            expiresIn: '1h',
-            algorithm: 'HS256',
-        });
-        const refreshToken = jwt.sign({ uid: 1 }, JWT_SECRET_KEY, {
-            expiresIn: '14d',
-            algorithm: 'HS256',
-        });
+        const accessToken = jwt.sign(
+            { uid: discordIdentifyResponse.data.id },
+            JWT_SECRET_KEY,
+            {
+                expiresIn: '1h',
+                algorithm: 'HS256',
+            }
+        );
+        const refreshToken = jwt.sign(
+            { uid: discordIdentifyResponse.data.id },
+            JWT_SECRET_KEY,
+            {
+                expiresIn: '14d',
+                algorithm: 'HS256',
+            }
+        );
 
         res.cookie('refreshToken', refreshToken, {
             httpOnly: true,

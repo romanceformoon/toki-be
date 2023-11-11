@@ -1,18 +1,25 @@
 import axios from 'axios';
 import { Request, Response } from 'express';
 import { UploadedFile } from 'express-fileupload';
-import { rm } from 'fs/promises';
-import { v4 as uuidv4 } from 'uuid';
+import jwt from 'jsonwebtoken';
+import { IAuth } from '~/@types/auth';
 import { IGraphResult } from '~/@types/graph';
 import { logger } from '~/config/winston';
 import { sqliteGetSync } from '~/utils/sqliteGetSync';
 
 export const generateGraph = (req: Request, res: Response) => {
     try {
+        if (!req.accessToken) return res.status(401).send('Not authorized');
+
         const scoreDB = req.files?.db as UploadedFile;
 
         if (scoreDB) {
-            const tempPath = `temp/${uuidv4()}`;
+            const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY as jwt.Secret;
+
+            jwt.verify(req.accessToken, JWT_SECRET_KEY);
+            const decoded = jwt.decode(req.accessToken) as IAuth;
+
+            const tempPath = `scores/${decoded['uid']}`;
             // Use the mv() method to place the file somewhere on your server
             scoreDB.mv(tempPath, async function (err: Error | null) {
                 if (err) {
@@ -189,8 +196,6 @@ export const generateGraph = (req: Request, res: Response) => {
                     }
 
                     db.close();
-
-                    await rm(tempPath);
 
                     return res.status(200).json(result);
                 }
