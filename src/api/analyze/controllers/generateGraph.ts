@@ -1,10 +1,10 @@
+import axios from 'axios';
 import { Request, Response } from 'express';
 import { UploadedFile } from 'express-fileupload';
 import { rm } from 'fs/promises';
 import { v4 as uuidv4 } from 'uuid';
 import { IGraphResult } from '~/@types/graph';
 import { logger } from '~/config/winston';
-import AeryData from '~/data/aery/data.json';
 import { sqliteGetSync } from '~/utils/sqliteGetSync';
 
 export const generateGraph = (req: Request, res: Response) => {
@@ -157,7 +157,12 @@ export const generateGraph = (req: Request, res: Response) => {
                         },
                     };
 
-                    for (const data of AeryData) {
+                    const data = await axios.get(
+                        'https://hibyethere.github.io/table/data.json'
+                    );
+                    const tableData = data.data;
+
+                    for (const data of tableData) {
                         const currentSongLevel: string = data['level'];
 
                         if (currentSongLevel === 'LEVEL DUMMY') continue;
