@@ -1,8 +1,8 @@
 import express, { Router } from 'express';
-import { generateGraph } from '~/api/analyze/controllers/generateGraph';
+import { refresh } from '~/api/auth/controllers/refresh';
 
 const router: Router = express.Router();
 
-router.post('/graph', generateGraph);
+router.get('/refresh', refresh);
 
 module.exports = router;

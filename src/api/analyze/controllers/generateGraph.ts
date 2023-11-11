@@ -188,6 +188,8 @@ export const generateGraph = (req: Request, res: Response) => {
                         }
                     }
 
+                    db.close();
+
                     await rm(tempPath);
 
                     return res.status(200).json(result);

@@ -1,3 +1,4 @@
+import cookieParser from 'cookie-parser';
 import { Application } from 'express';
 import { logger } from './src/config/winston';
 
@@ -23,6 +24,7 @@ class App {
         this.app.use(express.json());
         this.app.use(express.urlencoded({ extended: false }));
         this.app.use(methodOverride());
+        this.app.use(cookieParser());
 
         this.app.disable('x-powered-by');
         this.app.set('trust proxy', true);
@@ -36,6 +38,7 @@ class App {
 
     getRouting() {
         this.app.use('/toki-api', require('~/api/analyze'));
+        this.app.use('/toki-api', require('~/api/auth'));
     }
 }
 
