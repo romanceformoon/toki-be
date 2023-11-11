@@ -2,7 +2,7 @@ import { logger } from '~/config/winston';
 
 // Express Server Initialize
 const app = require('./app');
-const port = process.env.SERVER_PORT || 5000;
+const port = process.env.SERVER_PORT || 9876;
 const server = app.listen(port, () => {
     logger.info(`Express Server Listening on port ${port}`);
     if (process.send) {
