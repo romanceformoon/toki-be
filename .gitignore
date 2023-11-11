@@ -38,7 +38,7 @@ Thumbs.db
 dist/**/*
 
 .vscode/
-temp/
+scores/
 .yarn/*
 !.yarn/cache
 !.yarn/patches
