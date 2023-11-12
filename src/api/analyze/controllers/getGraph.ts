@@ -9,6 +9,8 @@ export const getGraph = async (req: Request, res: Response) => {
     try {
         const uid = req.params.uid;
 
+        if (!uid) return res.status(404).send('User not found');
+
         const tempPath = `scores/${uid}`;
 
         if (existsSync(tempPath)) {
@@ -182,7 +184,18 @@ export const getGraph = async (req: Request, res: Response) => {
 
             db.close();
 
-            return res.status(200).json(result);
+            const [userQuery] = await req.database.query(
+                'SELECT nickname, avatar FROM user WHERE uid = ?',
+                [uid]
+            );
+
+            req.database.end();
+
+            return res.status(200).json({
+                graph: result,
+                nickname: userQuery[0].nickname,
+                avatar: userQuery[0].avatar,
+            });
         } else {
             return res.status(404).send('Not found');
         }
