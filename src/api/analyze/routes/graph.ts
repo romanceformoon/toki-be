@@ -6,7 +6,7 @@ import { databaseConnector } from '~/middlewares/databaseConnector';
 
 const router: Router = express.Router();
 
-router.post('/graph', authChecker, generateGraph);
+router.post('/graph', authChecker, databaseConnector, generateGraph);
 
 router.get('/user/:uid', databaseConnector, getUser);
 

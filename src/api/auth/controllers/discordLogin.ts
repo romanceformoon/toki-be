@@ -64,8 +64,6 @@ export const discordLogin = async (req: Request, res: Response) => {
             [discordIdentifyResponse.data.id]
         );
 
-        console.log(nicknameQuery[0].nickname);
-
         req.database.end();
 
         const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY as jwt.Secret;

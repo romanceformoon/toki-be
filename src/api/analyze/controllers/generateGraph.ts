@@ -29,7 +29,7 @@ export const generateGraph = (req: Request, res: Response) => {
                     const sqlite3 = require('sqlite3').verbose();
                     const db = new sqlite3.Database(tempPath);
 
-                    const result: IGraphResult = {
+                    const graph: IGraphResult = {
                         FC_COUNT: {
                             'LEVEL 1': 0,
                             'LEVEL 2': 0,
@@ -169,27 +169,62 @@ export const generateGraph = (req: Request, res: Response) => {
                     );
                     const tableData = data.data;
 
+                    let userExp = 0;
+
+                    const fcBonus = 700;
+                    const hardBonus = 300;
+                    const grooveBonus = 50;
+                    const easyBonus = 25;
+
                     for (const data of tableData) {
                         const currentSongLevel: string = data['level'];
+                        const numberLevel = parseInt(
+                            currentSongLevel.split(' ')[1]
+                        );
+
+                        const baseScore = 1.5 ** numberLevel;
 
                         if (currentSongLevel === 'LEVEL DUMMY') continue;
 
-                        const sql = `SELECT clear FROM score WHERE hash = '${data['md5']}'`;
                         try {
-                            const row = await sqliteGetSync(db, sql);
+                            const row = await sqliteGetSync(
+                                db,
+                                `SELECT clear, rate, minbp FROM score WHERE hash = '${data['md5']}'`
+                            );
 
                             if (!row)
-                                result['NOPLAY_COUNT'][currentSongLevel] += 1;
-                            else if (row['clear'] === 5)
-                                result['FC_COUNT'][currentSongLevel] += 1;
-                            else if (row['clear'] === 4)
-                                result['HARD_COUNT'][currentSongLevel] += 1;
-                            else if (row['clear'] === 3)
-                                result['GROOVE_COUNT'][currentSongLevel] += 1;
-                            else if (row['clear'] === 2)
-                                result['EASY_COUNT'][currentSongLevel] += 1;
-                            else if (row['clear'] === 1)
-                                result['FAILED_COUNT'][currentSongLevel] += 1;
+                                graph['NOPLAY_COUNT'][currentSongLevel] += 1;
+                            else if (row['clear'] === 5) {
+                                graph['FC_COUNT'][currentSongLevel] += 1;
+                                userExp +=
+                                    baseScore +
+                                    1 / (row['minbp'] + 1) +
+                                    fcBonus +
+                                    row['rate'];
+                            } else if (row['clear'] === 4) {
+                                graph['HARD_COUNT'][currentSongLevel] += 1;
+                                userExp +=
+                                    baseScore +
+                                    1 / (row['minbp'] + 1) +
+                                    hardBonus +
+                                    row['rate'];
+                            } else if (row['clear'] === 3) {
+                                graph['GROOVE_COUNT'][currentSongLevel] += 1;
+                                userExp +=
+                                    baseScore +
+                                    1 / (row['minbp'] + 1) +
+                                    grooveBonus +
+                                    row['rate'];
+                            } else if (row['clear'] === 2) {
+                                graph['EASY_COUNT'][currentSongLevel] += 1;
+                                userExp +=
+                                    baseScore +
+                                    1 / (row['minbp'] + 1) +
+                                    easyBonus +
+                                    row['rate'];
+                            } else if (row['clear'] === 1) {
+                                graph['FAILED_COUNT'][currentSongLevel] += 1;
+                            }
                         } catch (err) {
                             return res.status(400).send('db not available');
                         }
@@ -197,7 +232,38 @@ export const generateGraph = (req: Request, res: Response) => {
 
                     db.close();
 
-                    return res.status(200).json(result);
+                    const [queryResult] = await req.database.query(
+                        'SELECT * FROM score WHERE uid = ?',
+                        [decoded['uid']]
+                    );
+
+                    console.log(queryResult);
+
+                    if (queryResult.length === 0) {
+                        try {
+                            await req.database.query(
+                                'INSERT INTO score (uid, aery_exp) VALUES(?, ?)',
+                                [decoded['uid'], userExp]
+                            );
+                        } catch (err) {
+                            return res
+                                .status(500)
+                                .json({ result: 'DB Failed' });
+                        }
+                    } else {
+                        try {
+                            await req.database.query(
+                                'UPDATE score SET aery_exp = ? WHERE uid = ?',
+                                [userExp, decoded['uid']]
+                            );
+                        } catch (err) {
+                            return res
+                                .status(500)
+                                .json({ result: 'DB Failed' });
+                        }
+                    }
+
+                    return res.status(200).json({ graph, exp: userExp });
                 }
             });
         } else {

@@ -11,6 +11,18 @@ export const getUser = async (req: Request, res: Response) => {
 
         if (!uid) return res.status(404).send('User not found');
 
+        const [userQuery] = await req.database.query(
+            'SELECT nickname, avatar FROM user WHERE uid = ?',
+            [uid]
+        );
+
+        const [scoreQuery] = await req.database.query(
+            'SELECT aery_exp FROM score WHERE uid = ?',
+            [uid]
+        );
+
+        req.database.end();
+
         const tempPath = `scores/${uid}`;
 
         if (existsSync(tempPath)) {
@@ -233,21 +245,18 @@ export const getUser = async (req: Request, res: Response) => {
 
             db.close();
 
-            const [userQuery] = await req.database.query(
-                'SELECT nickname, avatar FROM user WHERE uid = ?',
-                [uid]
-            );
-
-            req.database.end();
-
             return res.status(200).json({
                 graph: graph,
                 clearDan: clearDan,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
+                exp: scoreQuery[0]?.aery_exp,
             });
         } else {
-            return res.status(404).send('Not found');
+            return res.status(200).json({
+                nickname: userQuery[0].nickname,
+                avatar: userQuery[0].avatar,
+            });
         }
     } catch (err) {
         logger.error(`Error occured: ${err}`);
