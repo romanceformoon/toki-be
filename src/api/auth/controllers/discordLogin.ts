@@ -37,7 +37,7 @@ export const discordLogin = async (req: Request, res: Response) => {
         });
         console.log(discordIdentifyResponse.data);
 
-        const [queryResult, fields] = await req.database.query(
+        const [queryResult] = await req.database.query(
             'SELECT * FROM user WHERE uid = ?',
             [discordIdentifyResponse.data.id]
         );
@@ -59,6 +59,13 @@ export const discordLogin = async (req: Request, res: Response) => {
             }
         }
 
+        const [nicknameQuery] = await req.database.query(
+            'SELECT nickname FROM user WHERE uid = ?',
+            [discordIdentifyResponse.data.id]
+        );
+
+        console.log(nicknameQuery[0].nickname);
+
         req.database.end();
 
         const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY as jwt.Secret;
@@ -66,7 +73,7 @@ export const discordLogin = async (req: Request, res: Response) => {
         const accessToken = jwt.sign(
             {
                 uid: discordIdentifyResponse.data.id,
-                nickname: discordIdentifyResponse.data.username,
+                nickname: nicknameQuery[0].nickname,
                 avatar: discordIdentifyResponse.data.avatar,
             },
             JWT_SECRET_KEY,
@@ -78,7 +85,7 @@ export const discordLogin = async (req: Request, res: Response) => {
         const refreshToken = jwt.sign(
             {
                 uid: discordIdentifyResponse.data.id,
-                nickname: discordIdentifyResponse.data.username,
+                nickname: nicknameQuery[0].nickname,
                 avatar: discordIdentifyResponse.data.avatar,
             },
             JWT_SECRET_KEY,
