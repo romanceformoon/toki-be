@@ -13,7 +13,11 @@ export const checkUser = (req: Request, res: Response) => {
         const decoded = jwt.decode(req.accessToken) as IAuth;
 
         return res.status(200).json({
-            user: { uid: decoded['uid'] },
+            user: {
+                uid: decoded['uid'],
+                nickname: decoded['nickname'],
+                avatar: decoded['avatar'],
+            },
         });
     } catch (err) {
         logger.error(err);

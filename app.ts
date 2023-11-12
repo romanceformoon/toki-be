@@ -2,9 +2,9 @@ import cookieParser from 'cookie-parser';
 import { Application } from 'express';
 import { logger } from './src/config/winston';
 
+const dotenv = require('dotenv');
 const express = require('express');
 const fileUpload = require('express-fileupload');
-const dotenv = require('dotenv');
 const methodOverride = require('method-override');
 const morgan = require('morgan');
 

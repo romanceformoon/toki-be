@@ -1,22 +1,15 @@
 import axios from 'axios';
 import { Request, Response } from 'express';
 import { existsSync } from 'fs';
-import jwt from 'jsonwebtoken';
-import { IAuth } from '~/@types/auth';
 import { IGraphResult } from '~/@types/graph';
 import { logger } from '~/config/winston';
 import { sqliteGetSync } from '~/utils/sqliteGetSync';
 
 export const getGraph = async (req: Request, res: Response) => {
     try {
-        if (!req.accessToken) return res.status(401).send('Not authorized');
+        const uid = req.params.uid;
 
-        const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY as jwt.Secret;
-
-        jwt.verify(req.accessToken, JWT_SECRET_KEY);
-        const decoded = jwt.decode(req.accessToken) as IAuth;
-
-        const tempPath = `scores/${decoded['uid']}`;
+        const tempPath = `scores/${uid}`;
 
         if (existsSync(tempPath)) {
             const sqlite3 = require('sqlite3').verbose();
@@ -190,6 +183,8 @@ export const getGraph = async (req: Request, res: Response) => {
             db.close();
 
             return res.status(200).json(result);
+        } else {
+            return res.status(404).send('Not found');
         }
     } catch (err) {
         logger.error(`Error occured: ${err}`);

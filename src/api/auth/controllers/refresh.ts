@@ -11,10 +11,18 @@ export const refresh = (req: Request, res: Response) => {
 
         const decoded = jwt.decode(req.cookies.refreshToken) as IAuth;
 
-        const accessToken = jwt.sign({ uid: decoded['uid'] }, JWT_SECRET_KEY, {
-            expiresIn: '1h',
-            algorithm: 'HS256',
-        });
+        const accessToken = jwt.sign(
+            {
+                uid: decoded['uid'],
+                nickname: decoded['nickname'],
+                avatar: decoded['avatar'],
+            },
+            JWT_SECRET_KEY,
+            {
+                expiresIn: '1h',
+                algorithm: 'HS256',
+            }
+        );
 
         return res.status(200).json({
             accessToken: accessToken,

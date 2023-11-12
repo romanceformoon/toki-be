@@ -6,6 +6,6 @@ import { authChecker } from '~/middlewares/authChecker';
 const router: Router = express.Router();
 
 router.post('/graph', authChecker, generateGraph);
-router.get('/graph', authChecker, getGraph);
+router.get('/graph/:uid', getGraph);
 
 module.exports = router;
