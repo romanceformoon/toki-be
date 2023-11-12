@@ -44,7 +44,7 @@ export const discordLogin = async (req: Request, res: Response) => {
 
         console.log(queryResult);
 
-        if (!queryResult) {
+        if (queryResult.length === 0) {
             try {
                 await req.database.query(
                     'INSERT INTO user (uid, nickname, avatar) VALUES(?, ?, ?)',
