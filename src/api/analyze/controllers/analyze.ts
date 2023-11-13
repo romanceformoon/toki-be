@@ -7,7 +7,7 @@ import { IGraphResult } from '~/@types/graph';
 import { logger } from '~/config/winston';
 import { sqliteGetSync } from '~/utils/sqliteGetSync';
 
-export const generateGraph = (req: Request, res: Response) => {
+export const analyze = (req: Request, res: Response) => {
     try {
         if (!req.accessToken) return res.status(401).send('Not authorized');
 
