@@ -198,6 +198,7 @@ export const getUser = async (req: Request, res: Response) => {
             req.database.end();
 
             return res.status(200).json({
+                uid,
                 graph: graph,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
@@ -206,6 +207,7 @@ export const getUser = async (req: Request, res: Response) => {
             });
         } else {
             return res.status(200).json({
+                uid,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
             });
