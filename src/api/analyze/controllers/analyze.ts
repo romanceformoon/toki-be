@@ -172,11 +172,6 @@ export const analyze = (req: Request, res: Response) => {
 
                     let userExp = 0;
 
-                    const fcBonus = 1000;
-                    const hardBonus = 100;
-                    const grooveBonus = 50;
-                    const easyBonus = 25;
-
                     for (const data of tableData) {
                         const currentSongLevel: string = data['level'];
                         const numberLevel = parseInt(
@@ -184,6 +179,12 @@ export const analyze = (req: Request, res: Response) => {
                         );
 
                         if (currentSongLevel === 'LEVEL DUMMY') continue;
+
+                        const fcBonus =
+                            300 + parseFloat((1.4 ** numberLevel).toFixed(2));
+                        const hardBonus = 100;
+                        const grooveBonus = 50;
+                        const easyBonus = 25;
 
                         const baseScore = parseFloat(
                             (1.5 ** numberLevel).toFixed(2)
