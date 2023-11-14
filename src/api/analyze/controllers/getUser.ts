@@ -3,7 +3,6 @@ import { Request, Response } from 'express';
 import { existsSync } from 'fs';
 import { IGraphResult } from '~/@types/graph';
 import { logger } from '~/config/winston';
-import { danData } from '~/utils/danData';
 import { sqliteGetSync } from '~/utils/sqliteGetSync';
 
 export const getUser = async (req: Request, res: Response) => {
@@ -18,7 +17,7 @@ export const getUser = async (req: Request, res: Response) => {
         );
 
         const [scoreQuery] = await req.database.query(
-            'SELECT aery_exp FROM score WHERE uid = ?',
+            'SELECT aery_exp, aery_dan FROM score WHERE uid = ?',
             [uid]
         );
 
@@ -195,44 +194,15 @@ export const getUser = async (req: Request, res: Response) => {
                 }
             }
 
-            let clearDan = 'None';
-
-            for (const [dan, hash] of Object.entries(danData).reverse()) {
-                try {
-                    const row = await sqliteGetSync(
-                        db,
-                        `SELECT clear FROM score WHERE hash = '${hash}'`
-                    );
-
-                    if (!row) break;
-                    if (row['clear'] > 1) {
-                        clearDan = dan;
-                        break;
-                    }
-                } catch (err) {
-                    console.log(err);
-                    return res.status(400).send('db not available');
-                }
-            }
-
-            try {
-                await req.database.query(
-                    'UPDATE score SET aery_dan = ? WHERE uid = ?',
-                    [clearDan, uid]
-                );
-            } catch (err) {
-                return res.status(500).json({ result: 'DB Failed' });
-            }
-
             db.close();
             req.database.end();
 
             return res.status(200).json({
                 graph: graph,
-                clearDan: clearDan,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
                 exp: scoreQuery[0]?.aery_exp,
+                clearDan: scoreQuery[0]?.aery_dan,
             });
         } else {
             return res.status(200).json({

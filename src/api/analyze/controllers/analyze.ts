@@ -5,6 +5,7 @@ import jwt from 'jsonwebtoken';
 import { IAuth } from '~/@types/auth';
 import { IGraphResult } from '~/@types/graph';
 import { logger } from '~/config/winston';
+import { danData } from '~/utils/danData';
 import { sqliteGetSync } from '~/utils/sqliteGetSync';
 
 export const analyze = (req: Request, res: Response) => {
@@ -171,8 +172,8 @@ export const analyze = (req: Request, res: Response) => {
 
                     let userExp = 0;
 
-                    const fcBonus = 700;
-                    const hardBonus = 300;
+                    const fcBonus = 1000;
+                    const hardBonus = 100;
                     const grooveBonus = 50;
                     const easyBonus = 25;
 
@@ -182,9 +183,11 @@ export const analyze = (req: Request, res: Response) => {
                             currentSongLevel.split(' ')[1]
                         );
 
-                        const baseScore = 1.5 ** numberLevel;
-
                         if (currentSongLevel === 'LEVEL DUMMY') continue;
+
+                        const baseScore = parseFloat(
+                            (1.5 ** numberLevel).toFixed(2)
+                        );
 
                         try {
                             const row = await sqliteGetSync(
@@ -196,36 +199,77 @@ export const analyze = (req: Request, res: Response) => {
                                 graph['NOPLAY_COUNT'][currentSongLevel] += 1;
                             else if (row['clear'] === 5) {
                                 graph['FC_COUNT'][currentSongLevel] += 1;
-                                userExp +=
+
+                                const addScore =
                                     baseScore +
-                                    1 / (row['minbp'] + 1) +
+                                    (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                                     fcBonus +
-                                    row['rate'];
+                                    Math.abs(row['rate']) +
+                                    0.1;
+                                userExp += addScore;
                             } else if (row['clear'] === 4) {
                                 graph['HARD_COUNT'][currentSongLevel] += 1;
-                                userExp +=
+
+                                const addScore =
                                     baseScore +
-                                    1 / (row['minbp'] + 1) +
+                                    (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                                     hardBonus +
-                                    row['rate'];
+                                    Math.abs(row['rate']) +
+                                    0.1;
+                                userExp += addScore;
                             } else if (row['clear'] === 3) {
                                 graph['GROOVE_COUNT'][currentSongLevel] += 1;
-                                userExp +=
+
+                                const addScore =
                                     baseScore +
-                                    1 / (row['minbp'] + 1) +
+                                    (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                                     grooveBonus +
-                                    row['rate'];
+                                    Math.abs(row['rate']) +
+                                    0.1;
+                                userExp += addScore;
                             } else if (row['clear'] === 2) {
                                 graph['EASY_COUNT'][currentSongLevel] += 1;
-                                userExp +=
+
+                                const addScore =
                                     baseScore +
-                                    1 / (row['minbp'] + 1) +
+                                    (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                                     easyBonus +
-                                    row['rate'];
+                                    Math.abs(row['rate']) +
+                                    0.1;
+                                userExp += addScore;
                             } else if (row['clear'] === 1) {
                                 graph['FAILED_COUNT'][currentSongLevel] += 1;
+
+                                const addScore =
+                                    (1 / (Math.abs(row['minbp']) + 1)) * 100 +
+                                    Math.abs(row['rate']) +
+                                    0.1;
+                                userExp += addScore;
                             }
                         } catch (err) {
+                            logger.error(err);
+                            return res.status(400).send('db not available');
+                        }
+                    }
+
+                    let clearDan = 'None';
+
+                    for (const [dan, hash] of Object.entries(
+                        danData
+                    ).reverse()) {
+                        try {
+                            const row = await sqliteGetSync(
+                                db,
+                                `SELECT clear FROM score WHERE hash = '${hash}'`
+                            );
+
+                            if (!row) break;
+                            if (row['clear'] > 1) {
+                                clearDan = dan;
+                                break;
+                            }
+                        } catch (err) {
+                            logger.error(err);
                             return res.status(400).send('db not available');
                         }
                     }
@@ -237,16 +281,14 @@ export const analyze = (req: Request, res: Response) => {
                         [decoded['uid']]
                     );
 
-                    console.log(queryResult);
-
                     if (queryResult.length === 0) {
                         try {
                             await req.database.query(
-                                'INSERT INTO score (uid, aery_exp) VALUES(?, ?)',
-                                [decoded['uid'], userExp]
+                                'INSERT INTO score (uid, aery_exp, aery_dan) VALUES(?, ?, ?)',
+                                [decoded['uid'], userExp, clearDan]
                             );
                         } catch (err) {
-			    logger.error(err);
+                            logger.error(err);
                             return res
                                 .status(500)
                                 .json({ result: 'DB Failed' });
@@ -254,11 +296,11 @@ export const analyze = (req: Request, res: Response) => {
                     } else {
                         try {
                             await req.database.query(
-                                'UPDATE score SET aery_exp = ? WHERE uid = ?',
-                                [userExp, decoded['uid']]
+                                'UPDATE score SET aery_exp = ?, aery_dan = ? WHERE uid = ?',
+                                [userExp, clearDan, decoded['uid']]
                             );
                         } catch (err) {
-			    logger.error(err);
+                            logger.error(err);
                             return res
                                 .status(500)
                                 .json({ result: 'DB Failed' });
