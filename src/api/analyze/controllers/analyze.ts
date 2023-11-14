@@ -246,6 +246,7 @@ export const analyze = (req: Request, res: Response) => {
                                 [decoded['uid'], userExp]
                             );
                         } catch (err) {
+			    logger.error(err);
                             return res
                                 .status(500)
                                 .json({ result: 'DB Failed' });
@@ -257,6 +258,7 @@ export const analyze = (req: Request, res: Response) => {
                                 [userExp, decoded['uid']]
                             );
                         } catch (err) {
+			    logger.error(err);
                             return res
                                 .status(500)
                                 .json({ result: 'DB Failed' });
