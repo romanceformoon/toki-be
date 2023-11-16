@@ -10,10 +10,17 @@ export const logout = (req: Request, res: Response) => {
 
         jwt.verify(req.accessToken, JWT_SECRET_KEY);
 
-        res.cookie('refreshToken', '', {
-            httpOnly: true,
-            // domain: '.asumatoki.kr',
-        });
+        if (req.hostname.includes('asumatoki.kr')) {
+            res.cookie('refreshToken', '', {
+                httpOnly: true,
+                domain: '.asumatoki.kr',
+            });
+        } else {
+            res.cookie('refreshToken', '', {
+                httpOnly: true,
+            });
+        }
+
         return res.status(200).json({ result: 'Success' });
     } catch (err) {
         logger.error(err);

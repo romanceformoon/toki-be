@@ -93,10 +93,17 @@ export const discordLogin = async (req: Request, res: Response) => {
             }
         );
 
-        res.cookie('refreshToken', refreshToken, {
-            httpOnly: true,
-            // domain: '.asumatoki.kr',
-        });
+        if (req.hostname.includes('asumatoki.kr')) {
+            res.cookie('refreshToken', refreshToken, {
+                httpOnly: true,
+                domain: '.asumatoki.kr',
+            });
+        } else {
+            res.cookie('refreshToken', refreshToken, {
+                httpOnly: true,
+            });
+        }
+
         return res.status(200).json({
             accessToken: accessToken,
         });
