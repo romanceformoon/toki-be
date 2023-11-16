@@ -96,7 +96,7 @@ export const discordLogin = async (req: Request, res: Response) => {
         if (req.hostname.includes('asumatoki.kr')) {
             res.cookie('refreshToken', refreshToken, {
                 httpOnly: true,
-                domain: '.asumatoki.kr',
+                domain: 'asumatoki.kr',
             });
         } else {
             res.cookie('refreshToken', refreshToken, {

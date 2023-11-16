@@ -13,7 +13,7 @@ export const logout = (req: Request, res: Response) => {
         if (req.hostname.includes('asumatoki.kr')) {
             res.cookie('refreshToken', '', {
                 httpOnly: true,
-                domain: '.asumatoki.kr',
+                domain: 'asumatoki.kr',
             });
         } else {
             res.cookie('refreshToken', '', {
