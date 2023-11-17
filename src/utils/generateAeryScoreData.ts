@@ -27,7 +27,7 @@ export const generateAeryScoreData = async (db: Database) => {
             const grooveBonus = 50;
             const easyBonus = 25;
 
-            const FCLevel = 1.6;
+            const FCLevel = 1.55;
             const hardLevel = 1.5;
             const grooveLevel = 1.3;
             const easyLevel = 1.1;

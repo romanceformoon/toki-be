@@ -47,6 +47,7 @@ export const generateAeryHistory = async (db: Database) => {
             const grooveBonus = 50;
             const easyBonus = 25;
 
+            const FCLevel = 1.55;
             const hardLevel = 1.5;
             const grooveLevel = 1.3;
             const easyLevel = 1.1;
@@ -68,7 +69,7 @@ export const generateAeryHistory = async (db: Database) => {
                     });
                 } else if (row['clear'] === 5) {
                     const baseScore = parseFloat(
-                        (hardLevel ** numberLevel).toFixed(2)
+                        (FCLevel ** numberLevel).toFixed(2)
                     );
 
                     const addScore =
