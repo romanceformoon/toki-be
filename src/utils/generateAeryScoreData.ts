@@ -110,7 +110,8 @@ export const generateAeryScoreData = async (db: Database) => {
                     `SELECT clear FROM score WHERE hash = '${hash}'`
                 );
 
-                if (!row) break;
+                if (!row) continue;
+
                 if (row['clear'] > 1) {
                     clearDan = dan;
                     break;
