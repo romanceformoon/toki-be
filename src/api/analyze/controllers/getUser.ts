@@ -14,11 +14,6 @@ export const getUser = async (req: Request, res: Response) => {
             [uid]
         );
 
-        const [scoreQuery] = await req.database.query(
-            'SELECT aery_exp, aery_dan FROM score WHERE uid = ?',
-            [uid]
-        );
-
         const tempPath = `scores/${uid}`;
 
         if (existsSync(tempPath)) {
