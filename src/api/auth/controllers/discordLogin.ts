@@ -57,6 +57,18 @@ export const discordLogin = async (req: Request, res: Response) => {
             } catch (err) {
                 return res.status(500).json({ result: 'DB Failed' });
             }
+        } else {
+            try {
+                await req.database.query(
+                    'UPDATE user SET avatar = ? WHERE uid = ?',
+                    [
+                        discordIdentifyResponse.data.avatar,
+                        discordIdentifyResponse.data.id,
+                    ]
+                );
+            } catch (err) {
+                return res.status(500).json({ result: 'DB Failed' });
+            }
         }
 
         const [nicknameQuery] = await req.database.query(
@@ -97,10 +109,12 @@ export const discordLogin = async (req: Request, res: Response) => {
             res.cookie('refreshToken', refreshToken, {
                 httpOnly: true,
                 domain: 'asumatoki.kr',
+                maxAge: 3600 * 24 * 14 * 1000,
             });
         } else {
             res.cookie('refreshToken', refreshToken, {
                 httpOnly: true,
+                maxAge: 3600 * 24 * 14 * 1000,
             });
         }
 
