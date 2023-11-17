@@ -25,8 +25,7 @@ export const getUser = async (req: Request, res: Response) => {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(tempPath);
 
-            const { userExp, graph, history, clearDan } =
-                await generateAeryScoreData(db);
+            const { userExp, clearDan } = await generateAeryScoreData(db);
 
             const [queryResult] = await req.database.query(
                 'SELECT * FROM score WHERE uid = ?',
@@ -60,8 +59,6 @@ export const getUser = async (req: Request, res: Response) => {
 
             return res.status(200).json({
                 uid,
-                graph,
-                history,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
                 exp: userExp,

@@ -1,20 +1,40 @@
 import axios from 'axios';
 import { Database } from 'sqlite3';
+import { IHistory } from '~/@types/analyze';
 import { logger } from '~/config/winston';
-import { danData } from './danData';
 import { sqliteGetSync } from './sqliteGetSync';
 
-export const generateAeryScoreData = async (db: Database) => {
+export const generateAeryHistory = async (db: Database) => {
     return new Promise<{
-        userExp: number;
-        clearDan: string;
+        history: IHistory;
     }>(async (res, rej) => {
+        const history: IHistory = {
+            'LEVEL 1': [],
+            'LEVEL 2': [],
+            'LEVEL 3': [],
+            'LEVEL 4': [],
+            'LEVEL 5': [],
+            'LEVEL 6': [],
+            'LEVEL 7': [],
+            'LEVEL 8': [],
+            'LEVEL 9': [],
+            'LEVEL 10': [],
+            'LEVEL 11': [],
+            'LEVEL 12': [],
+            'LEVEL 13': [],
+            'LEVEL 14': [],
+            'LEVEL 15': [],
+            'LEVEL 16': [],
+            'LEVEL 17': [],
+            'LEVEL 18': [],
+            'LEVEL 19': [],
+            'LEVEL 20': [],
+        };
+
         const data = await axios.get(
             'https://hibyethere.github.io/table/data.json'
         );
         const tableData = data.data;
-
-        let userExp = 0;
 
         for (const data of tableData) {
             const currentSongLevel: string = data['level'];
@@ -38,7 +58,14 @@ export const generateAeryScoreData = async (db: Database) => {
                 );
 
                 if (!row) {
-                    continue;
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'NO PLAY',
+                        exp: 0,
+                        bp: 0,
+                        rate: 0,
+                        md5: data['md5'],
+                    });
                 } else if (row['clear'] === 5) {
                     const baseScore = parseFloat(
                         (hardLevel ** numberLevel).toFixed(2)
@@ -50,7 +77,15 @@ export const generateAeryScoreData = async (db: Database) => {
                         fcBonus +
                         Math.abs(row['rate']) +
                         0.1;
-                    userExp += addScore;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'FULL COMBO',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                    });
                 } else if (row['clear'] === 4) {
                     const baseScore = parseFloat(
                         (hardLevel ** numberLevel).toFixed(2)
@@ -62,7 +97,15 @@ export const generateAeryScoreData = async (db: Database) => {
                         hardBonus +
                         Math.abs(row['rate']) +
                         0.1;
-                    userExp += addScore;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'HARD CLEAR',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                    });
                 } else if (row['clear'] === 3) {
                     const baseScore = parseFloat(
                         (grooveLevel ** numberLevel).toFixed(2)
@@ -74,7 +117,15 @@ export const generateAeryScoreData = async (db: Database) => {
                         grooveBonus +
                         Math.abs(row['rate']) +
                         0.1;
-                    userExp += addScore;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'GROOVE CLEAR',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                    });
                 } else if (row['clear'] === 2) {
                     const baseScore = parseFloat(
                         (easyLevel ** numberLevel).toFixed(2)
@@ -86,13 +137,29 @@ export const generateAeryScoreData = async (db: Database) => {
                         easyBonus +
                         Math.abs(row['rate']) +
                         0.1;
-                    userExp += addScore;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'EASY CLEAR',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                    });
                 } else if (row['clear'] === 1) {
                     const addScore =
                         (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                         Math.abs(row['rate']) +
                         0.1;
-                    userExp += addScore;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'FAILED',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                    });
                 }
             } catch (err) {
                 logger.error(err);
@@ -100,26 +167,6 @@ export const generateAeryScoreData = async (db: Database) => {
             }
         }
 
-        let clearDan = 'None';
-
-        for (const [dan, hash] of Object.entries(danData).reverse()) {
-            try {
-                const row = await sqliteGetSync(
-                    db,
-                    `SELECT clear FROM score WHERE hash = '${hash}'`
-                );
-
-                if (!row) break;
-                if (row['clear'] > 1) {
-                    clearDan = dan;
-                    break;
-                }
-            } catch (err) {
-                logger.error(err);
-                rej(err);
-            }
-        }
-
-        res({ userExp, clearDan });
+        res({ history });
     });
 };
