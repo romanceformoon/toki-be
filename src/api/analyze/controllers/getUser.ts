@@ -27,29 +27,37 @@ export const getUser = async (req: Request, res: Response) => {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(tempPath);
 
-            let lr2Id = {
-                lr2Id: 0,
-            };
-
             try {
-                lr2Id = await getLR2ID(db);
-            } catch (err) {}
+                const { lr2Id } = await getLR2ID(db);
 
-            db.close();
+                db.close();
 
-            return res.status(200).json({
-                uid,
-                nickname: userQuery[0].nickname,
-                avatar: userQuery[0].avatar,
-                exp: scoreQuery[0].aery_exp,
-                clearDan: scoreQuery[0].aery_dan,
-                lr2Id,
-            });
+                return res.status(200).json({
+                    uid,
+                    nickname: userQuery[0].nickname,
+                    avatar: userQuery[0].avatar,
+                    exp: scoreQuery[0].aery_exp,
+                    clearDan: scoreQuery[0].aery_dan,
+                    lr2Id,
+                });
+            } catch (err) {
+                return res.status(200).json({
+                    uid,
+                    nickname: userQuery[0].nickname,
+                    avatar: userQuery[0].avatar,
+                    exp: 0,
+                    clearDan: 'None',
+                    lr2Id: 0,
+                });
+            }
         } else {
             return res.status(200).json({
                 uid,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
+                exp: 0,
+                clearDan: 'None',
+                lr2Id: 0,
             });
         }
     } catch (err) {
