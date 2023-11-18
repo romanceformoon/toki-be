@@ -27,7 +27,13 @@ export const getUser = async (req: Request, res: Response) => {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(tempPath);
 
-            const { lr2Id } = await getLR2ID(db);
+            let lr2Id = {
+                lr2Id: 0,
+            };
+
+            try {
+                lr2Id = await getLR2ID(db);
+            } catch (err) {}
 
             db.close();
 
