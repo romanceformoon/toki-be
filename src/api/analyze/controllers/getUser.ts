@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { existsSync } from 'fs';
 import { logger } from '~/config/winston';
-import { generateAeryScoreData } from '~/utils/generateAeryScoreData';
+import { getLR2ID } from '~/utils/getLR2ID';
 
 export const getUser = async (req: Request, res: Response) => {
     try {
@@ -14,52 +14,29 @@ export const getUser = async (req: Request, res: Response) => {
             [uid]
         );
 
+        const [scoreQuery] = await req.database.query(
+            'SELECT aery_exp, aery_dan FROM score WHERE uid = ?',
+            [uid]
+        );
+
+        req.database.end();
+
         const tempPath = `scores/${uid}`;
 
         if (existsSync(tempPath)) {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(tempPath);
 
-            const { userExp, clearDan, lr2Id } = await generateAeryScoreData(
-                db
-            );
-
-            const [queryResult] = await req.database.query(
-                'SELECT * FROM score WHERE uid = ?',
-                [uid]
-            );
-
-            if (queryResult.length === 0) {
-                try {
-                    await req.database.query(
-                        'INSERT INTO score (uid, aery_exp, aery_dan) VALUES(?, ?, ?)',
-                        [uid, userExp, clearDan]
-                    );
-                } catch (err) {
-                    logger.error(err);
-                    return res.status(500).json({ result: 'DB Failed' });
-                }
-            } else {
-                try {
-                    await req.database.query(
-                        'UPDATE score SET aery_exp = ?, aery_dan = ? WHERE uid = ?',
-                        [userExp, clearDan, uid]
-                    );
-                } catch (err) {
-                    logger.error(err);
-                    return res.status(500).json({ result: 'DB Failed' });
-                }
-            }
+            const { lr2Id } = await getLR2ID(db);
 
             db.close();
-            req.database.end();
 
             return res.status(200).json({
                 uid,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
-                exp: userExp,
-                clearDan,
+                exp: scoreQuery[0].aery_exp,
+                clearDan: scoreQuery[0].aery_dan,
                 lr2Id,
             });
         } else {

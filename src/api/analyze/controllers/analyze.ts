@@ -3,7 +3,7 @@ import { UploadedFile } from 'express-fileupload';
 import jwt from 'jsonwebtoken';
 import { IAuth } from '~/@types/auth';
 import { logger } from '~/config/winston';
-import { generateAeryScoreData } from '~/utils/generateAeryScoreData';
+import { generateAeryScoreData } from '~/utils/aery/generateAeryScoreData';
 
 export const analyze = (req: Request, res: Response) => {
     try {
@@ -63,6 +63,8 @@ export const analyze = (req: Request, res: Response) => {
                                 .json({ result: 'DB Failed' });
                         }
                     }
+
+                    req.database.end();
 
                     return res.status(200).json({ result: 'Success' });
                 }
