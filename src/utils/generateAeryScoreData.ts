@@ -8,6 +8,7 @@ export const generateAeryScoreData = async (db: Database) => {
     return new Promise<{
         userExp: number;
         clearDan: string;
+        lr2Id: number;
     }>(async (res, rej) => {
         const data = await axios.get(
             'https://hibyethere.github.io/table/data.json'
@@ -122,6 +123,16 @@ export const generateAeryScoreData = async (db: Database) => {
             }
         }
 
-        res({ userExp, clearDan });
+        let lr2Id = 0;
+
+        try {
+            const row = await sqliteGetSync(db, `SELECT irid FROM player`);
+            lr2Id = row['irid'];
+        } catch (err) {
+            logger.error(err);
+            rej(err);
+        }
+
+        res({ userExp, clearDan, lr2Id });
     });
 };
