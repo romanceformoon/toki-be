@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { existsSync } from 'fs';
 import { logger } from '~/config/winston';
-import { generateAeryHistory } from '~/utils/generateAeryHistory';
+import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
 
 export const getHistory = async (req: Request, res: Response) => {
     try {

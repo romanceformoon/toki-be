@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Database } from 'sqlite3';
 import { IGraph } from '~/@types/analyze';
 import { logger } from '~/config/winston';
-import { sqliteGetSync } from './sqliteGetSync';
+import { sqliteGetSync } from '../sqliteGetSync';
 
 export const generateAeryGraph = async (db: Database) => {
     return new Promise<{
