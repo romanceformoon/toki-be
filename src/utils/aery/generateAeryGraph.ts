@@ -144,7 +144,7 @@ export const generateAeryGraph = async (db: Database) => {
         };
 
         const data = await axios.get(
-            'https://asumatoki.kr/table/aery/header.json'
+            'https://asumatoki.kr/table/aery/data.json'
         );
         const tableData = data.data;
 
