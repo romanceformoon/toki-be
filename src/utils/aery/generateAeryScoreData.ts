@@ -11,7 +11,7 @@ export const generateAeryScoreData = async (db: Database) => {
         lr2Id: number;
     }>(async (res, rej) => {
         const data = await axios.get(
-            'https://hibyethere.github.io/table/data.json'
+            'https://asumatoki.kr/table/aery/header.json'
         );
         const tableData = data.data;
 
