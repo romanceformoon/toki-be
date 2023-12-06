@@ -9,7 +9,7 @@ export const generateAeryScoreData = async (db: Database) => {
     return new Promise<{
         userExp: number;
         clearDan: string;
-        lr2Id: number;
+        topExp: number;
     }>(async (res, rej) => {
         const data = await axios.get(
             'https://asumatoki.kr/table/aery/data.json'
@@ -19,6 +19,8 @@ export const generateAeryScoreData = async (db: Database) => {
         const ratingDataJson: any = ratingData;
 
         let userExp = 0;
+
+        const top50 = [];
 
         for (const data of tableData) {
             const currentSongLevel: string = data['level'];
@@ -60,6 +62,11 @@ export const generateAeryScoreData = async (db: Database) => {
                     // Full Combo는 BP에 따른 경험치 감소 제외
                     const addScore =
                         baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
+
+                    top50.push(
+                        addScore + (100 - fcRatio) ** (numberLevel / 10)
+                    );
+
                     userExp += addScore + (100 - fcRatio) ** (numberLevel / 10);
                 } else if (row['clear'] === 4) {
                     const baseScore = parseFloat(
@@ -72,6 +79,11 @@ export const generateAeryScoreData = async (db: Database) => {
                         hardBonus +
                         Math.abs(row['rate']) +
                         0.1;
+
+                    top50.push(
+                        addScore + (100 - hardRatio) ** (numberLevel / 10)
+                    );
+
                     userExp +=
                         addScore + (100 - hardRatio) ** (numberLevel / 10);
                 } else if (row['clear'] === 3) {
@@ -85,6 +97,9 @@ export const generateAeryScoreData = async (db: Database) => {
                         grooveBonus +
                         Math.abs(row['rate']) +
                         0.1;
+
+                    top50.push(addScore);
+
                     userExp += addScore;
                 } else if (row['clear'] === 2) {
                     const baseScore = parseFloat(
@@ -97,12 +112,18 @@ export const generateAeryScoreData = async (db: Database) => {
                         easyBonus +
                         Math.abs(row['rate']) +
                         0.1;
+
+                    top50.push(addScore);
+
                     userExp += addScore;
                 } else if (row['clear'] === 1) {
                     const addScore =
                         (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                         Math.abs(row['rate']) +
                         0.1;
+
+                    top50.push(addScore);
+
                     userExp += addScore;
                 }
             } catch (err) {
@@ -132,15 +153,16 @@ export const generateAeryScoreData = async (db: Database) => {
             }
         }
 
-        let lr2Id = 0;
+        top50.sort((a: number, b: number) => {
+            return b - a;
+        });
 
-        try {
-            const row = await sqliteGetSync(db, `SELECT irid FROM player`);
-            lr2Id = row['irid'];
-        } catch (err) {
-            logger.error(err);
+        let topExp = 0;
+
+        for await (const exp of top50.slice(0, 50)) {
+            topExp += exp;
         }
 
-        res({ userExp, clearDan, lr2Id });
+        res({ userExp, clearDan, topExp });
     });
 };

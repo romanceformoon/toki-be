@@ -27,9 +27,8 @@ export const analyze = (req: Request, res: Response) => {
                     const sqlite3 = require('sqlite3').verbose();
                     const db = new sqlite3.Database(tempPath);
 
-                    const { userExp, clearDan } = await generateAeryScoreData(
-                        db
-                    );
+                    const { userExp, clearDan, topExp } =
+                        await generateAeryScoreData(db);
 
                     db.close();
 
@@ -41,8 +40,8 @@ export const analyze = (req: Request, res: Response) => {
                     if (queryResult.length === 0) {
                         try {
                             await req.database.query(
-                                'INSERT INTO score (uid, aery_exp, aery_dan) VALUES(?, ?, ?)',
-                                [decoded['uid'], userExp, clearDan]
+                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating) VALUES(?, ?, ?)',
+                                [decoded['uid'], userExp, clearDan, topExp]
                             );
                         } catch (err) {
                             logger.error(err);
@@ -53,8 +52,8 @@ export const analyze = (req: Request, res: Response) => {
                     } else {
                         try {
                             await req.database.query(
-                                'UPDATE score SET aery_exp = ?, aery_dan = ? WHERE uid = ?',
-                                [userExp, clearDan, decoded['uid']]
+                                'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ? WHERE uid = ?',
+                                [userExp, clearDan, topExp, decoded['uid']]
                             );
                         } catch (err) {
                             logger.error(err);

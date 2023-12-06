@@ -1,12 +1,13 @@
 import express, { Router } from 'express';
 import { analyze } from '~/api/analyze/controllers/analyze';
+import { getEXPRanking } from '~/api/analyze/controllers/getExpRanking';
+import { getGraph } from '~/api/analyze/controllers/getGraph';
+import { getHistory } from '~/api/analyze/controllers/getHistory';
+import { getRatingRanking } from '~/api/analyze/controllers/getRatingRanking';
 import { getUser } from '~/api/analyze/controllers/getUser';
+import { reanalyze } from '~/api/analyze/controllers/reanalyze';
 import { authChecker } from '~/middlewares/authChecker';
 import { databaseConnector } from '~/middlewares/databaseConnector';
-import { getGraph } from '../controllers/getGraph';
-import { getHistory } from '../controllers/getHistory';
-import { getEXPRanking } from '../controllers/ranking';
-import { reanalyze } from '../controllers/reanalyze';
 
 const router: Router = express.Router();
 
@@ -18,5 +19,6 @@ router.get('/user/graph/:uid', databaseConnector, getGraph);
 router.get('/user/history/:uid', databaseConnector, getHistory);
 
 router.get('/ranking', databaseConnector, getEXPRanking);
+router.get('/rating-ranking', databaseConnector, getRatingRanking);
 
 module.exports = router;

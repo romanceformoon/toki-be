@@ -11,7 +11,9 @@ export const reanalyze = async (req: Request, res: Response) => {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(`scores/${dbFile}`);
 
-            const { userExp, clearDan } = await generateAeryScoreData(db);
+            const { userExp, clearDan, topExp } = await generateAeryScoreData(
+                db
+            );
 
             db.close();
 
@@ -23,7 +25,7 @@ export const reanalyze = async (req: Request, res: Response) => {
             if (queryResult.length === 0) {
                 try {
                     await req.database.query(
-                        'INSERT INTO score (uid, aery_exp, aery_dan) VALUES(?, ?, ?)',
+                        'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating) VALUES(?, ?, ?)',
                         [dbFile, userExp, clearDan]
                     );
                 } catch (err) {
@@ -33,8 +35,8 @@ export const reanalyze = async (req: Request, res: Response) => {
             } else {
                 try {
                     await req.database.query(
-                        'UPDATE score SET aery_exp = ?, aery_dan = ? WHERE uid = ?',
-                        [userExp, clearDan, dbFile]
+                        'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ? WHERE uid = ?',
+                        [userExp, clearDan, topExp, dbFile]
                     );
                 } catch (err) {
                     logger.error(err);
