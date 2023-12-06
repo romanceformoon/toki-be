@@ -1,0 +1,4222 @@
+{
+    "bc48eced4a9dc80211a3aa56821f643f": {
+        "fc_ratio": "68.75%",
+        "hard_ratio": "68.75%"
+    },
+    "a1cb12c3d483d3dafb04f7831df88005": {
+        "fc_ratio": "43.24%",
+        "hard_ratio": "51.35%"
+    },
+    "82ecf0f194c87cb4a34c5939c13671c4": {
+        "fc_ratio": "54.83%",
+        "hard_ratio": "64.51%"
+    },
+    "d6b0f0a9f9aa1b1c453688e1d9d3ebc9": {
+        "fc_ratio": "50.9%",
+        "hard_ratio": "58.18%"
+    },
+    "58367b67a299dbf53394be5baf6174ea": {
+        "fc_ratio": "54.05%",
+        "hard_ratio": "59.45%"
+    },
+    "a56190061d828e009f28a7cb76801d56": {
+        "fc_ratio": "70.83%",
+        "hard_ratio": "70.83%"
+    },
+    "f277010e35adfa9015fa2e90a10e494e": {
+        "fc_ratio": "100%",
+        "hard_ratio": "100%"
+    },
+    "42a2b25ea180ae463cb51ae2dbfb3eb9": {
+        "fc_ratio": "48%",
+        "hard_ratio": "64%"
+    },
+    "1ab1122d389636863d97b04327e1ae36": {
+        "fc_ratio": "60%",
+        "hard_ratio": "68%"
+    },
+    "d17783d3105044469becd369afabbe5f": {
+        "fc_ratio": "38.46%",
+        "hard_ratio": "73.07%"
+    },
+    "f4ac53ebdec4196a9010e84fd9fec050": {
+        "fc_ratio": "53.84%",
+        "hard_ratio": "61.53%"
+    },
+    "18bb330fd5c1270ed6fcddf8117fbdb2": {
+        "fc_ratio": "59.09%",
+        "hard_ratio": "68.18%"
+    },
+    "78b70a1c03ec4f329cc478c03c0f2815": {
+        "fc_ratio": "71.42%",
+        "hard_ratio": "85.71%"
+    },
+    "28d869219e5c7fb2951429eec3433bdc": {
+        "fc_ratio": "60%",
+        "hard_ratio": "100%"
+    },
+    "6cbc53ad73f6ea91d9dbce3d3464ccaf": {
+        "fc_ratio": "44.64%",
+        "hard_ratio": "51.78%"
+    },
+    "45a00bb887b36457b31f78c1299abeae": {
+        "fc_ratio": "58.62%",
+        "hard_ratio": "62.06%"
+    },
+    "57e0132b437fb8e6c6a6810f5ed8bbd0": {
+        "fc_ratio": "42.85%",
+        "hard_ratio": "52.38%"
+    },
+    "060abd10a944b32cacf34b337382b86e": {
+        "fc_ratio": "57.89%",
+        "hard_ratio": "73.68%"
+    },
+    "7cd7a7f97e102fe0a3342cbfb570afa3": {
+        "fc_ratio": "50%",
+        "hard_ratio": "61.11%"
+    },
+    "a5f5a567ef8ca5ae348b3507e4a5a956": {
+        "fc_ratio": "50%",
+        "hard_ratio": "63.33%"
+    },
+    "e814c12d8e75a8f89fdbe03e01d732bf": {
+        "fc_ratio": "100%",
+        "hard_ratio": "100%"
+    },
+    "3e78c939e44d708ac12193c1786ba27f": {
+        "fc_ratio": "45.71%",
+        "hard_ratio": "57.14%"
+    },
+    "7d6cf2000a0cac2af179afc3c0b20a9e": {
+        "fc_ratio": "60%",
+        "hard_ratio": "73.33%"
+    },
+    "33810a34fa28f1d555995613a61182a4": {
+        "fc_ratio": "55.55%",
+        "hard_ratio": "88.88%"
+    },
+    "9a3d1bae0b8180adefff25d2bfa23f16": {
+        "fc_ratio": "53.19%",
+        "hard_ratio": "63.82%"
+    },
+    "4a42659d4eb8b30e0fcdf704a2c35c60": {
+        "fc_ratio": "34.61%",
+        "hard_ratio": "57.69%"
+    },
+    "b8aa87341babea4d53d3dc1f3b39426e": {
+        "fc_ratio": "43.33%",
+        "hard_ratio": "66.66%"
+    },
+    "15afdf7425bf996c426e0a7dbf0c5e57": {
+        "fc_ratio": "39.39%",
+        "hard_ratio": "60.6%"
+    },
+    "d2ceeee60dedc2650673aadc918aa65b": {
+        "fc_ratio": "56%",
+        "hard_ratio": "64%"
+    },
+    "220db1fc994c47ac789b685663637e5f": {
+        "fc_ratio": "63.63%",
+        "hard_ratio": "81.81%"
+    },
+    "e85ff0879b2f0ba7d08d3797f4ede8c7": {
+        "fc_ratio": "66.66%",
+        "hard_ratio": "94.44%"
+    },
+    "fa4716561f55a3ad169e021378d27b0a": {
+        "fc_ratio": "53.57%",
+        "hard_ratio": "67.85%"
+    },
+    "8839d8d3ee4896393ff6a07ec0c32898": {
+        "fc_ratio": "71.42%",
+        "hard_ratio": "83.92%"
+    },
+    "9a7628692399f90faaf29d5941692f92": {
+        "fc_ratio": "100%",
+        "hard_ratio": "100%"
+    },
+    "2944d909b41b3a25e0514625081c7448": {
+        "fc_ratio": "39.02%",
+        "hard_ratio": "63.41%"
+    },
+    "9fceffba0dc6ccafe1c45d6946ff9e6e": {
+        "fc_ratio": "69.23%",
+        "hard_ratio": "84.61%"
+    },
+    "fbc11a3e64ab6106a901c5f1f24a48cd": {
+        "fc_ratio": "72.72%",
+        "hard_ratio": "72.72%"
+    },
+    "cc6d36af6e5bb0740f5f0c8411d18436": {
+        "fc_ratio": "62.96%",
+        "hard_ratio": "77.77%"
+    },
+    "1b569e81f31ab90e45dbcf64214d5bbd": {
+        "fc_ratio": "46.66%",
+        "hard_ratio": "80%"
+    },
+    "762a48ebb83887edaffd7f890e81b7a7": {
+        "fc_ratio": "43.75%",
+        "hard_ratio": "68.75%"
+    },
+    "fc26e1f7077dfe6271717e6a927d52bf": {
+        "fc_ratio": "36.73%",
+        "hard_ratio": "53.06%"
+    },
+    "47fdfde9628befbcd1a56dd911e52e89": {
+        "fc_ratio": "25%",
+        "hard_ratio": "59.09%"
+    },
+    "f80e14368ab93048b8e8544e95e9a098": {
+        "fc_ratio": "46.15%",
+        "hard_ratio": "64.1%"
+    },
+    "f531af2545ff642be559d6f6d48fe933": {
+        "fc_ratio": "40%",
+        "hard_ratio": "66.66%"
+    },
+    "e47bc18e1efd56d7ec5d56828c8dcee1": {
+        "fc_ratio": "21.87%",
+        "hard_ratio": "57.81%"
+    },
+    "2af144c64b35f9104cc9d4f41a01e5d3": {
+        "fc_ratio": "27.5%",
+        "hard_ratio": "67.5%"
+    },
+    "4b3cdcc8d1bcb318cd3b1f18e63e1d52": {
+        "fc_ratio": "39.47%",
+        "hard_ratio": "57.89%"
+    },
+    "f89e2ea42bfd312f695a6c54b089fd45": {
+        "fc_ratio": "45%",
+        "hard_ratio": "68.33%"
+    },
+    "c3ca0a6f9ad070816af143bb1d67b5d4": {
+        "fc_ratio": "32.14%",
+        "hard_ratio": "67.85%"
+    },
+    "cfc7a94f1e8a96728713271552ccc849": {
+        "fc_ratio": "43.18%",
+        "hard_ratio": "70.45%"
+    },
+    "ba1d9dc0ed472701c7b7ce6bab9096b2": {
+        "fc_ratio": "30%",
+        "hard_ratio": "55%"
+    },
+    "9086e1d3e7f38b33caca2f49eac1facc": {
+        "fc_ratio": "48.27%",
+        "hard_ratio": "68.96%"
+    },
+    "9e84bfe37cb04b52a6a7f8c58a225d9f": {
+        "fc_ratio": "31.11%",
+        "hard_ratio": "53.33%"
+    },
+    "7e5f79e3a3d0ba8948293c4b1644c06f": {
+        "fc_ratio": "17.18%",
+        "hard_ratio": "57.81%"
+    },
+    "a9b244dba9198155f000ec40f180e717": {
+        "fc_ratio": "26.22%",
+        "hard_ratio": "60.65%"
+    },
+    "b63555b57c0a814779edf64dbbe9299f": {
+        "fc_ratio": "18.86%",
+        "hard_ratio": "54.71%"
+    },
+    "cf2fc115a072634b97469d6410e032d9": {
+        "fc_ratio": "39.53%",
+        "hard_ratio": "69.76%"
+    },
+    "ddadfb9fbdd9ae1d1aca716942af3f6a": {
+        "fc_ratio": "58.82%",
+        "hard_ratio": "76.47%"
+    },
+    "8bf816a647353532a720822a54f04f01": {
+        "fc_ratio": "41.37%",
+        "hard_ratio": "72.41%"
+    },
+    "eae94e63d25f91936f9781898dc355e6": {
+        "fc_ratio": "60.86%",
+        "hard_ratio": "76.08%"
+    },
+    "3493e82f2a5d71e5997889cfaffd9eed": {
+        "fc_ratio": "41.66%",
+        "hard_ratio": "75%"
+    },
+    "4fa6c61f9c085e667e86d9db73295c8a": {
+        "fc_ratio": "34.44%",
+        "hard_ratio": "58.88%"
+    },
+    "62f8eab8af607af0f46e423e6cc826a1": {
+        "fc_ratio": "29.41%",
+        "hard_ratio": "70.58%"
+    },
+    "e8b7a34e71d463323af3b0c6b580f801": {
+        "fc_ratio": "34.78%",
+        "hard_ratio": "65.21%"
+    },
+    "040ca9ff68bf0b61cdc6be39d94f3d2b": {
+        "fc_ratio": "61.53%",
+        "hard_ratio": "80.76%"
+    },
+    "18168fe0b266782e004319d0f7515825": {
+        "fc_ratio": "10.25%",
+        "hard_ratio": "53.84%"
+    },
+    "c1f6acfc511eff2352b62f6ebb0aac06": {
+        "fc_ratio": "46.15%",
+        "hard_ratio": "80.76%"
+    },
+    "cb0d403f0d838e550395d8f42939e641": {
+        "fc_ratio": "10.16%",
+        "hard_ratio": "44.06%"
+    },
+    "e806b41b240d6709ea4dbc5df4996a44": {
+        "fc_ratio": "20.89%",
+        "hard_ratio": "56.71%"
+    },
+    "71a2e5127226c01f1a6337bb029b00e3": {
+        "fc_ratio": "60%",
+        "hard_ratio": "73.33%"
+    },
+    "4e43233041760da31684a9ebd6e87d80": {
+        "fc_ratio": "35.44%",
+        "hard_ratio": "63.29%"
+    },
+    "ea64cd94007812b8eb8f3303ae302007": {
+        "fc_ratio": "47.36%",
+        "hard_ratio": "73.68%"
+    },
+    "1fe90315a39b4f6859fcddde16128be6": {
+        "fc_ratio": "26.08%",
+        "hard_ratio": "78.26%"
+    },
+    "19b1c3210b221d67de68dfa55014d9d6": {
+        "fc_ratio": "32.91%",
+        "hard_ratio": "58.22%"
+    },
+    "47310c103d105a87dbc585104b6e5d0d": {
+        "fc_ratio": "32.65%",
+        "hard_ratio": "57.14%"
+    },
+    "248a4366e571e6f5415d4aac69f99b28": {
+        "fc_ratio": "32%",
+        "hard_ratio": "72%"
+    },
+    "3571009e777823db79c695d14abb838c": {
+        "fc_ratio": "18.51%",
+        "hard_ratio": "61.11%"
+    },
+    "2e73b9215ebaba98b9e77e876006483d": {
+        "fc_ratio": "34.66%",
+        "hard_ratio": "70.66%"
+    },
+    "16ee1bb6dc81c133e56ab09d59148c8f": {
+        "fc_ratio": "36.95%",
+        "hard_ratio": "65.21%"
+    },
+    "48f430990c97ac1b2150fafdad6bea5a": {
+        "fc_ratio": "37.5%",
+        "hard_ratio": "70.83%"
+    },
+    "235a098530720ac761a727f5aa3ba2ee": {
+        "fc_ratio": "41.66%",
+        "hard_ratio": "79.16%"
+    },
+    "0d4b997e03969e90098644ba7f018fa8": {
+        "fc_ratio": "44.44%",
+        "hard_ratio": "77.77%"
+    },
+    "91a4d29e76ead707eb68299d80187b33": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "48.97%"
+    },
+    "3f1bfbc9e75d33aa408fe67fcae6016d": {
+        "fc_ratio": "20.93%",
+        "hard_ratio": "55.81%"
+    },
+    "51ca970c5096bcdf7ef1eef58db83767": {
+        "fc_ratio": "43.47%",
+        "hard_ratio": "69.56%"
+    },
+    "ad0cda9aff71e31a3308e6db1a3c377c": {
+        "fc_ratio": "55.55%",
+        "hard_ratio": "77.77%"
+    },
+    "3c556167661ed3e79412df80c246246b": {
+        "fc_ratio": "26.08%",
+        "hard_ratio": "63.04%"
+    },
+    "8ce811fc95afd09e3c29885ea16f0920": {
+        "fc_ratio": "58.82%",
+        "hard_ratio": "88.23%"
+    },
+    "547ec783d5e50907f8a8ca3432ef8cb1": {
+        "fc_ratio": "32.35%",
+        "hard_ratio": "67.64%"
+    },
+    "9b54a872816752b2f713a8ff02a1570a": {
+        "fc_ratio": "53.57%",
+        "hard_ratio": "75%"
+    },
+    "92d1c42b9c5a7b744be583567f7905fd": {
+        "fc_ratio": "41.17%",
+        "hard_ratio": "94.11%"
+    },
+    "934223de495b36e41c46ed55031be405": {
+        "fc_ratio": "35.71%",
+        "hard_ratio": "71.42%"
+    },
+    "5dce3ce68750ab4d8680c4ec75ea79ba": {
+        "fc_ratio": "40%",
+        "hard_ratio": "66.66%"
+    },
+    "cfccd62ef27f3542d1d233c6a18edf46": {
+        "fc_ratio": "11.34%",
+        "hard_ratio": "59.79%"
+    },
+    "ade6ed8cc87a7cf2a66bdc3717b27476": {
+        "fc_ratio": "35.21%",
+        "hard_ratio": "69.01%"
+    },
+    "2c16b9fedef272845e5cc5a1afd9a7d0": {
+        "fc_ratio": "3.92%",
+        "hard_ratio": "60.78%"
+    },
+    "0eab730d0c8f6ec8723ba321a5648fad": {
+        "fc_ratio": "41.93%",
+        "hard_ratio": "70.96%"
+    },
+    "b5c6a4a7426601315a3ada271f75efc2": {
+        "fc_ratio": "45.45%",
+        "hard_ratio": "72.72%"
+    },
+    "4c35df45e9853650bb11139089db0241": {
+        "fc_ratio": "50%",
+        "hard_ratio": "91.66%"
+    },
+    "447126b263bd7a2b9386bb092eb86884": {
+        "fc_ratio": "29.68%",
+        "hard_ratio": "75%"
+    },
+    "8d722362390d942fef73c32b37350068": {
+        "fc_ratio": "48.1%",
+        "hard_ratio": "77.21%"
+    },
+    "cbbbfd92381866f090caaf1a780f42be": {
+        "fc_ratio": "41.3%",
+        "hard_ratio": "84.78%"
+    },
+    "d3eed9192ee4ec436acd295812ed2ef2": {
+        "fc_ratio": "27.17%",
+        "hard_ratio": "67.39%"
+    },
+    "cbeacf0805ada7439097fa4b6d299600": {
+        "fc_ratio": "24%",
+        "hard_ratio": "72%"
+    },
+    "b59cac216131825f6c464f493b29cef1": {
+        "fc_ratio": "45.45%",
+        "hard_ratio": "63.63%"
+    },
+    "285b4d42a2feb17a8de615c5732f75cc": {
+        "fc_ratio": "44%",
+        "hard_ratio": "72%"
+    },
+    "af0e41cc937d0f8e31accc2b6e83f6c6": {
+        "fc_ratio": "48.48%",
+        "hard_ratio": "72.72%"
+    },
+    "0624fc174e2c42837046d3909aded9a1": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "63.88%"
+    },
+    "7364d484bcdb9475350fc8290433a70d": {
+        "fc_ratio": "35.13%",
+        "hard_ratio": "72.97%"
+    },
+    "4eb020f09650f374aa96fe154a13e450": {
+        "fc_ratio": "22.72%",
+        "hard_ratio": "63.63%"
+    },
+    "2151ad0667be665485d08ae5e26ff91c": {
+        "fc_ratio": "31.42%",
+        "hard_ratio": "77.14%"
+    },
+    "863548cd0bdf3697f9316fba7580ab6c": {
+        "fc_ratio": "28.57%",
+        "hard_ratio": "77.77%"
+    },
+    "586eecf05016b61b3a737087da4b53f7": {
+        "fc_ratio": "33.33%",
+        "hard_ratio": "66.66%"
+    },
+    "05afc9200b5d2e1046a9f90312e09a29": {
+        "fc_ratio": "39.06%",
+        "hard_ratio": "82.81%"
+    },
+    "15673213a653146c3ceb5ceeb352c172": {
+        "fc_ratio": "47.05%",
+        "hard_ratio": "74.5%"
+    },
+    "1b28d7c745e8f22a9c701052a12b5b74": {
+        "fc_ratio": "28%",
+        "hard_ratio": "64%"
+    },
+    "bc07536262f0d73404253083e1226eed": {
+        "fc_ratio": "22.8%",
+        "hard_ratio": "64.91%"
+    },
+    "69f35a02fd299eada3f03ccf43a58495": {
+        "fc_ratio": "34.09%",
+        "hard_ratio": "72.72%"
+    },
+    "cfaf44c571b52c8eb05edb490b2b49c5": {
+        "fc_ratio": "25%",
+        "hard_ratio": "66.66%"
+    },
+    "f5f496c4442eef369bd1e420ebd53f8a": {
+        "fc_ratio": "19.37%",
+        "hard_ratio": "71.31%"
+    },
+    "5fdfad7f1b440c590f371d5a9d6a641a": {
+        "fc_ratio": "30%",
+        "hard_ratio": "68.33%"
+    },
+    "8f327c4e032953c09ee0938210f51863": {
+        "fc_ratio": "38.88%",
+        "hard_ratio": "72.22%"
+    },
+    "6d170f159a2638b06ed032eee6c05556": {
+        "fc_ratio": "36.9%",
+        "hard_ratio": "76.19%"
+    },
+    "2ef0b8bc0342527c60774cd7604bd9b0": {
+        "fc_ratio": "17.74%",
+        "hard_ratio": "69.35%"
+    },
+    "29d81e2f4bec54949eac80600e39a506": {
+        "fc_ratio": "27.27%",
+        "hard_ratio": "63.63%"
+    },
+    "fc4608547228f47d51ab6f878fdd05fd": {
+        "fc_ratio": "43.13%",
+        "hard_ratio": "80.39%"
+    },
+    "092d4c4597d78fde5bde5e79583e2a21": {
+        "fc_ratio": "54.54%",
+        "hard_ratio": "72.72%"
+    },
+    "35686764277dc5cee01827f4241d0409": {
+        "fc_ratio": "39.13%",
+        "hard_ratio": "71.73%"
+    },
+    "97571b6461de3afed45d7c0370931185": {
+        "fc_ratio": "50%",
+        "hard_ratio": "87.5%"
+    },
+    "6ac8c8ccaf841bb8d5fa982d7db94cf5": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "58.33%"
+    },
+    "433ae995559a8a59f7c611a1853eefb7": {
+        "fc_ratio": "22.85%",
+        "hard_ratio": "85.71%"
+    },
+    "75163c57ed367d38ffab04a430a1537e": {
+        "fc_ratio": "38.09%",
+        "hard_ratio": "68.25%"
+    },
+    "51eafc4c58b118236ce68ece4bfcb2f0": {
+        "fc_ratio": "38.35%",
+        "hard_ratio": "75.34%"
+    },
+    "814698584468891c67e44d42c549211e": {
+        "fc_ratio": "26.31%",
+        "hard_ratio": "63.15%"
+    },
+    "eb616c3b4c3bf5df4cd57c3c46a93c50": {
+        "fc_ratio": "53.33%",
+        "hard_ratio": "100%"
+    },
+    "3e80099b4f9a136b261e0af05e7e87e2": {
+        "fc_ratio": "30%",
+        "hard_ratio": "90%"
+    },
+    "0f8ebb8fb490e85207085e8bee21317f": {
+        "fc_ratio": "24.05%",
+        "hard_ratio": "74.68%"
+    },
+    "aceb234bd3ef312f8480f299690c8d85": {
+        "fc_ratio": "15.15%",
+        "hard_ratio": "71.71%"
+    },
+    "8caa8e8e84435cf82d4cc5eb0b327c72": {
+        "fc_ratio": "14.1%",
+        "hard_ratio": "76.92%"
+    },
+    "85f9eabf9534f6f79a513653d722dc5d": {
+        "fc_ratio": "17.46%",
+        "hard_ratio": "66.66%"
+    },
+    "7384c7487c47149f5ee9b6bcbd6f9491": {
+        "fc_ratio": "16.4%",
+        "hard_ratio": "63.28%"
+    },
+    "6519f32788fc37fc52e65242a40eb70a": {
+        "fc_ratio": "15.49%",
+        "hard_ratio": "80.28%"
+    },
+    "7ac696fcf381950f43f462d141daa63d": {
+        "fc_ratio": "27.08%",
+        "hard_ratio": "75%"
+    },
+    "18bb3b9caf3b88a157aba0b9c5c28558": {
+        "fc_ratio": "23.25%",
+        "hard_ratio": "86.04%"
+    },
+    "69e517537917b1fed837c3f31714973d": {
+        "fc_ratio": "100%",
+        "hard_ratio": "100%"
+    },
+    "b7c62a473c739085f2b85ad19c8f6fb0": {
+        "fc_ratio": "28.12%",
+        "hard_ratio": "93.75%"
+    },
+    "5f025e9656b273c661f9b39e64acf8e1": {
+        "fc_ratio": "29.57%",
+        "hard_ratio": "74.64%"
+    },
+    "bc3b80ce2df81065ccc5c7f7f18f84a1": {
+        "fc_ratio": "28.88%",
+        "hard_ratio": "82.22%"
+    },
+    "d41fe02b132a711e001cfac8aa1cc151": {
+        "fc_ratio": "28.4%",
+        "hard_ratio": "75%"
+    },
+    "1d99a3728312c6b689b6a6dc51770732": {
+        "fc_ratio": "46.39%",
+        "hard_ratio": "79.38%"
+    },
+    "842f14a9eed09f7ce38fdb66370134a0": {
+        "fc_ratio": "42.85%",
+        "hard_ratio": "85.71%"
+    },
+    "0714c6283bc780de2b189f171c082779": {
+        "fc_ratio": "25.53%",
+        "hard_ratio": "87.23%"
+    },
+    "a1716e4fe297959bc694eb9170ac6e6b": {
+        "fc_ratio": "20.51%",
+        "hard_ratio": "74.35%"
+    },
+    "4ed2cab3a143bb753e8f420128447492": {
+        "fc_ratio": "35.77%",
+        "hard_ratio": "77.23%"
+    },
+    "cce3f4896cf11d39983f24958dc01566": {
+        "fc_ratio": "33.8%",
+        "hard_ratio": "67.6%"
+    },
+    "2234e32f48b12e616778d936cc89c727": {
+        "fc_ratio": "3.4%",
+        "hard_ratio": "52.27%"
+    },
+    "342bca63a342ec5dcd4fc66485e21ded": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "81.48%"
+    },
+    "779c5cee43891cf6516ebd9a5e73b648": {
+        "fc_ratio": "7.24%",
+        "hard_ratio": "84.05%"
+    },
+    "615e69100ba6dd4c3ef63b8e72b9f6e2": {
+        "fc_ratio": "4.7%",
+        "hard_ratio": "62.35%"
+    },
+    "9bc6b9bfd34b91ab6d87d474a2270e3e": {
+        "fc_ratio": "20.58%",
+        "hard_ratio": "76.47%"
+    },
+    "bacbd82f5ffd4ed2ea89a53011d9b410": {
+        "fc_ratio": "29.72%",
+        "hard_ratio": "81.08%"
+    },
+    "4b961201088d31cb3a687f143357fba5": {
+        "fc_ratio": "28.98%",
+        "hard_ratio": "88.4%"
+    },
+    "82852103a40053600ab62483bd1ae195": {
+        "fc_ratio": "12%",
+        "hard_ratio": "73.33%"
+    },
+    "a4a482e22e52f3e53b6f5a5e5826985a": {
+        "fc_ratio": "27.9%",
+        "hard_ratio": "79.06%"
+    },
+    "355db6ae02ae532af7d595d26fcf0110": {
+        "fc_ratio": "25%",
+        "hard_ratio": "78.84%"
+    },
+    "a5f0d3bf92b419826037143e4792a86a": {
+        "fc_ratio": "27.64%",
+        "hard_ratio": "78.86%"
+    },
+    "d62bf6e7c0a33e8f48b1a6b2fa6e175d": {
+        "fc_ratio": "25%",
+        "hard_ratio": "86.11%"
+    },
+    "0db1955cc8a7773a4f5e9c6ab16233e6": {
+        "fc_ratio": "17.39%",
+        "hard_ratio": "89.13%"
+    },
+    "407e04f7774444e28e47e64143d357ee": {
+        "fc_ratio": "34.21%",
+        "hard_ratio": "78.94%"
+    },
+    "4a255a59c9ac3204babf8e736b70044e": {
+        "fc_ratio": "25%",
+        "hard_ratio": "86.36%"
+    },
+    "ea75058fbb122b856b5513a211d10820": {
+        "fc_ratio": "31.81%",
+        "hard_ratio": "86.36%"
+    },
+    "959614f4dd366638ab6f617e3b87fc6c": {
+        "fc_ratio": "40.47%",
+        "hard_ratio": "85.71%"
+    },
+    "cdd03f9201d4421aca807cfbb2f879a1": {
+        "fc_ratio": "36.84%",
+        "hard_ratio": "78.94%"
+    },
+    "d3330d71cfab163ecbcef2bd8b58a47e": {
+        "fc_ratio": "38.46%",
+        "hard_ratio": "84.61%"
+    },
+    "7fab55d008087d40de95a3cf976538ef": {
+        "fc_ratio": "21.53%",
+        "hard_ratio": "87.69%"
+    },
+    "cc5a8cc14f77e9846fed1e0233ea0598": {
+        "fc_ratio": "55%",
+        "hard_ratio": "80%"
+    },
+    "49ac10ac274fbb66697aed0f57bf3dc4": {
+        "fc_ratio": "17.64%",
+        "hard_ratio": "78.43%"
+    },
+    "838b19e38b371ed3f1ee1f10c509d55e": {
+        "fc_ratio": "28.33%",
+        "hard_ratio": "85%"
+    },
+    "38844bdc98df359832b10943c450acd9": {
+        "fc_ratio": "26.31%",
+        "hard_ratio": "68.42%"
+    },
+    "6a2baf994f11afe6b75cca887a7cd1c3": {
+        "fc_ratio": "21.05%",
+        "hard_ratio": "72.36%"
+    },
+    "0d43a490d6fb6e1cc3b6aad955342120": {
+        "fc_ratio": "13.41%",
+        "hard_ratio": "60.97%"
+    },
+    "4f8c930a6121b2cb467252e04876b3ad": {
+        "fc_ratio": "41.93%",
+        "hard_ratio": "96.77%"
+    },
+    "c14d8752274a98fcecd6bbd1f2e82f76": {
+        "fc_ratio": "24.07%",
+        "hard_ratio": "76.85%"
+    },
+    "bbc555df0904624f356416205e9a9b00": {
+        "fc_ratio": "33.33%",
+        "hard_ratio": "87.5%"
+    },
+    "09eb4314ee8f5861367bf825b6df88e4": {
+        "fc_ratio": "43.75%",
+        "hard_ratio": "93.75%"
+    },
+    "d6b87b8213bdf9d35d243aff5641acb2": {
+        "fc_ratio": "11.76%",
+        "hard_ratio": "65.88%"
+    },
+    "a8fea68be0bc4197b9e005a3392cbef5": {
+        "fc_ratio": "30.37%",
+        "hard_ratio": "83.54%"
+    },
+    "35f6d279ea2d5e26b1bd1277795fce4b": {
+        "fc_ratio": "32.75%",
+        "hard_ratio": "91.37%"
+    },
+    "87a2431c3d0df779d561ed274540816c": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "62.5%"
+    },
+    "7acfcb9d83dc4c2138e32fccb70db30f": {
+        "fc_ratio": "26.08%",
+        "hard_ratio": "86.95%"
+    },
+    "27e25cb71a807cd734dfaa20e6dc5e09": {
+        "fc_ratio": "9.52%",
+        "hard_ratio": "66.66%"
+    },
+    "5c4bcd16f050f76f9fad19ba10713ffc": {
+        "fc_ratio": "10.93%",
+        "hard_ratio": "64.06%"
+    },
+    "d88e9bb1eb693f90f4e845a7c925b72c": {
+        "fc_ratio": "40%",
+        "hard_ratio": "80%"
+    },
+    "fea89e07417acf81306eeb5600f21fa1": {
+        "fc_ratio": "18.18%",
+        "hard_ratio": "69.69%"
+    },
+    "02fb62a0910efc511534cec9c89adbef": {
+        "fc_ratio": "22.47%",
+        "hard_ratio": "64.04%"
+    },
+    "ad8a2759f17a1c7cc8575f3d621f3109": {
+        "fc_ratio": "23.91%",
+        "hard_ratio": "77.17%"
+    },
+    "4c68b5cdc12a9c752e24e8a0d1950832": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "71.42%"
+    },
+    "4e64a6f3cb828b1e2b71ab055018bbca": {
+        "fc_ratio": "30.66%",
+        "hard_ratio": "70.66%"
+    },
+    "b931f43d81d554ec685b0b5daf6e5267": {
+        "fc_ratio": "60.86%",
+        "hard_ratio": "100%"
+    },
+    "f39a54a9811a211adb3d29475532c895": {
+        "fc_ratio": "58.33%",
+        "hard_ratio": "100%"
+    },
+    "0f3fbaee800ba183b12e6be77ac3b7c1": {
+        "fc_ratio": "30.55%",
+        "hard_ratio": "91.66%"
+    },
+    "57cc33110d61f226a06ca1026ab69d3e": {
+        "fc_ratio": "14.75%",
+        "hard_ratio": "68.85%"
+    },
+    "d7090f6e623a94e786cb2d7b4ebd2a59": {
+        "fc_ratio": "13.72%",
+        "hard_ratio": "80.39%"
+    },
+    "78ab4062d48bd3f9177146aba72a1c52": {
+        "fc_ratio": "10.44%",
+        "hard_ratio": "77.61%"
+    },
+    "5474be31fa9e7f914827ab18656110c8": {
+        "fc_ratio": "29.16%",
+        "hard_ratio": "95.83%"
+    },
+    "f2c422bc4df4e23d2d0060017e9398fb": {
+        "fc_ratio": "22.68%",
+        "hard_ratio": "83.19%"
+    },
+    "57bbc43f161cdd04a38d5c66cff51291": {
+        "fc_ratio": "7.31%",
+        "hard_ratio": "75.6%"
+    },
+    "afe98adaa1b1cd5c07a092e66e669ab3": {
+        "fc_ratio": "19.29%",
+        "hard_ratio": "87.71%"
+    },
+    "8a7d1acf1f4baa2160cece323197550d": {
+        "fc_ratio": "16.98%",
+        "hard_ratio": "85.84%"
+    },
+    "023e0eee8eb7f5dcc9c845d30149a122": {
+        "fc_ratio": "100%",
+        "hard_ratio": "100%"
+    },
+    "1656d87b8874cd2db8c734171a15e82f": {
+        "fc_ratio": "17.85%",
+        "hard_ratio": "78.57%"
+    },
+    "401c1d67b8a53c725dd90914846708cf": {
+        "fc_ratio": "15.15%",
+        "hard_ratio": "80.3%"
+    },
+    "363945fb89b936aaa5f2e74df6cff924": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "88.09%"
+    },
+    "48e9960bb6227f58d75c1d1cf9bfd030": {
+        "fc_ratio": "13%",
+        "hard_ratio": "79%"
+    },
+    "ae29139e8542f959a3f1e44deff92ed3": {
+        "fc_ratio": "21.21%",
+        "hard_ratio": "83.33%"
+    },
+    "c76a6f075d5744f3565b62760f5c7ddf": {
+        "fc_ratio": "16.49%",
+        "hard_ratio": "78.35%"
+    },
+    "96e109eed44f7c40166f0fb47f8c2c56": {
+        "fc_ratio": "9.58%",
+        "hard_ratio": "87.67%"
+    },
+    "1824f58d1e0e496e7f3b53d7c7180953": {
+        "fc_ratio": "16.12%",
+        "hard_ratio": "87.09%"
+    },
+    "3738a79e5e73b1a1990b040578b38245": {
+        "fc_ratio": "12.9%",
+        "hard_ratio": "79.83%"
+    },
+    "ebe69c81d5013351353ee8f3eafff6a1": {
+        "fc_ratio": "22.22%",
+        "hard_ratio": "96.29%"
+    },
+    "6fb36311eb52307b05ee0f1b2f797c44": {
+        "fc_ratio": "13.43%",
+        "hard_ratio": "76.11%"
+    },
+    "53f6330a2fb486a0520680539bb21f19": {
+        "fc_ratio": "11.45%",
+        "hard_ratio": "81.25%"
+    },
+    "1abbacf80a58f946aa3ad9719d46ae09": {
+        "fc_ratio": "35.71%",
+        "hard_ratio": "85.71%"
+    },
+    "6126ba92e0bc2ffa3c6c75c9d01e7441": {
+        "fc_ratio": "8.16%",
+        "hard_ratio": "83.67%"
+    },
+    "af96266cbccaa2558a9b0c5444efdfd8": {
+        "fc_ratio": "23.95%",
+        "hard_ratio": "89.58%"
+    },
+    "2ae7a50fd65c52dcf04ae930017ac55b": {
+        "fc_ratio": "22.8%",
+        "hard_ratio": "87.71%"
+    },
+    "ba763271e89649486a9fa35ed9120fad": {
+        "fc_ratio": "27.7%",
+        "hard_ratio": "73.64%"
+    },
+    "086307ce1b306352d0021465578d62d1": {
+        "fc_ratio": "29.7%",
+        "hard_ratio": "86.13%"
+    },
+    "81ec3b2b48b892a7fb8a67486a299ef4": {
+        "fc_ratio": "53.84%",
+        "hard_ratio": "92.3%"
+    },
+    "cb40518ff81cd67b49ef7e12a74e3c2d": {
+        "fc_ratio": "12.28%",
+        "hard_ratio": "74.56%"
+    },
+    "fea5b225970e039e09e4bb9321562f5e": {
+        "fc_ratio": "29.23%",
+        "hard_ratio": "78.46%"
+    },
+    "ae0214929097f3d9cbaaa74c16f11d19": {
+        "fc_ratio": "16.26%",
+        "hard_ratio": "78.86%"
+    },
+    "7a197aaf9094e3bf467ae32d169feec9": {
+        "fc_ratio": "5.71%",
+        "hard_ratio": "82.85%"
+    },
+    "e8541c1c0358a2b8525c1bb34a12b75e": {
+        "fc_ratio": "16.52%",
+        "hard_ratio": "81.73%"
+    },
+    "e4c6f05518b11b1e093fe5523c82223c": {
+        "fc_ratio": "30.3%",
+        "hard_ratio": "74.74%"
+    },
+    "1f6828e9c46f3646c7c8fe3a3885c045": {
+        "fc_ratio": "25%",
+        "hard_ratio": "88.88%"
+    },
+    "b6fd62e865d627426c0c1b51f0d29e6e": {
+        "fc_ratio": "18.47%",
+        "hard_ratio": "81.52%"
+    },
+    "7d2f5aa05fa1c0fcd23b6ec020e84657": {
+        "fc_ratio": "26.74%",
+        "hard_ratio": "87.2%"
+    },
+    "79db9916e4ebffe96267ccad911aeff4": {
+        "fc_ratio": "25.64%",
+        "hard_ratio": "89.74%"
+    },
+    "0e209167fbb4421175bb00ae8f3d4774": {
+        "fc_ratio": "5.71%",
+        "hard_ratio": "82.85%"
+    },
+    "1563dfa3a626f1442d4f09624bfb8741": {
+        "fc_ratio": "14.63%",
+        "hard_ratio": "85.36%"
+    },
+    "7881b25f586c2ba1a879f29b5096cff2": {
+        "fc_ratio": "26.92%",
+        "hard_ratio": "85.89%"
+    },
+    "d84010f7f6f436e5f00301cacfe2059a": {
+        "fc_ratio": "3.33%",
+        "hard_ratio": "63.33%"
+    },
+    "7bf61ddb2f9c9814e392c0ec8da6b94a": {
+        "fc_ratio": "18.18%",
+        "hard_ratio": "90.9%"
+    },
+    "9f509dc1f15b750529db03f4f2ca5fae": {
+        "fc_ratio": "8.77%",
+        "hard_ratio": "80.7%"
+    },
+    "c19b2287751d3d98413e66224dced637": {
+        "fc_ratio": "5.71%",
+        "hard_ratio": "82.85%"
+    },
+    "59f9fd0b2272fb1a75885adbddaed817": {
+        "fc_ratio": "36.64%",
+        "hard_ratio": "87.78%"
+    },
+    "7735e00ae55261b64da53750edf0ad69": {
+        "fc_ratio": "9.09%",
+        "hard_ratio": "90.9%"
+    },
+    "7c64ea4ac7fc42c0ccf46f2caafcf2e2": {
+        "fc_ratio": "21.62%",
+        "hard_ratio": "74.32%"
+    },
+    "fbf3f62f88d5ff663d3d09bc28a032e0": {
+        "fc_ratio": "33.33%",
+        "hard_ratio": "66.66%"
+    },
+    "d00ec03c4d626a1104642f9361cd6db5": {
+        "fc_ratio": "13.98%",
+        "hard_ratio": "74.82%"
+    },
+    "b8c6335eed21db8e0dd25ed03935ce80": {
+        "fc_ratio": "13.79%",
+        "hard_ratio": "89.65%"
+    },
+    "72939fb5b72155c714935add88bffba4": {
+        "fc_ratio": "16.21%",
+        "hard_ratio": "83.78%"
+    },
+    "901cbb3a73ea47a17bff6175b218ad5e": {
+        "fc_ratio": "14.58%",
+        "hard_ratio": "85.41%"
+    },
+    "3c2683de6c923c39a0ad1120858dab68": {
+        "fc_ratio": "13.15%",
+        "hard_ratio": "78.94%"
+    },
+    "50cefea32c2088ac8e12737c37ee7ada": {
+        "fc_ratio": "31.03%",
+        "hard_ratio": "89.65%"
+    },
+    "5ce9c070770c97e802dd3e86ffaa22c2": {
+        "fc_ratio": "23.63%",
+        "hard_ratio": "81.81%"
+    },
+    "720dfcc6c0c638508eccd78007827656": {
+        "fc_ratio": "8.77%",
+        "hard_ratio": "87.71%"
+    },
+    "8623bc0658b5541b7906129b16be3b50": {
+        "fc_ratio": "35.16%",
+        "hard_ratio": "86.81%"
+    },
+    "3adbe5ddd74b4cf5a459ee52fdca21c8": {
+        "fc_ratio": "53.33%",
+        "hard_ratio": "96.66%"
+    },
+    "c48208f18a45b8615b9f909cbb778cce": {
+        "fc_ratio": "16.27%",
+        "hard_ratio": "88.37%"
+    },
+    "746cfbc4ab68a52fb4a6dc1dafdedbb3": {
+        "fc_ratio": "20%",
+        "hard_ratio": "84%"
+    },
+    "549154e8e9dcad8edc802f95d6bc4587": {
+        "fc_ratio": "28.35%",
+        "hard_ratio": "83.58%"
+    },
+    "4125e0bfac71db7314391f4ce49f4b63": {
+        "fc_ratio": "14.89%",
+        "hard_ratio": "88.29%"
+    },
+    "131f74e2759c284a81337458c99b9001": {
+        "fc_ratio": "5.45%",
+        "hard_ratio": "89.09%"
+    },
+    "90b488adbaec1f0855a139d8c98f4c55": {
+        "fc_ratio": "30.43%",
+        "hard_ratio": "93.47%"
+    },
+    "0e8dce7651358c99e621b5a045db859d": {
+        "fc_ratio": "23.8%",
+        "hard_ratio": "84.12%"
+    },
+    "93d29ef250a65ccce4fe82a18c7b8903": {
+        "fc_ratio": "12%",
+        "hard_ratio": "78.66%"
+    },
+    "b2e3b66431111821a4e15fcdb6feaff9": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "84.12%"
+    },
+    "d4bead98f015584747db467d96ce6846": {
+        "fc_ratio": "19.76%",
+        "hard_ratio": "77.9%"
+    },
+    "0d6983784b896109cb160489e68f279f": {
+        "fc_ratio": "30.43%",
+        "hard_ratio": "93.47%"
+    },
+    "2c2d919074b6372878eab870df36b0e7": {
+        "fc_ratio": "8.23%",
+        "hard_ratio": "84.7%"
+    },
+    "bdf272711db357bcf9f92102738a1f89": {
+        "fc_ratio": "17.6%",
+        "hard_ratio": "72.8%"
+    },
+    "87d247f598abbece0c8ab22411d73ead": {
+        "fc_ratio": "38.94%",
+        "hard_ratio": "84.21%"
+    },
+    "331c3cae1339871f52a24b4a663b1137": {
+        "fc_ratio": "36.6%",
+        "hard_ratio": "79.46%"
+    },
+    "8811b63d6ca01b1a0041a99b36553d82": {
+        "fc_ratio": "17.24%",
+        "hard_ratio": "93.1%"
+    },
+    "5a23182cc27e273668c178f401977517": {
+        "fc_ratio": "19.04%",
+        "hard_ratio": "87.3%"
+    },
+    "3342bcdc9229aae07997cb9b4d917d03": {
+        "fc_ratio": "2.22%",
+        "hard_ratio": "88.88%"
+    },
+    "5fa0dffd67ca35312147e5b26b2b7bb2": {
+        "fc_ratio": "23.8%",
+        "hard_ratio": "95.23%"
+    },
+    "aeed2dd782ce230f76a287be3e55dac1": {
+        "fc_ratio": "29.21%",
+        "hard_ratio": "85.39%"
+    },
+    "ac0453551d024e75f6b86bb5501d8ef4": {
+        "fc_ratio": "10.71%",
+        "hard_ratio": "78.57%"
+    },
+    "632ad8cdfedf4ddec8bcbfc387b7e690": {
+        "fc_ratio": "21.27%",
+        "hard_ratio": "82.97%"
+    },
+    "87ea8bdb5168f3865dc753a4c8925be4": {
+        "fc_ratio": "14.75%",
+        "hard_ratio": "80.32%"
+    },
+    "46d5a341e0efda6d6cbeb2c7940a0078": {
+        "fc_ratio": "41.66%",
+        "hard_ratio": "87.5%"
+    },
+    "9cd5a3467fd4ac5cbc4d404f8782e93a": {
+        "fc_ratio": "36.44%",
+        "hard_ratio": "85.04%"
+    },
+    "3c53cca793709bb90d03bd1c34326c6f": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "75.55%"
+    },
+    "54411e15766489fb6f7839d84d8b49d7": {
+        "fc_ratio": "11.94%",
+        "hard_ratio": "85.07%"
+    },
+    "a11efbc048b3ae40e67b4f549841650a": {
+        "fc_ratio": "3.84%",
+        "hard_ratio": "92.3%"
+    },
+    "0f5a0e5dbcc22de833e6415b74a326ba": {
+        "fc_ratio": "10.86%",
+        "hard_ratio": "84.78%"
+    },
+    "5285ee4e7a1197ed938c2152c0029aaa": {
+        "fc_ratio": "8.23%",
+        "hard_ratio": "77.64%"
+    },
+    "e17f08f7e1006c24695f94dfb33dd428": {
+        "fc_ratio": "16.39%",
+        "hard_ratio": "83.6%"
+    },
+    "1771cd253757a3b5c20d9106cfc862af": {
+        "fc_ratio": "17.3%",
+        "hard_ratio": "88.46%"
+    },
+    "104b1c87319c61a44b4e074da53871ab": {
+        "fc_ratio": "14.44%",
+        "hard_ratio": "80%"
+    },
+    "c970ffc26df82b66a23a8816c266165e": {
+        "fc_ratio": "13.79%",
+        "hard_ratio": "96.55%"
+    },
+    "e906c149beea90afba64986fa22be934": {
+        "fc_ratio": "16.27%",
+        "hard_ratio": "93.02%"
+    },
+    "1c4e22aec0384ea4fc32e7b06929e294": {
+        "fc_ratio": "34.48%",
+        "hard_ratio": "80.45%"
+    },
+    "fac3e9a397a8fde1c660eab058ccefe3": {
+        "fc_ratio": "38.66%",
+        "hard_ratio": "80%"
+    },
+    "291d3f3bdf3899ec1322d966d19b24f0": {
+        "fc_ratio": "21.66%",
+        "hard_ratio": "73.33%"
+    },
+    "bc26437d006f595d00faea2a8a4ddcdb": {
+        "fc_ratio": "44.21%",
+        "hard_ratio": "88.42%"
+    },
+    "9fc75291b6d5ac01b597bf9bf1ec02c0": {
+        "fc_ratio": "42.39%",
+        "hard_ratio": "79.34%"
+    },
+    "fe5b5c1534dd9ab08a464f103bf75069": {
+        "fc_ratio": "8.04%",
+        "hard_ratio": "67.81%"
+    },
+    "0d16030e209dcabe0b3472dbae832654": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "54.41%"
+    },
+    "817fcf267a5c212e1ba7d442be8965f2": {
+        "fc_ratio": "14.92%",
+        "hard_ratio": "77.61%"
+    },
+    "461541dc23892beba33df42b2a5413ff": {
+        "fc_ratio": "15.38%",
+        "hard_ratio": "82.05%"
+    },
+    "72dd1342e1382cb9ddce3abe32c6bcc3": {
+        "fc_ratio": "14.7%",
+        "hard_ratio": "91.17%"
+    },
+    "57fd4dd8cb01853444af5099ea18758a": {
+        "fc_ratio": "25.92%",
+        "hard_ratio": "96.29%"
+    },
+    "735a2808e29e6bd761962cdedf633bb3": {
+        "fc_ratio": "52.58%",
+        "hard_ratio": "83.62%"
+    },
+    "84933fb42cbb941cd5e3d6d90c5c99a8": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "80.35%"
+    },
+    "1d99a0b3c2ef78b3191eb408d67f365c": {
+        "fc_ratio": "60%",
+        "hard_ratio": "100%"
+    },
+    "ba0a27130ca8eee538065deea1afe588": {
+        "fc_ratio": "17.85%",
+        "hard_ratio": "85.71%"
+    },
+    "58b05bc43d3dfb41c6565177b5a54d66": {
+        "fc_ratio": "34.78%",
+        "hard_ratio": "95.65%"
+    },
+    "b8f3ff6323f3e8ad68fd7aa6dee04017": {
+        "fc_ratio": "47.82%",
+        "hard_ratio": "91.3%"
+    },
+    "1390ee73a1418234bfdf331676cda2ca": {
+        "fc_ratio": "29.62%",
+        "hard_ratio": "88.88%"
+    },
+    "6edd873a11980fd1ec34f64b4045fbf3": {
+        "fc_ratio": "31.03%",
+        "hard_ratio": "86.2%"
+    },
+    "8df4e2de8be1e98d4a9c3084b48628ae": {
+        "fc_ratio": "18.6%",
+        "hard_ratio": "83.72%"
+    },
+    "7be8c74362985e5bf0faee68f1d82832": {
+        "fc_ratio": "16.36%",
+        "hard_ratio": "87.27%"
+    },
+    "db49dd9d6b501e26eda1c31b6254c7ad": {
+        "fc_ratio": "27.77%",
+        "hard_ratio": "94.44%"
+    },
+    "c9ad8b23f0ca6407b253c36d6adb23db": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "83.33%"
+    },
+    "434e45fe9ebe01d19fb0237555c89b77": {
+        "fc_ratio": "48.14%",
+        "hard_ratio": "96.29%"
+    },
+    "e8d89b441528de7281a1d4b4256f2bec": {
+        "fc_ratio": "34.48%",
+        "hard_ratio": "96.55%"
+    },
+    "61d936ab52705f0c7c7ad7412b914d12": {
+        "fc_ratio": "45.83%",
+        "hard_ratio": "95.83%"
+    },
+    "60cade1b77afe9319cc2c637e1c331ac": {
+        "fc_ratio": "48%",
+        "hard_ratio": "100%"
+    },
+    "43da23a1940a9a0f75fd7fc7e4501341": {
+        "fc_ratio": "18.51%",
+        "hard_ratio": "85.18%"
+    },
+    "7f90606f57ca8fb40270ceacac977bbc": {
+        "fc_ratio": "15.38%",
+        "hard_ratio": "88.46%"
+    },
+    "829717a759dc0f9130ea76645d561368": {
+        "fc_ratio": "22.72%",
+        "hard_ratio": "90.9%"
+    },
+    "5c2bdaacc39834e0d3eedf85b5fd44ff": {
+        "fc_ratio": "5.12%",
+        "hard_ratio": "89.74%"
+    },
+    "3a9676ad493ec695d1477d1679d723db": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "84.12%"
+    },
+    "9926f52db60b86e46e61df990b22925b": {
+        "fc_ratio": "10.81%",
+        "hard_ratio": "82.43%"
+    },
+    "9c0c3e67b325e80cf9f1d6620e46c607": {
+        "fc_ratio": "10.81%",
+        "hard_ratio": "67.56%"
+    },
+    "cc3ffc0f22afbf355270b5e0ffd886a6": {
+        "fc_ratio": "38.18%",
+        "hard_ratio": "87.27%"
+    },
+    "4abc38dc575f74107ac516b1647d4573": {
+        "fc_ratio": "31.25%",
+        "hard_ratio": "82.63%"
+    },
+    "a5699a71c94f2ac7cea6555f6a33c0b1": {
+        "fc_ratio": "7.07%",
+        "hard_ratio": "68.68%"
+    },
+    "e06edf775d1fe812acfa94a3dd6ba2cb": {
+        "fc_ratio": "13.84%",
+        "hard_ratio": "75.38%"
+    },
+    "78878f0a570601dc0102f69939b93698": {
+        "fc_ratio": "11.84%",
+        "hard_ratio": "85.52%"
+    },
+    "71105a8a76be91215042d8f7a4fbb4e2": {
+        "fc_ratio": "12.6%",
+        "hard_ratio": "71.42%"
+    },
+    "e0ea13d798ae6edf95b4701fa5f57c47": {
+        "fc_ratio": "24.63%",
+        "hard_ratio": "88.4%"
+    },
+    "acd3999aacf5213d339566da1ec0db67": {
+        "fc_ratio": "6.94%",
+        "hard_ratio": "79.86%"
+    },
+    "8aeeeede02d668182cd59c29a64f8743": {
+        "fc_ratio": "23.94%",
+        "hard_ratio": "85.91%"
+    },
+    "ed6ea4bb1d7f612a65fc0348701f7fbc": {
+        "fc_ratio": "23.63%",
+        "hard_ratio": "94.54%"
+    },
+    "2e374d1b6e04db7b77c02fc4c7f01da3": {
+        "fc_ratio": "40.24%",
+        "hard_ratio": "90.24%"
+    },
+    "c587d7df254f9b6da95993eb4321f823": {
+        "fc_ratio": "21.42%",
+        "hard_ratio": "73.21%"
+    },
+    "f43e9ea44bb19771213e7e02ea5b6dbc": {
+        "fc_ratio": "12.96%",
+        "hard_ratio": "92.59%"
+    },
+    "d63668c3e1c0fa0690d3081b27637dde": {
+        "fc_ratio": "14.13%",
+        "hard_ratio": "89.13%"
+    },
+    "b0046595ca720f85f29889e54b1ec335": {
+        "fc_ratio": "10.21%",
+        "hard_ratio": "78.83%"
+    },
+    "0234ac8d716b56731c9ffb3c04740a20": {
+        "fc_ratio": "12.5%",
+        "hard_ratio": "69.88%"
+    },
+    "94300985fe84b53b7adcf3efab4e49e9": {
+        "fc_ratio": "12.79%",
+        "hard_ratio": "82.55%"
+    },
+    "8ab1172f8d5cceb9a0e00270ca0786c7": {
+        "fc_ratio": "26.82%",
+        "hard_ratio": "87.8%"
+    },
+    "b7bb3db046dfd257be39763616f90a61": {
+        "fc_ratio": "12.79%",
+        "hard_ratio": "80.23%"
+    },
+    "7fce7baded834879bef6318a2039a8a5": {
+        "fc_ratio": "10.22%",
+        "hard_ratio": "87.5%"
+    },
+    "bb9528bdd842e5b3fdffca488cd70fcc": {
+        "fc_ratio": "11.21%",
+        "hard_ratio": "70.09%"
+    },
+    "517af0576d43f2bd9754bfb974ccf7c7": {
+        "fc_ratio": "29.05%",
+        "hard_ratio": "79.48%"
+    },
+    "a23b9906643a4096fb5e48d9628ec7df": {
+        "fc_ratio": "8.45%",
+        "hard_ratio": "69.01%"
+    },
+    "a4482503b06fc3c092caa3e5fc3081af": {
+        "fc_ratio": "6.25%",
+        "hard_ratio": "87.5%"
+    },
+    "4d136af2da51d007190c8e94123196be": {
+        "fc_ratio": "7.8%",
+        "hard_ratio": "78.72%"
+    },
+    "607325e13c886f099a772b37ba28c03f": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "88.09%"
+    },
+    "8018e72ad53dd48674ee49b8658ea1f3": {
+        "fc_ratio": "6.41%",
+        "hard_ratio": "75.64%"
+    },
+    "19701a6616bcae533ee22de5f7341eb5": {
+        "fc_ratio": "12.87%",
+        "hard_ratio": "92.07%"
+    },
+    "4160bbda65bcbf4497d6ffb0611d1270": {
+        "fc_ratio": "8.16%",
+        "hard_ratio": "81.63%"
+    },
+    "50472c09bb65d6ed44718cc2641cf121": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "80.39%"
+    },
+    "a03a2ab40517720efb40c7b481e22f74": {
+        "fc_ratio": "9.43%",
+        "hard_ratio": "73.58%"
+    },
+    "31e8c317b5a5211b1ac1d6f9002a2e3f": {
+        "fc_ratio": "13.72%",
+        "hard_ratio": "84.31%"
+    },
+    "82d5d38c9717679db3c9b7f307dca1d7": {
+        "fc_ratio": "12.79%",
+        "hard_ratio": "80.23%"
+    },
+    "a39dc64a0e5fae2af46acf3e8dd181cf": {
+        "fc_ratio": "8.1%",
+        "hard_ratio": "83.78%"
+    },
+    "ea8c64153db62ad987df9e031a7ca7d3": {
+        "fc_ratio": "17.39%",
+        "hard_ratio": "63.76%"
+    },
+    "e17650d0c46a6b4f5f9491d4b01ab131": {
+        "fc_ratio": "9.19%",
+        "hard_ratio": "71.26%"
+    },
+    "bfcc9cdf3cac5d3fe3da79184bef730b": {
+        "fc_ratio": "7.31%",
+        "hard_ratio": "75.6%"
+    },
+    "9250c824a5dd53d1ca509159567ba2bd": {
+        "fc_ratio": "12.79%",
+        "hard_ratio": "77.9%"
+    },
+    "7b33f14b4001df4d237782ef394de0df": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "76.19%"
+    },
+    "273a5d9a3c05ed435d08510033e8f95b": {
+        "fc_ratio": "5.71%",
+        "hard_ratio": "81.42%"
+    },
+    "1d7186ff65d651b267d0be7d334a2ccf": {
+        "fc_ratio": "12.9%",
+        "hard_ratio": "90.32%"
+    },
+    "bdd09253c68267daf2f0ecbe00fabae3": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "96.66%"
+    },
+    "5eec8f9c9e09de5867249b8b996a6b77": {
+        "fc_ratio": "26.38%",
+        "hard_ratio": "86.11%"
+    },
+    "06422a80239c5b2754f350d9e89bf6d6": {
+        "fc_ratio": "31.42%",
+        "hard_ratio": "94.28%"
+    },
+    "a7f05747fb92aee9ad0465463c8feda8": {
+        "fc_ratio": "15.58%",
+        "hard_ratio": "84.41%"
+    },
+    "92a862935c67ebc41a16fcff592759ce": {
+        "fc_ratio": "22.22%",
+        "hard_ratio": "81.81%"
+    },
+    "6b07e86419fafcd449b36b9c22df7b14": {
+        "fc_ratio": "21.1%",
+        "hard_ratio": "81.65%"
+    },
+    "f87532a6cf3cd5faba1e989ac2668065": {
+        "fc_ratio": "9.85%",
+        "hard_ratio": "87.32%"
+    },
+    "1cbc532a8a446a72bdb96d1746ba5667": {
+        "fc_ratio": "9.75%",
+        "hard_ratio": "87.8%"
+    },
+    "896a54a728a7ab09a67d6936873fdcf1": {
+        "fc_ratio": "3.89%",
+        "hard_ratio": "83.11%"
+    },
+    "cecfd631bdac33ca477463710274e06a": {
+        "fc_ratio": "33.72%",
+        "hard_ratio": "86.04%"
+    },
+    "33f211ca8e085f02db657af1cb4f199a": {
+        "fc_ratio": "17.5%",
+        "hard_ratio": "92.5%"
+    },
+    "9bc7e768ac5826e5692290dbca65dab8": {
+        "fc_ratio": "15.78%",
+        "hard_ratio": "94.73%"
+    },
+    "0ef415fe32c7b4643762425f7d9080b2": {
+        "fc_ratio": "15.78%",
+        "hard_ratio": "92.63%"
+    },
+    "45c51ab2c090044b726e7255a74c9eca": {
+        "fc_ratio": "16.04%",
+        "hard_ratio": "85.18%"
+    },
+    "41397c4dc8cf9b4e141f9f598a03d928": {
+        "fc_ratio": "9.75%",
+        "hard_ratio": "86.58%"
+    },
+    "111f5540ad03c09294115682e4ddd1f2": {
+        "fc_ratio": "31.14%",
+        "hard_ratio": "96.72%"
+    },
+    "853a8b3d65d49dcccd1d8ac4e3b58bed": {
+        "fc_ratio": "8.08%",
+        "hard_ratio": "80.8%"
+    },
+    "596e558d61b42f8cdc71a44e70667893": {
+        "fc_ratio": "15.9%",
+        "hard_ratio": "54.54%"
+    },
+    "3f527413cc90812e8dcf22765c7c7dc2": {
+        "fc_ratio": "16.75%",
+        "hard_ratio": "71.89%"
+    },
+    "0db9a832603d0366c0877831a49f73d0": {
+        "fc_ratio": "21.42%",
+        "hard_ratio": "97.61%"
+    },
+    "8d86b5f3db9bfdfa93b810a732610414": {
+        "fc_ratio": "24.61%",
+        "hard_ratio": "95.38%"
+    },
+    "5bc6501af8e864b177f6ca726282fd2a": {
+        "fc_ratio": "13.75%",
+        "hard_ratio": "91.25%"
+    },
+    "c49a448d802d716f713bc47b95d9ab72": {
+        "fc_ratio": "7.44%",
+        "hard_ratio": "86.17%"
+    },
+    "cac0997e1585f15db1de4204c50d7947": {
+        "fc_ratio": "15.58%",
+        "hard_ratio": "84.41%"
+    },
+    "7bb6686b4592dbe96cda6958c227da6f": {
+        "fc_ratio": "5.97%",
+        "hard_ratio": "82.08%"
+    },
+    "fb71e858aedbb212026ea4e3caa0e69b": {
+        "fc_ratio": "18.75%",
+        "hard_ratio": "78.12%"
+    },
+    "586c6fa9493bf27cb4fa10a4ef652ecb": {
+        "fc_ratio": "21.83%",
+        "hard_ratio": "94.25%"
+    },
+    "d8d52c2328c3b359e49b13e4819e8041": {
+        "fc_ratio": "2.98%",
+        "hard_ratio": "80.59%"
+    },
+    "21efb0306381ad73a8b7bcfa45a6ab6e": {
+        "fc_ratio": "26.66%",
+        "hard_ratio": "88.88%"
+    },
+    "32f068affb47b3d8fe0fbdb259d32ed6": {
+        "fc_ratio": "13.24%",
+        "hard_ratio": "78.14%"
+    },
+    "0d82ae8796efc47cdf671f2f5354dcf9": {
+        "fc_ratio": "12.5%",
+        "hard_ratio": "80.76%"
+    },
+    "0306bbe37f48f122a0fefecf0b016aea": {
+        "fc_ratio": "22.22%",
+        "hard_ratio": "92.59%"
+    },
+    "6c56e83e1ea29a0e80d3291f053a6b1a": {
+        "fc_ratio": "17.14%",
+        "hard_ratio": "80%"
+    },
+    "4edf1dd4db81ab21b41fdd6455308518": {
+        "fc_ratio": "6.25%",
+        "hard_ratio": "93.75%"
+    },
+    "ed1c9a6574426ec9c3e52dbd1df29b70": {
+        "fc_ratio": "17.5%",
+        "hard_ratio": "90%"
+    },
+    "76d3ee90c79a0e9dab8ee23e87540852": {
+        "fc_ratio": "5.45%",
+        "hard_ratio": "76.36%"
+    },
+    "706744569a8b6c59534f776bf5564599": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "92.85%"
+    },
+    "cbe68d10e33cfb902f20b741ff341fba": {
+        "fc_ratio": "10.52%",
+        "hard_ratio": "86.84%"
+    },
+    "85b8637b8ed2339b2300cce70bae9a9c": {
+        "fc_ratio": "15.47%",
+        "hard_ratio": "83.33%"
+    },
+    "64958a4aaa949d70686adb348e686567": {
+        "fc_ratio": "11.96%",
+        "hard_ratio": "80.34%"
+    },
+    "28c499e765a80529397e4f77e78a0d8a": {
+        "fc_ratio": "19.51%",
+        "hard_ratio": "90.24%"
+    },
+    "9dd3f8494dbf2610a12c8fb06e675eba": {
+        "fc_ratio": "10.76%",
+        "hard_ratio": "86.15%"
+    },
+    "2fe65ec6945558b5f5c2d0a22c5251cb": {
+        "fc_ratio": "9.09%",
+        "hard_ratio": "89.39%"
+    },
+    "607b691323d761b7246432bb69a9560f": {
+        "fc_ratio": "40.42%",
+        "hard_ratio": "92.55%"
+    },
+    "3a463213afd002ffca027e1d54466f2d": {
+        "fc_ratio": "24.59%",
+        "hard_ratio": "91.8%"
+    },
+    "7dcd7f418f42d89d5152adc95c247a74": {
+        "fc_ratio": "27.27%",
+        "hard_ratio": "93.18%"
+    },
+    "ce9b07443d3af351b27744ae6af07ab9": {
+        "fc_ratio": "11.53%",
+        "hard_ratio": "63.46%"
+    },
+    "5ac66a9fd063ac534a012612ff6bff0b": {
+        "fc_ratio": "21.56%",
+        "hard_ratio": "82.35%"
+    },
+    "ad7952b6b85a051acfdbb69bfbc155e2": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "72.22%"
+    },
+    "43c9dd46d6e4cc041217eb90ee65fa79": {
+        "fc_ratio": "17.04%",
+        "hard_ratio": "84.09%"
+    },
+    "ef8d66cd8caaf047d064be102f92dcb4": {
+        "fc_ratio": "20.93%",
+        "hard_ratio": "97.67%"
+    },
+    "22697044aaa6689947bef6f2a5cb5ffe": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "85.71%"
+    },
+    "7bd9b235b24b2a005a102163aeb08bc8": {
+        "fc_ratio": "20.79%",
+        "hard_ratio": "76.23%"
+    },
+    "bee5b8d64f059b138919091b439d1fbc": {
+        "fc_ratio": "32.65%",
+        "hard_ratio": "93.87%"
+    },
+    "3ed3384a73db201e105802bf3bbe4add": {
+        "fc_ratio": "15.29%",
+        "hard_ratio": "84.7%"
+    },
+    "84f5aa52e5ca6753b8766bd38509cf88": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "83.11%"
+    },
+    "2dbdc2641085e07a307b16d655cfbe16": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "81.81%"
+    },
+    "3dd4cf326db7113f39fd64f4f400ac00": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "94.44%"
+    },
+    "aa1827551bde50e86c48ed77d714b11a": {
+        "fc_ratio": "15.78%",
+        "hard_ratio": "84.21%"
+    },
+    "c5a0c7abd43e3b9ac0d6001eabe06e71": {
+        "fc_ratio": "18.51%",
+        "hard_ratio": "81.48%"
+    },
+    "670b293c6b7cf63f5718c562c511ae74": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "82.85%"
+    },
+    "84877f6d2c066d0b74d938f5761c8d9a": {
+        "fc_ratio": "23.33%",
+        "hard_ratio": "96.66%"
+    },
+    "a009ff54912506828bda6ae0e9dbf259": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "88.88%"
+    },
+    "5f5d45a1a551f1bac1ee0881e1a659b6": {
+        "fc_ratio": "6.25%",
+        "hard_ratio": "81.25%"
+    },
+    "264dbaab48f36875ae16a78c940ff45c": {
+        "fc_ratio": "10.34%",
+        "hard_ratio": "93.1%"
+    },
+    "2617d760ca90a497cf205cfa0d519728": {
+        "fc_ratio": "23.63%",
+        "hard_ratio": "90.9%"
+    },
+    "7f0697c460b8de5ab4e566e85392b92f": {
+        "fc_ratio": "10.48%",
+        "hard_ratio": "73.42%"
+    },
+    "74d7fb4f336cc417e7148164b5a76391": {
+        "fc_ratio": "9.52%",
+        "hard_ratio": "85.71%"
+    },
+    "a4b6a491f179a449c29ab7956cc4eeb9": {
+        "fc_ratio": "10.81%",
+        "hard_ratio": "81.08%"
+    },
+    "caa496807a3071d9b548d382691061a4": {
+        "fc_ratio": "9.27%",
+        "hard_ratio": "55.67%"
+    },
+    "0e402188625268ae983a05f0baa6c0a9": {
+        "fc_ratio": "2.08%",
+        "hard_ratio": "91.66%"
+    },
+    "7f6e2b3e8bb2d013566b59c4f6b1b11f": {
+        "fc_ratio": "5.12%",
+        "hard_ratio": "87.17%"
+    },
+    "f0236ac4ecaf471c733ab530fc5ccbb8": {
+        "fc_ratio": "13.46%",
+        "hard_ratio": "85.57%"
+    },
+    "c5bc590d872c1b3e9f95b4ad3df1414a": {
+        "fc_ratio": "2.08%",
+        "hard_ratio": "73.95%"
+    },
+    "099855ba30eb0963c95eb2dab140c7c9": {
+        "fc_ratio": "8.69%",
+        "hard_ratio": "78.26%"
+    },
+    "b8f4198ee7d5b1b04e9d59cc0c9764d2": {
+        "fc_ratio": "12.12%",
+        "hard_ratio": "82.82%"
+    },
+    "4b8288a29362b870668c6eebe1f99ee4": {
+        "fc_ratio": "17.74%",
+        "hard_ratio": "88.7%"
+    },
+    "fdf7659856da4f3445a0a28158d53e89": {
+        "fc_ratio": "13.15%",
+        "hard_ratio": "69.73%"
+    },
+    "d0dc76aec809cb9dd2e390ff33a4104c": {
+        "fc_ratio": "10.4%",
+        "hard_ratio": "72.83%"
+    },
+    "f415d786c4285bc599787ffb384f9df0": {
+        "fc_ratio": "7.89%",
+        "hard_ratio": "82.89%"
+    },
+    "dc7a1a52a5e1d2155329e09945ef05df": {
+        "fc_ratio": "9.02%",
+        "hard_ratio": "81.25%"
+    },
+    "199aa09741df8c57f75c1a68c5f7c660": {
+        "fc_ratio": "3.77%",
+        "hard_ratio": "88.67%"
+    },
+    "af2cfa541091cf9a688caf385dfe04e2": {
+        "fc_ratio": "7.27%",
+        "hard_ratio": "83.63%"
+    },
+    "008de2c8277e04c8a3274dfab0b3f86b": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "88.57%"
+    },
+    "9ea1e2483b6b3006f82ec870ffff426c": {
+        "fc_ratio": "1.44%",
+        "hard_ratio": "68.11%"
+    },
+    "85221f03d7296953f489b15ae3625dcf": {
+        "fc_ratio": "6.89%",
+        "hard_ratio": "82.75%"
+    },
+    "14c2202de3b399630f8fb4a1a1ef9c9e": {
+        "fc_ratio": "1.92%",
+        "hard_ratio": "82.69%"
+    },
+    "f1e88de8fe63926f0bae26bcde24ea9e": {
+        "fc_ratio": "7.69%",
+        "hard_ratio": "92.3%"
+    },
+    "37c78ae104644b067dd00537d51580df": {
+        "fc_ratio": "7.69%",
+        "hard_ratio": "87.69%"
+    },
+    "bd637b422d5a272289805229c97efb8b": {
+        "fc_ratio": "6.12%",
+        "hard_ratio": "93.87%"
+    },
+    "8b7c2e46dd16f68443281a33cfa948cc": {
+        "fc_ratio": "26.72%",
+        "hard_ratio": "93.96%"
+    },
+    "5635542997e2bd16f59b61c615f2204c": {
+        "fc_ratio": "6.12%",
+        "hard_ratio": "56.12%"
+    },
+    "03df3b17f24c289d6965790124682922": {
+        "fc_ratio": "1.18%",
+        "hard_ratio": "76.33%"
+    },
+    "f1cc50d272c69b4872a996ff73e30584": {
+        "fc_ratio": "18.29%",
+        "hard_ratio": "84.14%"
+    },
+    "bf44b5e1f1dce1aecd58d3aa54892dce": {
+        "fc_ratio": "15.27%",
+        "hard_ratio": "88.88%"
+    },
+    "7b4c2f621435f00cd8e09a0e45946e60": {
+        "fc_ratio": "5%",
+        "hard_ratio": "87.5%"
+    },
+    "47a1df9b6876896a3ddeccdad271f90a": {
+        "fc_ratio": "8.92%",
+        "hard_ratio": "92.85%"
+    },
+    "5ea0294b2b9a0de8f693418d1942082c": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "66.01%"
+    },
+    "b1b265c89806f6e867460968e482e5c8": {
+        "fc_ratio": "16.17%",
+        "hard_ratio": "91.17%"
+    },
+    "4b3c403b0f688855cadc375411442e4d": {
+        "fc_ratio": "6.4%",
+        "hard_ratio": "72%"
+    },
+    "6e14ad37cd83ca636859c065a81ab142": {
+        "fc_ratio": "15.89%",
+        "hard_ratio": "84.76%"
+    },
+    "53a26b7e5fa429054ecd4d29a573856b": {
+        "fc_ratio": "6.34%",
+        "hard_ratio": "77.77%"
+    },
+    "f340f5262d9600f966ff3643cd600973": {
+        "fc_ratio": "5.26%",
+        "hard_ratio": "89.47%"
+    },
+    "33e90a0a6c2b862ed29cedc796e5f571": {
+        "fc_ratio": "14%",
+        "hard_ratio": "94%"
+    },
+    "357820bb3aae63c6fab1136db951e708": {
+        "fc_ratio": "4.5%",
+        "hard_ratio": "89.18%"
+    },
+    "c494b9fe1a25e679cc9629159895e0a6": {
+        "fc_ratio": "6.66%",
+        "hard_ratio": "78.66%"
+    },
+    "d46f90407fc327a270ecbf2b7ba9a37a": {
+        "fc_ratio": "9.52%",
+        "hard_ratio": "95.23%"
+    },
+    "ae6424d75a11b237afb6efd3a293e976": {
+        "fc_ratio": "2.65%",
+        "hard_ratio": "76.1%"
+    },
+    "8b339e3043510a4fc3197ee386c3b1fa": {
+        "fc_ratio": "20.73%",
+        "hard_ratio": "86.58%"
+    },
+    "bf0055e3e31a4db434e57cebda78a298": {
+        "fc_ratio": "27.5%",
+        "hard_ratio": "97.5%"
+    },
+    "414865858192a3da25a0f2f3731ca2b2": {
+        "fc_ratio": "7.35%",
+        "hard_ratio": "92.64%"
+    },
+    "1af54fae0fbf2aed4d24bf52748ad4d0": {
+        "fc_ratio": "18.68%",
+        "hard_ratio": "86.81%"
+    },
+    "3fbd51ba2496d169c84db83148b82fa2": {
+        "fc_ratio": "2.3%",
+        "hard_ratio": "73.07%"
+    },
+    "b71d82e54ee3a3b5853cb7c24f44e6a1": {
+        "fc_ratio": "11.76%",
+        "hard_ratio": "66.66%"
+    },
+    "4e98f715d5334980caa17e7318df1d8c": {
+        "fc_ratio": "8.21%",
+        "hard_ratio": "76.71%"
+    },
+    "eb2f9266152c02c2fa6dd7d9466d29aa": {
+        "fc_ratio": "8.98%",
+        "hard_ratio": "74.15%"
+    },
+    "4bd3663409847603b4215a23ee839c0a": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "72.72%"
+    },
+    "269d6adcc110143c75b838fd52f898eb": {
+        "fc_ratio": "10.86%",
+        "hard_ratio": "100%"
+    },
+    "3fadc77620b3163a911d8e54a10b7d9d": {
+        "fc_ratio": "1.02%",
+        "hard_ratio": "75.51%"
+    },
+    "0bd933d05c382406918e6c4bf0ce7be9": {
+        "fc_ratio": "19.29%",
+        "hard_ratio": "87.71%"
+    },
+    "8beeb60c0e1db5c573e4308d6411c131": {
+        "fc_ratio": "7.24%",
+        "hard_ratio": "73.18%"
+    },
+    "69887647d3552a24825096d793eb5f9e": {
+        "fc_ratio": "4.76%",
+        "hard_ratio": "79.36%"
+    },
+    "56f136a59b2b263d46fdb76fb9131b8c": {
+        "fc_ratio": "6.06%",
+        "hard_ratio": "77.77%"
+    },
+    "fc44286ceb1232309d7f1d6ad567ed6a": {
+        "fc_ratio": "9.72%",
+        "hard_ratio": "88.88%"
+    },
+    "9f400545751386e1fe5ffa502c643f80": {
+        "fc_ratio": "11.29%",
+        "hard_ratio": "90.32%"
+    },
+    "112f92ca1217d71500277a2702ef9a56": {
+        "fc_ratio": "8%",
+        "hard_ratio": "71.2%"
+    },
+    "8a09a0c0b0646c248bf9c464de6b4acf": {
+        "fc_ratio": "10.16%",
+        "hard_ratio": "86.44%"
+    },
+    "1f24280ea09f0721388fed6070427de3": {
+        "fc_ratio": "4%",
+        "hard_ratio": "68%"
+    },
+    "d124102afcd49f595ea8a567cd768e7d": {
+        "fc_ratio": "20.93%",
+        "hard_ratio": "90.69%"
+    },
+    "817224417d383060adfa15fef208b6b9": {
+        "fc_ratio": "1.85%",
+        "hard_ratio": "88.88%"
+    },
+    "dc7c331cdac4536f30ba18197b2f3f70": {
+        "fc_ratio": "1.78%",
+        "hard_ratio": "91.07%"
+    },
+    "93d74fa52d9f19d348c8f1ba91220ef9": {
+        "fc_ratio": "14.73%",
+        "hard_ratio": "93.68%"
+    },
+    "f7dea50766013d33c2df850abb864cfa": {
+        "fc_ratio": "10.09%",
+        "hard_ratio": "79.81%"
+    },
+    "3d55687817d25557dced5997257bec36": {
+        "fc_ratio": "11.82%",
+        "hard_ratio": "88.17%"
+    },
+    "cd0974aa500d0b3d0b0813bf6cbdf879": {
+        "fc_ratio": "0%",
+        "hard_ratio": "67.61%"
+    },
+    "49cb695da67dc299ff9352826a293c32": {
+        "fc_ratio": "12.82%",
+        "hard_ratio": "97.43%"
+    },
+    "9f4a6d366e47335d2b29e9a50395f26f": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "95.23%"
+    },
+    "563f0fe62aef1d2094c20376215ba182": {
+        "fc_ratio": "15.68%",
+        "hard_ratio": "98.03%"
+    },
+    "ff5ea8fb0f98933d8413d939bf6f8b7e": {
+        "fc_ratio": "8.51%",
+        "hard_ratio": "95.74%"
+    },
+    "bbb9da4f1ca2131aa0f682eacdc5108b": {
+        "fc_ratio": "5.12%",
+        "hard_ratio": "75.21%"
+    },
+    "f17537eca92162c047b599cbd6858d07": {
+        "fc_ratio": "1.88%",
+        "hard_ratio": "53.77%"
+    },
+    "26144439a3490d8cb3e2a1790965ebe5": {
+        "fc_ratio": "11.36%",
+        "hard_ratio": "95.45%"
+    },
+    "5096daf083e800c56e1c6529bc1b4eda": {
+        "fc_ratio": "9.23%",
+        "hard_ratio": "50.76%"
+    },
+    "baec258d6f488cedb2c8abbccc98ade3": {
+        "fc_ratio": "10.6%",
+        "hard_ratio": "92.42%"
+    },
+    "8d410165143aa0e04b1b3a111df4348d": {
+        "fc_ratio": "11.01%",
+        "hard_ratio": "87.28%"
+    },
+    "5426bcc673ef9aefed4693468d605a70": {
+        "fc_ratio": "3.7%",
+        "hard_ratio": "84.25%"
+    },
+    "24fb77bd856e65953e831c7d241ae9b0": {
+        "fc_ratio": "15.78%",
+        "hard_ratio": "86.84%"
+    },
+    "19ed80aed7d642708e4875a4a35e2dd9": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "78.88%"
+    },
+    "f2dbcf9500c311d89c2389029445a106": {
+        "fc_ratio": "2.5%",
+        "hard_ratio": "75%"
+    },
+    "1e5738bdcc1278f07e734eb4340507d3": {
+        "fc_ratio": "9.33%",
+        "hard_ratio": "73.33%"
+    },
+    "48395ac738d6c7d320bbc5abc4c6f98b": {
+        "fc_ratio": "8.13%",
+        "hard_ratio": "79.06%"
+    },
+    "4168a26147787672aa121fa73ee289a5": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.7%"
+    },
+    "ae597ed65e519c27388f3a0a33175c7b": {
+        "fc_ratio": "1.66%",
+        "hard_ratio": "85%"
+    },
+    "6a87cff025a0ab36e1ad0df5d9ac69e0": {
+        "fc_ratio": "28.23%",
+        "hard_ratio": "87.05%"
+    },
+    "562eb97a2b4d40c72333030bbf5db9c3": {
+        "fc_ratio": "12.5%",
+        "hard_ratio": "89.28%"
+    },
+    "7f2d0b83c7ca574ba50dc884d7302024": {
+        "fc_ratio": "4.16%",
+        "hard_ratio": "81.66%"
+    },
+    "a907d9b752e52fcc69b4f8cfe6b5b6d0": {
+        "fc_ratio": "4.44%",
+        "hard_ratio": "70.55%"
+    },
+    "6e2c284d57ec8bf85c7403c524251d77": {
+        "fc_ratio": "3.88%",
+        "hard_ratio": "62.13%"
+    },
+    "6ba7d408da262dfbb995a727fe9d3805": {
+        "fc_ratio": "16.47%",
+        "hard_ratio": "80%"
+    },
+    "3cd43834b60827a24e1a2ca3e303af7f": {
+        "fc_ratio": "1.11%",
+        "hard_ratio": "71.11%"
+    },
+    "8c29a172a59c10dcc6e6c6e7bf42534e": {
+        "fc_ratio": "14.63%",
+        "hard_ratio": "97.56%"
+    },
+    "032b0feb09670f88846b7f69b0a9112b": {
+        "fc_ratio": "8.88%",
+        "hard_ratio": "91.11%"
+    },
+    "67cdfad62caa19a39eda34f53aa7a872": {
+        "fc_ratio": "0%",
+        "hard_ratio": "92.22%"
+    },
+    "1dd473dc617f2c2942971c5b5b0251c1": {
+        "fc_ratio": "15.9%",
+        "hard_ratio": "90.9%"
+    },
+    "b630e55434fc12f6ad3345c2bda378e5": {
+        "fc_ratio": "8.23%",
+        "hard_ratio": "83.52%"
+    },
+    "0a2ef1390403d5352e41579e18663cce": {
+        "fc_ratio": "12%",
+        "hard_ratio": "89.33%"
+    },
+    "f8845ebcbe00404f4b5b6603025200da": {
+        "fc_ratio": "13.11%",
+        "hard_ratio": "88.52%"
+    },
+    "499f4c75f89f403b68735a50e1c42e83": {
+        "fc_ratio": "0%",
+        "hard_ratio": "61.48%"
+    },
+    "28aee601ac833e6c5e0fd9c5618df8f0": {
+        "fc_ratio": "10.9%",
+        "hard_ratio": "90.9%"
+    },
+    "3c120054495247288c5c60c95d57c479": {
+        "fc_ratio": "16.12%",
+        "hard_ratio": "86.02%"
+    },
+    "7710a85233f4cfa2f2dcdf3f68e6c852": {
+        "fc_ratio": "5.35%",
+        "hard_ratio": "85.71%"
+    },
+    "dc1e616b41b44dc6c59656e4ecf21f7a": {
+        "fc_ratio": "6.17%",
+        "hard_ratio": "86.41%"
+    },
+    "a0ec2f4bbe3ffca1511c8cb0f73a7d78": {
+        "fc_ratio": "7.07%",
+        "hard_ratio": "83.83%"
+    },
+    "c4b3c0af244336c431a43eda75183bf2": {
+        "fc_ratio": "7.95%",
+        "hard_ratio": "78.4%"
+    },
+    "ce42d65384d11fb07381b9586e70a0bb": {
+        "fc_ratio": "11.42%",
+        "hard_ratio": "82.85%"
+    },
+    "4efdc38c547904721c37e4634c88f401": {
+        "fc_ratio": "1.29%",
+        "hard_ratio": "81.81%"
+    },
+    "34392dcff182db2feb85b8cc7f63e3ce": {
+        "fc_ratio": "2.08%",
+        "hard_ratio": "79.16%"
+    },
+    "b2f2c60b4c8e85b0a2101beae8514a2f": {
+        "fc_ratio": "6.25%",
+        "hard_ratio": "72.91%"
+    },
+    "fb7c02b9527c38611d8bd2d144164b65": {
+        "fc_ratio": "10.34%",
+        "hard_ratio": "75.86%"
+    },
+    "7dbc46a8577df4041f61d90a252871cf": {
+        "fc_ratio": "7.69%",
+        "hard_ratio": "92.3%"
+    },
+    "477ad571ab3402a627c16d10db1fad0c": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "85.71%"
+    },
+    "1762eba76f6fd5871671f9d7ccc66b55": {
+        "fc_ratio": "18.51%",
+        "hard_ratio": "98.14%"
+    },
+    "52c5eb537136f9a9da685db2e2cb3ef2": {
+        "fc_ratio": "1.28%",
+        "hard_ratio": "84.61%"
+    },
+    "88035515b34ff9f054bc9851bd2784e5": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "79.16%"
+    },
+    "00c200b1c88c0f078db5063116738f69": {
+        "fc_ratio": "1.01%",
+        "hard_ratio": "74.74%"
+    },
+    "c5d47c8d80fe525f782ae56d19159575": {
+        "fc_ratio": "10.52%",
+        "hard_ratio": "81.57%"
+    },
+    "91691715c18d7877fa735a5485addeb5": {
+        "fc_ratio": "5.05%",
+        "hard_ratio": "83.83%"
+    },
+    "0f70521aaaf88140b9aabb39fe1e902d": {
+        "fc_ratio": "16.43%",
+        "hard_ratio": "86.3%"
+    },
+    "6479109bb6b900e26b69080e3e53ff4e": {
+        "fc_ratio": "2.8%",
+        "hard_ratio": "93.45%"
+    },
+    "30d1d49957e0a0fe7b1d133316f5dde7": {
+        "fc_ratio": "11.57%",
+        "hard_ratio": "73.68%"
+    },
+    "b68fe974fd7ae1a83a3d795644b8b0c1": {
+        "fc_ratio": "5%",
+        "hard_ratio": "87.5%"
+    },
+    "756af48e3377ee37a6bcc6d496c03b5c": {
+        "fc_ratio": "5.55%",
+        "hard_ratio": "79.62%"
+    },
+    "e839e1a3d81436c0ac936c36f4c223ed": {
+        "fc_ratio": "1.44%",
+        "hard_ratio": "82.6%"
+    },
+    "17337855269a1814711d3ab543260418": {
+        "fc_ratio": "6.4%",
+        "hard_ratio": "71.2%"
+    },
+    "f57217c30cdb531e87c8ebed4236614f": {
+        "fc_ratio": "3.79%",
+        "hard_ratio": "87.34%"
+    },
+    "b8cf0bcb58809e602a451afdd98dcb41": {
+        "fc_ratio": "6.49%",
+        "hard_ratio": "89.61%"
+    },
+    "588781f81469c15953b746892a2e9741": {
+        "fc_ratio": "2.38%",
+        "hard_ratio": "76.19%"
+    },
+    "1c83bc80970dfd4b7d1224d2e03f3d4f": {
+        "fc_ratio": "10.22%",
+        "hard_ratio": "69.31%"
+    },
+    "dd6c113b6323bb466b582136c1c3faf1": {
+        "fc_ratio": "4.44%",
+        "hard_ratio": "84.44%"
+    },
+    "fc87e6e4b76e9883844e45328d6deca5": {
+        "fc_ratio": "5.76%",
+        "hard_ratio": "71.15%"
+    },
+    "b13373d184f5c381cd368306e5b76263": {
+        "fc_ratio": "9.67%",
+        "hard_ratio": "88.17%"
+    },
+    "593f177d4ffa383a7d0f284dfb5f3848": {
+        "fc_ratio": "12.32%",
+        "hard_ratio": "82.19%"
+    },
+    "81f4797e6bd8573e57bafd9abfcc7894": {
+        "fc_ratio": "5%",
+        "hard_ratio": "63%"
+    },
+    "f1549971463a12cbf7ace54781641701": {
+        "fc_ratio": "8.06%",
+        "hard_ratio": "90.32%"
+    },
+    "1ba866ab27855d0ee255aad06b50f630": {
+        "fc_ratio": "3.66%",
+        "hard_ratio": "65.13%"
+    },
+    "2fd7bfbf6786d304f5e2bbdc53c96895": {
+        "fc_ratio": "18.18%",
+        "hard_ratio": "90.9%"
+    },
+    "f279c84b19adc79812d7fdc72f896898": {
+        "fc_ratio": "16.25%",
+        "hard_ratio": "85%"
+    },
+    "f8641ff2f06c1d5b097a99e9d35011d8": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "96.07%"
+    },
+    "37cf296296ca69b947918782efe06619": {
+        "fc_ratio": "9.43%",
+        "hard_ratio": "88.67%"
+    },
+    "5f0dee377ce2ad5891bb2a74ef547af4": {
+        "fc_ratio": "18.51%",
+        "hard_ratio": "82.71%"
+    },
+    "2dab85c02e97f2cddfa8b52ec354fbe6": {
+        "fc_ratio": "3.12%",
+        "hard_ratio": "68.75%"
+    },
+    "c63bff187c9958ccb851e27736edbda7": {
+        "fc_ratio": "1.44%",
+        "hard_ratio": "88.4%"
+    },
+    "6a968c831690cc57eb7045225d93401e": {
+        "fc_ratio": "2.17%",
+        "hard_ratio": "80.43%"
+    },
+    "5eecf25b3674a5a32852dbdf0cf3d4f0": {
+        "fc_ratio": "11.62%",
+        "hard_ratio": "68.6%"
+    },
+    "3edfd4543ccf0309b58470af7494ac61": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "79.54%"
+    },
+    "1f2f6887d8b5bca7616ed2f3850f1cc5": {
+        "fc_ratio": "3.57%",
+        "hard_ratio": "62.5%"
+    },
+    "287288a927255ac3047e24018eb97e39": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "84.61%"
+    },
+    "0887ab485a83a00d105f41621171d177": {
+        "fc_ratio": "9.23%",
+        "hard_ratio": "80%"
+    },
+    "6ccf4295df4312f11de260c611ea6b4c": {
+        "fc_ratio": "2.85%",
+        "hard_ratio": "64.28%"
+    },
+    "448ee2bf92651eaf45a79c98eb7630c8": {
+        "fc_ratio": "9.58%",
+        "hard_ratio": "89.04%"
+    },
+    "f69cc43be17eefa75df0bf616c31936a": {
+        "fc_ratio": "16.19%",
+        "hard_ratio": "91.42%"
+    },
+    "5c8955b85e4347d4de056b6b1441c2e0": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "86.9%"
+    },
+    "34d56b3133b5345d6a717306e1c88ad1": {
+        "fc_ratio": "30.52%",
+        "hard_ratio": "92.63%"
+    },
+    "c8dc5ca7e7d721f22c921f9c9861b9b6": {
+        "fc_ratio": "14.7%",
+        "hard_ratio": "70.58%"
+    },
+    "035c42c03ff20be7b3116e02d2306243": {
+        "fc_ratio": "17.2%",
+        "hard_ratio": "83.87%"
+    },
+    "0b5f35b3aed5d46757ec02b10298a08c": {
+        "fc_ratio": "16.49%",
+        "hard_ratio": "86.59%"
+    },
+    "9d2ae680a921dbaaebbcf7eba28cccb2": {
+        "fc_ratio": "12.82%",
+        "hard_ratio": "85.89%"
+    },
+    "b86d1f5edc9ab55f21294b7ac6e875f6": {
+        "fc_ratio": "10.2%",
+        "hard_ratio": "83.67%"
+    },
+    "2fee0c7f798e9d86591f109577ba612f": {
+        "fc_ratio": "10.11%",
+        "hard_ratio": "64.04%"
+    },
+    "26e02f8c50b7ad8861341cd24942f95f": {
+        "fc_ratio": "0%",
+        "hard_ratio": "73.91%"
+    },
+    "a445f80d1b5bc65989effc4eb0b11e05": {
+        "fc_ratio": "16.36%",
+        "hard_ratio": "98.18%"
+    },
+    "3a014e390baa2079c6316d503a717588": {
+        "fc_ratio": "6.66%",
+        "hard_ratio": "74.66%"
+    },
+    "2a87f98a1d7f5b2cc649caacad344bfa": {
+        "fc_ratio": "5.35%",
+        "hard_ratio": "75%"
+    },
+    "11ef44078532f90a7d092b2b9b93f52f": {
+        "fc_ratio": "8.92%",
+        "hard_ratio": "89.28%"
+    },
+    "fbfb1a46b7deab666760a4684686a9b1": {
+        "fc_ratio": "18.84%",
+        "hard_ratio": "91.3%"
+    },
+    "317bc7db4325710a356f176f6ca7f87b": {
+        "fc_ratio": "16.07%",
+        "hard_ratio": "94.64%"
+    },
+    "ef3f9a6052c0356a9df16f4b07e3d65c": {
+        "fc_ratio": "8.64%",
+        "hard_ratio": "86.41%"
+    },
+    "9962b33a575e7cfddd2a6534f0b795f6": {
+        "fc_ratio": "11.9%",
+        "hard_ratio": "97.61%"
+    },
+    "21482b0589131e3f39c6ff6f9fd6528f": {
+        "fc_ratio": "5.55%",
+        "hard_ratio": "66.66%"
+    },
+    "5fa77c2db136b38fd03d834bb85c8436": {
+        "fc_ratio": "9.09%",
+        "hard_ratio": "97.72%"
+    },
+    "446bf5c0458f5d255b75926460a339ab": {
+        "fc_ratio": "8.51%",
+        "hard_ratio": "97.87%"
+    },
+    "8384bf9a06f6b232b3825c6cb85dab0f": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "80.95%"
+    },
+    "c17445a243eac58a181345b112690911": {
+        "fc_ratio": "29.26%",
+        "hard_ratio": "92.68%"
+    },
+    "8e26da57d0bebdf8691cda660c8ce771": {
+        "fc_ratio": "7.84%",
+        "hard_ratio": "88.23%"
+    },
+    "e5a974e600d4fa99f2cacae007b41b09": {
+        "fc_ratio": "14.28%",
+        "hard_ratio": "100%"
+    },
+    "7053907ae0ac12aaea7f423bd7d61e00": {
+        "fc_ratio": "2.7%",
+        "hard_ratio": "94.59%"
+    },
+    "280808c58c8bc6889b0b313890a4f8a8": {
+        "fc_ratio": "5.55%",
+        "hard_ratio": "75%"
+    },
+    "2544d72202e420cb043635f99827ef60": {
+        "fc_ratio": "10%",
+        "hard_ratio": "90%"
+    },
+    "0286e35339fe8eab9618f229f4dc25a4": {
+        "fc_ratio": "3.92%",
+        "hard_ratio": "78.43%"
+    },
+    "a94e3e0d16b9c2731cc3ae0c456f858c": {
+        "fc_ratio": "6.52%",
+        "hard_ratio": "89.13%"
+    },
+    "f73ebde516bb144a70724816408c074d": {
+        "fc_ratio": "2.38%",
+        "hard_ratio": "83.33%"
+    },
+    "b7d8819fe5c614da82308eebbdcaa6d1": {
+        "fc_ratio": "12.76%",
+        "hard_ratio": "93.61%"
+    },
+    "12b915c5128d952f9b09dd171ee41ad3": {
+        "fc_ratio": "14.89%",
+        "hard_ratio": "87.23%"
+    },
+    "250a5514e4e7a7a58ae36b676e5231a7": {
+        "fc_ratio": "0%",
+        "hard_ratio": "83.67%"
+    },
+    "00e6426b8121d9d033d1aa84666c6be6": {
+        "fc_ratio": "0.83%",
+        "hard_ratio": "59.16%"
+    },
+    "cf04dbe3a44ab47d3d13e2fd3f2cdc52": {
+        "fc_ratio": "6.89%",
+        "hard_ratio": "87.93%"
+    },
+    "3ace335424cef81854c194c037c91738": {
+        "fc_ratio": "1.2%",
+        "hard_ratio": "73.49%"
+    },
+    "9c1d3541043e001547363d1539395aee": {
+        "fc_ratio": "16.19%",
+        "hard_ratio": "84.76%"
+    },
+    "c7f9f14e6dce4b0aad220d19b6e44b20": {
+        "fc_ratio": "0%",
+        "hard_ratio": "87.8%"
+    },
+    "1f637d7eb40e7b92c583647f5ffc2e4e": {
+        "fc_ratio": "1.42%",
+        "hard_ratio": "90%"
+    },
+    "d4fad59edf048341dad8b5fcc896ba52": {
+        "fc_ratio": "5.12%",
+        "hard_ratio": "76.92%"
+    },
+    "7fb7ab63418997f2368c761e9a31114a": {
+        "fc_ratio": "3.81%",
+        "hard_ratio": "51.9%"
+    },
+    "9b41ec019bf8bb897bdbc893dfa9da6a": {
+        "fc_ratio": "8.04%",
+        "hard_ratio": "72.41%"
+    },
+    "ba9f3dbda00ee5efd5bd9f86fd5822bb": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54.65%"
+    },
+    "983af7df8da148dbedda2fd03f9ea992": {
+        "fc_ratio": "19.75%",
+        "hard_ratio": "77.77%"
+    },
+    "d7ecd140dcc8cea43b601b747a35280e": {
+        "fc_ratio": "1.09%",
+        "hard_ratio": "67.03%"
+    },
+    "a555bdfa11b189bb8f5c52ca8c567615": {
+        "fc_ratio": "0%",
+        "hard_ratio": "45.74%"
+    },
+    "ebf33488eb732bbd6fc808166b5b8012": {
+        "fc_ratio": "8.23%",
+        "hard_ratio": "70.58%"
+    },
+    "30610075d3236f1fbf15dc0554e0c8a5": {
+        "fc_ratio": "8.88%",
+        "hard_ratio": "81.48%"
+    },
+    "c2342b4c784a656ed09d5c1ea591fbc1": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "72.54%"
+    },
+    "e89de93b31d64cf02b59fba8a19121b1": {
+        "fc_ratio": "8%",
+        "hard_ratio": "89.33%"
+    },
+    "f1d244a8177cb538f6d5e8817295d056": {
+        "fc_ratio": "1.29%",
+        "hard_ratio": "54.54%"
+    },
+    "1d219916cd956c79186507eb59c0def2": {
+        "fc_ratio": "5.26%",
+        "hard_ratio": "61.4%"
+    },
+    "1827dd998634f3b0c8b1f20b5c60e26d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "64.48%"
+    },
+    "1c730cae6900bc4c6ffd08db7f76d827": {
+        "fc_ratio": "3.59%",
+        "hard_ratio": "58.27%"
+    },
+    "37713908b880ed8da2463b2e0619f262": {
+        "fc_ratio": "1.09%",
+        "hard_ratio": "52.74%"
+    },
+    "600ed95a8b6c3318234b45ad347bc572": {
+        "fc_ratio": "3.25%",
+        "hard_ratio": "53.65%"
+    },
+    "9d77e2976bb60199a998457e6ac20612": {
+        "fc_ratio": "2.89%",
+        "hard_ratio": "85.5%"
+    },
+    "13bda3f0d1f3f87922e14fa1fb9b6332": {
+        "fc_ratio": "0%",
+        "hard_ratio": "68.05%"
+    },
+    "28c0cea0427d7961e39a5df0ae56b0ce": {
+        "fc_ratio": "0.82%",
+        "hard_ratio": "52.89%"
+    },
+    "069f3534b8f7256d4b02e439cccd764c": {
+        "fc_ratio": "4.25%",
+        "hard_ratio": "65.95%"
+    },
+    "2c688741e05c89e9ace95f1f6c09276f": {
+        "fc_ratio": "1.66%",
+        "hard_ratio": "61.66%"
+    },
+    "a85400dd7471fb15d1a32b4e39c53c4c": {
+        "fc_ratio": "7.57%",
+        "hard_ratio": "81.81%"
+    },
+    "64f0777511b1a96b46a7502a91f6dd7f": {
+        "fc_ratio": "2.27%",
+        "hard_ratio": "53.4%"
+    },
+    "15cf8f040606755f34d50e8ccca030ee": {
+        "fc_ratio": "8.45%",
+        "hard_ratio": "54.92%"
+    },
+    "9bb1780602833e702165aff0e4546f05": {
+        "fc_ratio": "10%",
+        "hard_ratio": "98%"
+    },
+    "a4e2613fea3125c6a73fef1a6268e235": {
+        "fc_ratio": "4.68%",
+        "hard_ratio": "85.93%"
+    },
+    "90d85447cc0b6d5241989731a50f7094": {
+        "fc_ratio": "0%",
+        "hard_ratio": "65.71%"
+    },
+    "7e1623dda0b17238d0e74b0f1c6107f0": {
+        "fc_ratio": "1.47%",
+        "hard_ratio": "66.17%"
+    },
+    "db14fa93ef775744ed07fe0af616b8d8": {
+        "fc_ratio": "0%",
+        "hard_ratio": "75%"
+    },
+    "319fb0f53202d4204f1f004a46d3aced": {
+        "fc_ratio": "11.76%",
+        "hard_ratio": "80%"
+    },
+    "74982eb59dda42dbfe9b3b6ba46f6c00": {
+        "fc_ratio": "6.06%",
+        "hard_ratio": "65.15%"
+    },
+    "5a7406547d8b3396ecff32fbe043b57e": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "73.52%"
+    },
+    "d747ce0662e50e5de2b3131f23767007": {
+        "fc_ratio": "2.7%",
+        "hard_ratio": "55.85%"
+    },
+    "c88de4ef9b56ea095fa81f4df021e0f3": {
+        "fc_ratio": "4.91%",
+        "hard_ratio": "72.13%"
+    },
+    "dbdb631b23d272843f0117f9f9e5558e": {
+        "fc_ratio": "3.92%",
+        "hard_ratio": "82.35%"
+    },
+    "deed6e5bdefc0abeb3497afd4d28ca6c": {
+        "fc_ratio": "8%",
+        "hard_ratio": "78%"
+    },
+    "99f37ed01f189ce09e322d10919c647c": {
+        "fc_ratio": "12.9%",
+        "hard_ratio": "72.58%"
+    },
+    "bdab0ad3468b7c63100b75e28e97e687": {
+        "fc_ratio": "2.63%",
+        "hard_ratio": "63.15%"
+    },
+    "2c19eb82f56dc325786b242bfcf94220": {
+        "fc_ratio": "7.31%",
+        "hard_ratio": "92.68%"
+    },
+    "2a63844138cf31602c8e448046076864": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "93.18%"
+    },
+    "23f776a4aac42e62f37a90b2c453548b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "48.51%"
+    },
+    "9b99fd6cf5760d07fd569f9fad0a59a3": {
+        "fc_ratio": "0%",
+        "hard_ratio": "80%"
+    },
+    "2b1b74d0678faa92fceb56115d073cdd": {
+        "fc_ratio": "7.6%",
+        "hard_ratio": "60.86%"
+    },
+    "8b91ae64b7320d4a9e8cd4d3e46e574f": {
+        "fc_ratio": "1.88%",
+        "hard_ratio": "88.67%"
+    },
+    "8474bb95f1ba6e1238f6b56c08cff67e": {
+        "fc_ratio": "18.48%",
+        "hard_ratio": "66.38%"
+    },
+    "ea4c20ea8770bf106f3e619339a7d29f": {
+        "fc_ratio": "1.76%",
+        "hard_ratio": "51.32%"
+    },
+    "d4ce2055e3d9fee885ba6fa89984e3d3": {
+        "fc_ratio": "7.24%",
+        "hard_ratio": "69.56%"
+    },
+    "edf1429799d7174c023b79e258017a24": {
+        "fc_ratio": "3.18%",
+        "hard_ratio": "55.41%"
+    },
+    "bbb3d27b7f8e2323adedc411270ce9f9": {
+        "fc_ratio": "2.12%",
+        "hard_ratio": "45.74%"
+    },
+    "a1fe17a89733aabe529883d320444c21": {
+        "fc_ratio": "5.4%",
+        "hard_ratio": "71.62%"
+    },
+    "bc2398fa92c7b8eb7acac3ff36590900": {
+        "fc_ratio": "3.92%",
+        "hard_ratio": "94.11%"
+    },
+    "3b3746b7bd6413daffe2cfc4e9543c45": {
+        "fc_ratio": "2.46%",
+        "hard_ratio": "65.43%"
+    },
+    "10198084e76aebe05db5c3a4578903d6": {
+        "fc_ratio": "0%",
+        "hard_ratio": "87.5%"
+    },
+    "0eb90124ce909c57643d2ab782e6ad2f": {
+        "fc_ratio": "3.17%",
+        "hard_ratio": "77.77%"
+    },
+    "904337ffcfb881bb091f069458da943b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "55.38%"
+    },
+    "e27a825604251ee87bf70641956eb66d": {
+        "fc_ratio": "5.12%",
+        "hard_ratio": "73.07%"
+    },
+    "4227e5abf1e84644b0efd25ffeabd85d": {
+        "fc_ratio": "5.61%",
+        "hard_ratio": "51.68%"
+    },
+    "77bd990b19462a0bbe96049c15b31918": {
+        "fc_ratio": "5.45%",
+        "hard_ratio": "78.18%"
+    },
+    "962ce8a7fc2fa20fda6ea17b53c03a2e": {
+        "fc_ratio": "9.58%",
+        "hard_ratio": "87.67%"
+    },
+    "4254a33e06259f1b8be4e074c84d5005": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "92.15%"
+    },
+    "c34267216a21ea1d8e700ca9bd09d46e": {
+        "fc_ratio": "1.13%",
+        "hard_ratio": "80.68%"
+    },
+    "7fd2412d29fb7e49ed25a90d38f2dfef": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "82.14%"
+    },
+    "63f25f3cd4546d7b83e733850ac2995f": {
+        "fc_ratio": "7.69%",
+        "hard_ratio": "90.38%"
+    },
+    "9fb35968952813c9ac8ff8d6de082de7": {
+        "fc_ratio": "6%",
+        "hard_ratio": "92%"
+    },
+    "38b10efc6c81471978d848bf0b2e78af": {
+        "fc_ratio": "3.52%",
+        "hard_ratio": "81.17%"
+    },
+    "73f6612c7fd725661b0d117bbc907b79": {
+        "fc_ratio": "2.7%",
+        "hard_ratio": "51.35%"
+    },
+    "eab8a8f3540f83813d292e165178b653": {
+        "fc_ratio": "8.88%",
+        "hard_ratio": "54.07%"
+    },
+    "17891b7af411f42803a8264c7a7a4e77": {
+        "fc_ratio": "5.66%",
+        "hard_ratio": "84.9%"
+    },
+    "29a022fc833ea6f9a7197533497baf20": {
+        "fc_ratio": "7.89%",
+        "hard_ratio": "75%"
+    },
+    "54e23b4f759df1e218477b31a7b571d9": {
+        "fc_ratio": "12.12%",
+        "hard_ratio": "63.63%"
+    },
+    "2f9dbb954b7cad6d50854146319de161": {
+        "fc_ratio": "1.56%",
+        "hard_ratio": "95.31%"
+    },
+    "58998e20247cadd3e6a2d59adb68e49a": {
+        "fc_ratio": "1.36%",
+        "hard_ratio": "80.82%"
+    },
+    "33bfcda010280dc60d078dfc1f1613ba": {
+        "fc_ratio": "8.06%",
+        "hard_ratio": "93.54%"
+    },
+    "3028537b892a704449a9b1c5340de0a4": {
+        "fc_ratio": "10.76%",
+        "hard_ratio": "73.84%"
+    },
+    "c59d7204aa3cc5615c4ff947f100ca07": {
+        "fc_ratio": "10.9%",
+        "hard_ratio": "76.36%"
+    },
+    "f4ff24e6d4522e730048e3c527ca3370": {
+        "fc_ratio": "3.33%",
+        "hard_ratio": "62.5%"
+    },
+    "ef683ab235014d3d7512ff4e9ac18237": {
+        "fc_ratio": "9.3%",
+        "hard_ratio": "90.69%"
+    },
+    "e5668d38b7fa73a1a751ff742d8d54d4": {
+        "fc_ratio": "9.89%",
+        "hard_ratio": "76.92%"
+    },
+    "ee2418f551bdd52859a119d0f52ec11b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "77.77%"
+    },
+    "d50987049598fb5c4322e4bcfbda6682": {
+        "fc_ratio": "1.05%",
+        "hard_ratio": "47.36%"
+    },
+    "5750d2732d61dc02ad1ad85ee01e444f": {
+        "fc_ratio": "5.66%",
+        "hard_ratio": "79.24%"
+    },
+    "3bfd394b197fb994676cffa5091a32da": {
+        "fc_ratio": "1.53%",
+        "hard_ratio": "66.15%"
+    },
+    "430aafb40c1e71429fe4dd7026d07e55": {
+        "fc_ratio": "1.58%",
+        "hard_ratio": "74.6%"
+    },
+    "9a17844bddcc1d8d19b66c8ce3062502": {
+        "fc_ratio": "1.21%",
+        "hard_ratio": "59.75%"
+    },
+    "18a1af039b676d3cbe3e0f06adf994ab": {
+        "fc_ratio": "5.63%",
+        "hard_ratio": "81.69%"
+    },
+    "d5ed92205087e983b00457e4e456d85d": {
+        "fc_ratio": "2.32%",
+        "hard_ratio": "60.46%"
+    },
+    "db32150d87aead0cb5887ab14489c583": {
+        "fc_ratio": "2.94%",
+        "hard_ratio": "69.11%"
+    },
+    "75f3feca8a369d22b7a3ffd07d48b830": {
+        "fc_ratio": "0%",
+        "hard_ratio": "58.33%"
+    },
+    "c2c05f474f97bd7a2a7415031d8f5eef": {
+        "fc_ratio": "2.5%",
+        "hard_ratio": "82.5%"
+    },
+    "5eb29107d5076b374675fc3cc6b125fc": {
+        "fc_ratio": "5.26%",
+        "hard_ratio": "71.92%"
+    },
+    "bbdd6a38f496c45294b1c9dfb23851a5": {
+        "fc_ratio": "2.32%",
+        "hard_ratio": "72.86%"
+    },
+    "7c21975f646f8dafd105afd6bb32ed11": {
+        "fc_ratio": "0%",
+        "hard_ratio": "61.9%"
+    },
+    "9dea5d55fcc1d245d7b81aef301677ad": {
+        "fc_ratio": "4.28%",
+        "hard_ratio": "57.14%"
+    },
+    "d42af35019481e1d2798b231deb847f5": {
+        "fc_ratio": "2.43%",
+        "hard_ratio": "82.92%"
+    },
+    "f26f5609829faf363c845c5b2a04ef45": {
+        "fc_ratio": "3.5%",
+        "hard_ratio": "64.91%"
+    },
+    "e7b93066e77e32e9c44f5033a7ffaeaa": {
+        "fc_ratio": "13.04%",
+        "hard_ratio": "82.6%"
+    },
+    "8563b99ccf0c82da46bc8b0be93233df": {
+        "fc_ratio": "19.49%",
+        "hard_ratio": "83.05%"
+    },
+    "5026e64a174627de18c140619f4c0e58": {
+        "fc_ratio": "1.14%",
+        "hard_ratio": "65.51%"
+    },
+    "19c79bfb950cd477931f58f05ed46619": {
+        "fc_ratio": "3%",
+        "hard_ratio": "36%"
+    },
+    "ac57ba0a3ed7f8420a354b2c8adba579": {
+        "fc_ratio": "2.85%",
+        "hard_ratio": "64.28%"
+    },
+    "3c7a02524dbba8d4fec241d013946371": {
+        "fc_ratio": "3.7%",
+        "hard_ratio": "62.96%"
+    },
+    "45a6c24e6e05496975b6bf8e247976bb": {
+        "fc_ratio": "2.08%",
+        "hard_ratio": "79.16%"
+    },
+    "983ef72892a0a070ff5480f64a1ac0e0": {
+        "fc_ratio": "6.97%",
+        "hard_ratio": "79.06%"
+    },
+    "7a055f9946099b5d074eb3f812ba3ecc": {
+        "fc_ratio": "2.32%",
+        "hard_ratio": "88.37%"
+    },
+    "312bbaf65a12cc6953d7b8835b40d2bf": {
+        "fc_ratio": "4.41%",
+        "hard_ratio": "75%"
+    },
+    "04138a82e311f4c0619a59e73b8274b6": {
+        "fc_ratio": "0%",
+        "hard_ratio": "61.81%"
+    },
+    "44a43fcded10c7ff5e89ec9176acd8f3": {
+        "fc_ratio": "1.36%",
+        "hard_ratio": "76.71%"
+    },
+    "d85b8129a42fa9bc38fa5c7b28d37d50": {
+        "fc_ratio": "4.87%",
+        "hard_ratio": "92.68%"
+    },
+    "3fa60e05da43d59265031a1155b550ef": {
+        "fc_ratio": "12.69%",
+        "hard_ratio": "84.12%"
+    },
+    "dedd9be0c619d8bf76fdee82626f737e": {
+        "fc_ratio": "2.5%",
+        "hard_ratio": "68.75%"
+    },
+    "1c2d3fc797df7f12bb3dba64158c2793": {
+        "fc_ratio": "10.58%",
+        "hard_ratio": "83.52%"
+    },
+    "0966cf97d4c39ced8f157bdbb8885c55": {
+        "fc_ratio": "3.17%",
+        "hard_ratio": "87.3%"
+    },
+    "2e8ce96defddce008131ff744facb71d": {
+        "fc_ratio": "2.56%",
+        "hard_ratio": "94.87%"
+    },
+    "6cabbd73ce9d3f1e0360f7203d1a24e8": {
+        "fc_ratio": "0%",
+        "hard_ratio": "69.23%"
+    },
+    "09e41039fbf85203eef6f0a162f13f13": {
+        "fc_ratio": "11.88%",
+        "hard_ratio": "80.19%"
+    },
+    "fbb2d3586293ccd6a835eb532ba97151": {
+        "fc_ratio": "0%",
+        "hard_ratio": "74.07%"
+    },
+    "cb4cdcb101dfc6729dfe4473de0e6d78": {
+        "fc_ratio": "3.57%",
+        "hard_ratio": "64.28%"
+    },
+    "9a3b99f48937c0c7cc0967d62768e9fc": {
+        "fc_ratio": "7.92%",
+        "hard_ratio": "76.23%"
+    },
+    "dbd28daa7c4d9e8b6c0c009eb64ce60f": {
+        "fc_ratio": "3.92%",
+        "hard_ratio": "88.23%"
+    },
+    "a2de47c7bd918809e32791c23fd22d9b": {
+        "fc_ratio": "3.84%",
+        "hard_ratio": "82.05%"
+    },
+    "29f8a35277a9a105128a0a356bbd1822": {
+        "fc_ratio": "3.26%",
+        "hard_ratio": "80.43%"
+    },
+    "229adc75add819b976719dcc0914f454": {
+        "fc_ratio": "0%",
+        "hard_ratio": "86.53%"
+    },
+    "5ef6b32383751a26d9bb3fb4974766d1": {
+        "fc_ratio": "7.81%",
+        "hard_ratio": "73.43%"
+    },
+    "fd59b7b8479b5adc741aff14521758b3": {
+        "fc_ratio": "1.73%",
+        "hard_ratio": "67.82%"
+    },
+    "46cfff69aea3fd2521b3346b9352ffd5": {
+        "fc_ratio": "4.16%",
+        "hard_ratio": "81.25%"
+    },
+    "7a3bd40eb6d905eb9b39f770716b5256": {
+        "fc_ratio": "6.08%",
+        "hard_ratio": "57.43%"
+    },
+    "adb4d175d21c29f236cb7260a94252d5": {
+        "fc_ratio": "2.22%",
+        "hard_ratio": "64.44%"
+    },
+    "4d015e95d6ffcc6016744511654dc1e2": {
+        "fc_ratio": "6.48%",
+        "hard_ratio": "58.33%"
+    },
+    "e961c48113b4ead8dc19e6283405844c": {
+        "fc_ratio": "8.62%",
+        "hard_ratio": "68.96%"
+    },
+    "6ed35f9254b012bdbd1ac844f4c9b8fb": {
+        "fc_ratio": "3.33%",
+        "hard_ratio": "56.66%"
+    },
+    "60b111463eb8d8873daef3f62c2ed6e5": {
+        "fc_ratio": "8.45%",
+        "hard_ratio": "81.69%"
+    },
+    "f0f7ee56319ae6132f9b9d6f20fd35ed": {
+        "fc_ratio": "1.56%",
+        "hard_ratio": "59.37%"
+    },
+    "511dd389bf9c628f58a203373e2387a8": {
+        "fc_ratio": "4.22%",
+        "hard_ratio": "87.32%"
+    },
+    "d2d43a6eff3d9f50da19ec86d56a5676": {
+        "fc_ratio": "0%",
+        "hard_ratio": "60.2%"
+    },
+    "a8b0e160c00472b056acd5f973f5985d": {
+        "fc_ratio": "11.94%",
+        "hard_ratio": "94.02%"
+    },
+    "3c7b6e74843ad3c4a91e9e4700c62559": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "60.71%"
+    },
+    "8874139c0f3a947ac4e31649fb0b35f1": {
+        "fc_ratio": "15.21%",
+        "hard_ratio": "76.08%"
+    },
+    "a4dfb927fe8836df75bdb61f2868c282": {
+        "fc_ratio": "2.89%",
+        "hard_ratio": "66.66%"
+    },
+    "aa0185c88abe5bb4e05ca038283f43d8": {
+        "fc_ratio": "10.12%",
+        "hard_ratio": "78.48%"
+    },
+    "38081f555ce79aa8532e9301db5e5398": {
+        "fc_ratio": "13.15%",
+        "hard_ratio": "76.31%"
+    },
+    "cd24060ad3ab646c2b427c7a80c54b95": {
+        "fc_ratio": "0%",
+        "hard_ratio": "82.75%"
+    },
+    "2ae19fab4e71ee24069c9cc154b65c3d": {
+        "fc_ratio": "5.55%",
+        "hard_ratio": "53.33%"
+    },
+    "0f0fd0fa4e8076bad7630f83d16643c6": {
+        "fc_ratio": "2.22%",
+        "hard_ratio": "54.44%"
+    },
+    "69942f62188df7ea44d53d912c3f52c5": {
+        "fc_ratio": "4.83%",
+        "hard_ratio": "79.03%"
+    },
+    "30037048a7c17a9b5e774b54948edede": {
+        "fc_ratio": "0%",
+        "hard_ratio": "60.56%"
+    },
+    "0d0214cc2c4ae8d3b6c5431160d7c4ea": {
+        "fc_ratio": "0%",
+        "hard_ratio": "81.08%"
+    },
+    "f74327ce3be00dea382d40c237d8ba7e": {
+        "fc_ratio": "2.73%",
+        "hard_ratio": "58.9%"
+    },
+    "5f49f59a42d6b5241293fef257ad0165": {
+        "fc_ratio": "3.33%",
+        "hard_ratio": "83.33%"
+    },
+    "b77bd53a71feaa4fb60682533f14be15": {
+        "fc_ratio": "4.16%",
+        "hard_ratio": "47.22%"
+    },
+    "3c3eeef46f1555a7cfad192b397c062e": {
+        "fc_ratio": "1.63%",
+        "hard_ratio": "72.13%"
+    },
+    "f8b7b35bae522ea0563506b5629958b2": {
+        "fc_ratio": "4%",
+        "hard_ratio": "78%"
+    },
+    "8fb81dba41106ced11e662dfbfcfa59c": {
+        "fc_ratio": "9.09%",
+        "hard_ratio": "84.84%"
+    },
+    "27a9f07a1a3766f60677eb68864759c4": {
+        "fc_ratio": "3.77%",
+        "hard_ratio": "81.13%"
+    },
+    "4f52eadf606e48ccfe5da86ae514442e": {
+        "fc_ratio": "1.63%",
+        "hard_ratio": "55.73%"
+    },
+    "ee687d987a779cf500855b920fd3bbd9": {
+        "fc_ratio": "14.4%",
+        "hard_ratio": "70.33%"
+    },
+    "2837cff9ad98d70246b3d43faf363f74": {
+        "fc_ratio": "1.78%",
+        "hard_ratio": "66.07%"
+    },
+    "1f7a8e7d350ddf11db16c96a26dc65c3": {
+        "fc_ratio": "2.73%",
+        "hard_ratio": "68.49%"
+    },
+    "309f5b584c99d701255221270444d097": {
+        "fc_ratio": "4.12%",
+        "hard_ratio": "44.32%"
+    },
+    "917d6ab601bbf0b96e57e4515e14bf06": {
+        "fc_ratio": "13.46%",
+        "hard_ratio": "71.15%"
+    },
+    "f81f04ec8a68895261091c80e818a100": {
+        "fc_ratio": "3.4%",
+        "hard_ratio": "57.95%"
+    },
+    "789a4558466fa62e06c1efdd1188d2e5": {
+        "fc_ratio": "6.15%",
+        "hard_ratio": "69.23%"
+    },
+    "6b8bfd7a846c56f7516c6c6001291698": {
+        "fc_ratio": "4.08%",
+        "hard_ratio": "67.34%"
+    },
+    "f2ac693d70737022fa86526c2fd223ec": {
+        "fc_ratio": "0%",
+        "hard_ratio": "77.41%"
+    },
+    "5a2cff40611a6b7c979cf31f0c637abc": {
+        "fc_ratio": "2.94%",
+        "hard_ratio": "55.88%"
+    },
+    "52629b72e74f0bfd9c40b562ec3797f2": {
+        "fc_ratio": "3.17%",
+        "hard_ratio": "79.36%"
+    },
+    "cf5c8a4cc687d7194b02cd2aea57f57c": {
+        "fc_ratio": "4.08%",
+        "hard_ratio": "87.75%"
+    },
+    "71d7f9b64afd9b5730f1d64ffe213745": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "86.36%"
+    },
+    "39911bcc85029e0af42a3cd88374c040": {
+        "fc_ratio": "8.51%",
+        "hard_ratio": "91.48%"
+    },
+    "472f640855936d61086e3adec3ad22ad": {
+        "fc_ratio": "7.81%",
+        "hard_ratio": "93.75%"
+    },
+    "d0bb8ea5b0f25ad7458438074e6cc3cb": {
+        "fc_ratio": "11.32%",
+        "hard_ratio": "79.24%"
+    },
+    "64557af2b0ac69817ff614ad70ce3870": {
+        "fc_ratio": "6.81%",
+        "hard_ratio": "86.36%"
+    },
+    "2d92538a5052eb0b7675dc958d9d0772": {
+        "fc_ratio": "9.25%",
+        "hard_ratio": "74.07%"
+    },
+    "5d0d077fbe88d716ef54597a3cc83d75": {
+        "fc_ratio": "2.27%",
+        "hard_ratio": "77.27%"
+    },
+    "3a6a74499583bf02f93c14c533436a4a": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "70.45%"
+    },
+    "c6968c511bd5043bc49c1237cbcb2223": {
+        "fc_ratio": "5%",
+        "hard_ratio": "90%"
+    },
+    "c196704b1520cdf262a6063c9525263f": {
+        "fc_ratio": "9.61%",
+        "hard_ratio": "80.76%"
+    },
+    "b41517ba3421faa772809ec6a39142c8": {
+        "fc_ratio": "1.88%",
+        "hard_ratio": "67.92%"
+    },
+    "8cc9f2cd65ca76016a591b1607f6a6d0": {
+        "fc_ratio": "10.34%",
+        "hard_ratio": "79.31%"
+    },
+    "8d4375d426c8938245fb8aa0b06e6a90": {
+        "fc_ratio": "13.55%",
+        "hard_ratio": "74.57%"
+    },
+    "e75e3cc54e005d7c773ab12da278eb44": {
+        "fc_ratio": "12.5%",
+        "hard_ratio": "77.08%"
+    },
+    "6b379eaf2c1806238cbdc8f7a479b30e": {
+        "fc_ratio": "2.56%",
+        "hard_ratio": "87.17%"
+    },
+    "d5ead4b04912e7fd12cbfb8ac088e5b8": {
+        "fc_ratio": "2.17%",
+        "hard_ratio": "56.52%"
+    },
+    "11908d570c8dcb7eb9c8b09508cae879": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "87.5%"
+    },
+    "0df79537276230f78121b64bab09fabd": {
+        "fc_ratio": "1.2%",
+        "hard_ratio": "44.57%"
+    },
+    "e68c13c8a0a74370fd371da455b29786": {
+        "fc_ratio": "4%",
+        "hard_ratio": "49.33%"
+    },
+    "49a0d997877508328d213eb3775626ad": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.61%"
+    },
+    "c14ecbac4500c5af596ff7a49c445bee": {
+        "fc_ratio": "0%",
+        "hard_ratio": "51.47%"
+    },
+    "edeb6027c41f5ddca5290fe866635034": {
+        "fc_ratio": "4.28%",
+        "hard_ratio": "58.57%"
+    },
+    "b0a7becf0a2da1775d1df833e3c91180": {
+        "fc_ratio": "1.86%",
+        "hard_ratio": "45.79%"
+    },
+    "06f44a33b477c241074491a4b1c43d64": {
+        "fc_ratio": "0%",
+        "hard_ratio": "48.43%"
+    },
+    "9714e0e55f11a704ff0700ae1452b185": {
+        "fc_ratio": "0%",
+        "hard_ratio": "65%"
+    },
+    "ca103fc233a729d58dbe482be69617cf": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.25%"
+    },
+    "446602dd5e405355e908215829871204": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.09%"
+    },
+    "d1e718f02fef2643a514c14867137d8e": {
+        "fc_ratio": "0%",
+        "hard_ratio": "50%"
+    },
+    "7d14a8cb2afa3736150073597b7a0e5e": {
+        "fc_ratio": "7.69%",
+        "hard_ratio": "50%"
+    },
+    "990d006576605bf8580f75961fbc7ec6": {
+        "fc_ratio": "0%",
+        "hard_ratio": "45.68%"
+    },
+    "4b9048f23979c3ef07588bc7ab454617": {
+        "fc_ratio": "0%",
+        "hard_ratio": "50.9%"
+    },
+    "5e29313e98b40e3ae28714116cbac8d0": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.61%"
+    },
+    "06cb2aab8b00bbb28385ccf1ebb70bd6": {
+        "fc_ratio": "6.45%",
+        "hard_ratio": "64.51%"
+    },
+    "aff24fdc15d1352aa9ac71683371f601": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.16%"
+    },
+    "ce11fa9eb9b41ac1b7f6aef7167f5b39": {
+        "fc_ratio": "1.72%",
+        "hard_ratio": "60.34%"
+    },
+    "8ba6c398daedefeb236bb29328dfcdb2": {
+        "fc_ratio": "0%",
+        "hard_ratio": "52.23%"
+    },
+    "5ac6c8ce73c3b9371f52cd66b9498e01": {
+        "fc_ratio": "4.87%",
+        "hard_ratio": "60.97%"
+    },
+    "0b93bba395cfd907c50cd366aefaf0eb": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.52%"
+    },
+    "35247b5136b4bf6f4833e5c1eea61dc4": {
+        "fc_ratio": "2.43%",
+        "hard_ratio": "65.85%"
+    },
+    "f1befc384829e530559c6383e716c018": {
+        "fc_ratio": "4%",
+        "hard_ratio": "56%"
+    },
+    "561f12defdfe2b6f3ce8a23addba194b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "56.66%"
+    },
+    "bed2420ac00bc54481a419c94a9a5854": {
+        "fc_ratio": "0%",
+        "hard_ratio": "52.17%"
+    },
+    "52c471f7736c044b9295eae40364b254": {
+        "fc_ratio": "7.4%",
+        "hard_ratio": "57.4%"
+    },
+    "92e87e37dc27498a746ee5b95e5bee2e": {
+        "fc_ratio": "1.01%",
+        "hard_ratio": "40.4%"
+    },
+    "793cac4e29a42b9e5c453cd950b8235f": {
+        "fc_ratio": "0%",
+        "hard_ratio": "66.66%"
+    },
+    "f15c33ddedb6591621c1d18153e15cb5": {
+        "fc_ratio": "1.31%",
+        "hard_ratio": "56.57%"
+    },
+    "79c41e2e35e5c3fa79943b12819ea97f": {
+        "fc_ratio": "0%",
+        "hard_ratio": "68.29%"
+    },
+    "e840214d5176624b31f17113cfee6714": {
+        "fc_ratio": "0%",
+        "hard_ratio": "63.15%"
+    },
+    "d460652702f239ffbddff064fea0e973": {
+        "fc_ratio": "0%",
+        "hard_ratio": "52.94%"
+    },
+    "f2cb9ebb6e38cebc34138a994c0078f8": {
+        "fc_ratio": "4.03%",
+        "hard_ratio": "53.22%"
+    },
+    "b7f6c85687be9f4a2cc5102f4878e980": {
+        "fc_ratio": "3.38%",
+        "hard_ratio": "47.45%"
+    },
+    "4ab26bd42c2adbda990afa5fe8687756": {
+        "fc_ratio": "2.5%",
+        "hard_ratio": "67.5%"
+    },
+    "a08272dc4fffda4f3a7bcee3c02c0f8a": {
+        "fc_ratio": "0%",
+        "hard_ratio": "58.69%"
+    },
+    "99e2bc123bb1ede98dbff134f9dd68b7": {
+        "fc_ratio": "3.03%",
+        "hard_ratio": "59.09%"
+    },
+    "cf6580650277b2b0b879175b73941264": {
+        "fc_ratio": "5.26%",
+        "hard_ratio": "54.38%"
+    },
+    "011b5b10874d806991feb0c477942c9c": {
+        "fc_ratio": "1.23%",
+        "hard_ratio": "56.79%"
+    },
+    "3af4220ee8a13765c01b079878f14959": {
+        "fc_ratio": "2.89%",
+        "hard_ratio": "46.37%"
+    },
+    "becf72fb235ae8927e4522d1c6566050": {
+        "fc_ratio": "0%",
+        "hard_ratio": "52.83%"
+    },
+    "c68b5ba7cbb981ae427814cafa526521": {
+        "fc_ratio": "8.06%",
+        "hard_ratio": "58.06%"
+    },
+    "e317eb75cd011af0b108748e1222c12d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "69.41%"
+    },
+    "dcaa84c6e380ab1092d353ab990d28ac": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.05%"
+    },
+    "249adb81c4fea78847e5ef0152989772": {
+        "fc_ratio": "0%",
+        "hard_ratio": "51.78%"
+    },
+    "396075bc4b19aba28f5a9f60d1127964": {
+        "fc_ratio": "0%",
+        "hard_ratio": "62.82%"
+    },
+    "6378b0806a38470960b9df4af1ba0f81": {
+        "fc_ratio": "1.08%",
+        "hard_ratio": "51.08%"
+    },
+    "546064d2214268d39a2ebcecda75f103": {
+        "fc_ratio": "0%",
+        "hard_ratio": "66%"
+    },
+    "e84334873ec5fb02006277da1c290106": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.09%"
+    },
+    "1f5e17cdbd7813c8e934df85ebfee814": {
+        "fc_ratio": "0%",
+        "hard_ratio": "66.03%"
+    },
+    "b54a74b2e55736df7ada86a1e9512efd": {
+        "fc_ratio": "0%",
+        "hard_ratio": "80.3%"
+    },
+    "adede958b19becf16bf6886d000d95fc": {
+        "fc_ratio": "0%",
+        "hard_ratio": "48.93%"
+    },
+    "04fe69d67a791ed476e9a0f97de02ee7": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54.71%"
+    },
+    "c4513c91c21383221f2e6b898a606e62": {
+        "fc_ratio": "0%",
+        "hard_ratio": "66.66%"
+    },
+    "072ebbf99042400c0a5d442212ba4f5a": {
+        "fc_ratio": "0%",
+        "hard_ratio": "89.74%"
+    },
+    "f576928a3333959bb3c010c25027719a": {
+        "fc_ratio": "0%",
+        "hard_ratio": "67.1%"
+    },
+    "1587f54e93f458a5503c85f6dd3a54ca": {
+        "fc_ratio": "2.27%",
+        "hard_ratio": "51.13%"
+    },
+    "1ba75ba2104d63623e124fb37edac1b5": {
+        "fc_ratio": "0%",
+        "hard_ratio": "68.75%"
+    },
+    "2177537178bca2e26ae42eead9b52416": {
+        "fc_ratio": "2.43%",
+        "hard_ratio": "65.85%"
+    },
+    "8c5c76b3609e7b1d51ef5c7397c6aa88": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "60%"
+    },
+    "97f0df0f6cbc3e6b4b361d8229207897": {
+        "fc_ratio": "0%",
+        "hard_ratio": "56.41%"
+    },
+    "d954040a6a94a78d82309e037aa6a4fd": {
+        "fc_ratio": "0%",
+        "hard_ratio": "61.36%"
+    },
+    "ca926488791d31768d44fdf03241884a": {
+        "fc_ratio": "3.73%",
+        "hard_ratio": "31.77%"
+    },
+    "8f3e58d8f468a93c7782c4720907b9b9": {
+        "fc_ratio": "0%",
+        "hard_ratio": "40.98%"
+    },
+    "681c9089f59342cdf81ee4e2e555d293": {
+        "fc_ratio": "0%",
+        "hard_ratio": "43.67%"
+    },
+    "ae2557d3c23a458a70fd60d9bb4010fe": {
+        "fc_ratio": "0%",
+        "hard_ratio": "50%"
+    },
+    "ec85a55e97deda79253c8f4b304f30a6": {
+        "fc_ratio": "0%",
+        "hard_ratio": "74.46%"
+    },
+    "29c2cfac65b9b08d7fb648f16f78f05b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "61.25%"
+    },
+    "4a308297ed92ef5b84a2d364e887d476": {
+        "fc_ratio": "2.12%",
+        "hard_ratio": "53.19%"
+    },
+    "28d8b1e57054b92c2d9f563fd3cdcd6b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.3%"
+    },
+    "06162447a43991b159adbb9512b375dc": {
+        "fc_ratio": "1.96%",
+        "hard_ratio": "56.86%"
+    },
+    "108b401298632a4436093d707b0daee1": {
+        "fc_ratio": "2.77%",
+        "hard_ratio": "72.22%"
+    },
+    "92fc8acec5e0a62dd8b7bc1d7476a101": {
+        "fc_ratio": "1.4%",
+        "hard_ratio": "50.7%"
+    },
+    "9ff84715b6f5bfa185805fd1f9fa5fa8": {
+        "fc_ratio": "0%",
+        "hard_ratio": "43.75%"
+    },
+    "85bd39f6c1a8956afe7867541eac7c83": {
+        "fc_ratio": "3.7%",
+        "hard_ratio": "45.67%"
+    },
+    "d2702e55d6ce2334ef6e4585fe5de6e3": {
+        "fc_ratio": "15.38%",
+        "hard_ratio": "64.1%"
+    },
+    "b774b66563f06a9a2ff857ca9d7120e1": {
+        "fc_ratio": "17.28%",
+        "hard_ratio": "49.38%"
+    },
+    "7e95e016f8cbca1445d896f05b2fc2ed": {
+        "fc_ratio": "3.12%",
+        "hard_ratio": "54.68%"
+    },
+    "259367bb085e46f42429f45041829d3b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "65.3%"
+    },
+    "a340ad6acd84023d22eb5576d5816384": {
+        "fc_ratio": "0%",
+        "hard_ratio": "63.79%"
+    },
+    "d65e5326dd65aa13ce4f3c9e06ae8d9a": {
+        "fc_ratio": "12%",
+        "hard_ratio": "61%"
+    },
+    "a929d1867b9e472d737f23e68c504bd7": {
+        "fc_ratio": "0%",
+        "hard_ratio": "55.55%"
+    },
+    "7bfa25b7412084384b9f0f11922b8c70": {
+        "fc_ratio": "6.55%",
+        "hard_ratio": "59.01%"
+    },
+    "c707d6764c1886b44e9bca32315aeba5": {
+        "fc_ratio": "8.88%",
+        "hard_ratio": "66.66%"
+    },
+    "a8500c85651b61cfb60db45b72e18423": {
+        "fc_ratio": "2.7%",
+        "hard_ratio": "56.75%"
+    },
+    "6863b0def6df13c2975e8d806366c060": {
+        "fc_ratio": "7.89%",
+        "hard_ratio": "57.89%"
+    },
+    "b1a57875b1a1e0399e5e029fbe77cec5": {
+        "fc_ratio": "4.76%",
+        "hard_ratio": "71.42%"
+    },
+    "e197e9dbc28cd8dd59f7b1d9b2af0dd4": {
+        "fc_ratio": "0%",
+        "hard_ratio": "44.11%"
+    },
+    "9723c298765dcfb74d283d0fd8382643": {
+        "fc_ratio": "0%",
+        "hard_ratio": "70%"
+    },
+    "518f1985567eb4749d6f36cfc21eb8d3": {
+        "fc_ratio": "2.43%",
+        "hard_ratio": "73.17%"
+    },
+    "c76d3e10f44185144a7773aea228ef86": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.36%"
+    },
+    "edfff105381133217a1b3963a0a40211": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54.54%"
+    },
+    "7f9de92c884e22f8c06a229e6e9e4967": {
+        "fc_ratio": "0%",
+        "hard_ratio": "35.18%"
+    },
+    "c500b9e51964329f47c6493edeab286c": {
+        "fc_ratio": "0%",
+        "hard_ratio": "53.84%"
+    },
+    "8ecf9e393c8ec0771ff5106b26c44e89": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54.54%"
+    },
+    "74b71fb5615b9433bdcab6a690b1608d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "56.25%"
+    },
+    "4407b3b495d2569ffd9d8e226f0d0c4c": {
+        "fc_ratio": "3.5%",
+        "hard_ratio": "50.87%"
+    },
+    "865dc0fbde2a82bcdd0c45a662eff54f": {
+        "fc_ratio": "6.52%",
+        "hard_ratio": "54.34%"
+    },
+    "54f41fb0871e1994989807e025ac8ebe": {
+        "fc_ratio": "0%",
+        "hard_ratio": "45.2%"
+    },
+    "64252fd7db1fd010a3c151442aa623b8": {
+        "fc_ratio": "5.4%",
+        "hard_ratio": "64.86%"
+    },
+    "ff77caa8b636ce664c5ea44c90f76f65": {
+        "fc_ratio": "0%",
+        "hard_ratio": "52.5%"
+    },
+    "7c0ba9c8eb3d20bb76bf13b1f626b887": {
+        "fc_ratio": "6.66%",
+        "hard_ratio": "66.66%"
+    },
+    "41d5a80fb2d73df1dedeff4f20d63e41": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.22%"
+    },
+    "54e7a4815bebbac3b69d48c1bce163de": {
+        "fc_ratio": "0%",
+        "hard_ratio": "37.5%"
+    },
+    "5e7e7d3bb8f0921936ca47bf373c1c81": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54%"
+    },
+    "ded28f8d4dda2947ea4638f374bee967": {
+        "fc_ratio": "0%",
+        "hard_ratio": "23.45%"
+    },
+    "8a543a379d7d4de04e419f1fa3e6f270": {
+        "fc_ratio": "0%",
+        "hard_ratio": "40.47%"
+    },
+    "bc116897e8f36f8a588e7f3159be6e8e": {
+        "fc_ratio": "0%",
+        "hard_ratio": "42.3%"
+    },
+    "844fed47a5bfad444244be99ce3cd8f2": {
+        "fc_ratio": "0%",
+        "hard_ratio": "48.27%"
+    },
+    "21d33968c37acd6ca7ac612f683c7e67": {
+        "fc_ratio": "1.72%",
+        "hard_ratio": "53.44%"
+    },
+    "cb19c7bf3b61665cc4ae14637b0699a7": {
+        "fc_ratio": "0%",
+        "hard_ratio": "21.83%"
+    },
+    "2afecf459743b918914f506107d03b51": {
+        "fc_ratio": "0%",
+        "hard_ratio": "52.06%"
+    },
+    "3c5203fe30e24123a7fdabd24ffd43f0": {
+        "fc_ratio": "0%",
+        "hard_ratio": "65.62%"
+    },
+    "3bb111e59b5460d93aacc064cebd6191": {
+        "fc_ratio": "0%",
+        "hard_ratio": "55.26%"
+    },
+    "76f3572fc1d1bd4ef109ce8b02b9a341": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.05%"
+    },
+    "9e1ee1154edec9208656fddcae603d93": {
+        "fc_ratio": "0%",
+        "hard_ratio": "37.83%"
+    },
+    "d9307fc57e99a0f573b6ddbfcf3b92a8": {
+        "fc_ratio": "0%",
+        "hard_ratio": "40.81%"
+    },
+    "5532a9391027ca7c1feaa26abb19e3a8": {
+        "fc_ratio": "0%",
+        "hard_ratio": "47.61%"
+    },
+    "91c12861de92b739f2f4665e7f588ffe": {
+        "fc_ratio": "0%",
+        "hard_ratio": "43.39%"
+    },
+    "9c3f17c652da9031ad725330e0dbd2bd": {
+        "fc_ratio": "0%",
+        "hard_ratio": "50%"
+    },
+    "abd9d70740d03d8cdf817e933f34796a": {
+        "fc_ratio": "0%",
+        "hard_ratio": "38.18%"
+    },
+    "8b1bd38327e53a527f51dc1e2bb4a6a2": {
+        "fc_ratio": "2%",
+        "hard_ratio": "60%"
+    },
+    "9ec96dd6a76b422b21d7f0b9b47fdb5d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "38%"
+    },
+    "2f12e223050b88c9a0c40bfe1c3da2ec": {
+        "fc_ratio": "0%",
+        "hard_ratio": "48.27%"
+    },
+    "68d70074bd6ab2d921df9c0afcbc1b0b": {
+        "fc_ratio": "10%",
+        "hard_ratio": "60%"
+    },
+    "4180f8fab3ad583a31b24b8d6cad2cab": {
+        "fc_ratio": "1.26%",
+        "hard_ratio": "34.17%"
+    },
+    "25b59408ed251181f2e78e87881fc581": {
+        "fc_ratio": "4.42%",
+        "hard_ratio": "30.08%"
+    },
+    "982d1e9b03aa174ef6cc519c4578864a": {
+        "fc_ratio": "0%",
+        "hard_ratio": "39.65%"
+    },
+    "c26f2850404ec992e7602c6b70e230c4": {
+        "fc_ratio": "0%",
+        "hard_ratio": "34.61%"
+    },
+    "4ad907c76bf407d48d407d2c9dbbfc2e": {
+        "fc_ratio": "0%",
+        "hard_ratio": "65.62%"
+    },
+    "11eae21260b64ada7094e8117f321fed": {
+        "fc_ratio": "0%",
+        "hard_ratio": "37.28%"
+    },
+    "89a4e49dc910a6ce31a37c1aa32418e3": {
+        "fc_ratio": "0%",
+        "hard_ratio": "36%"
+    },
+    "ca595d1530e5cd39b84d610c1a198267": {
+        "fc_ratio": "0%",
+        "hard_ratio": "59.52%"
+    },
+    "204e522a8a1450d28baa489fb1738409": {
+        "fc_ratio": "0%",
+        "hard_ratio": "50.74%"
+    },
+    "29a4297cb803a59cd36e2947435a140d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "34.92%"
+    },
+    "18624b096c8b62e7f9b3fa997353f645": {
+        "fc_ratio": "0%",
+        "hard_ratio": "45.45%"
+    },
+    "a4c4a98f13c2ef9da08c61e8c46697a4": {
+        "fc_ratio": "1.96%",
+        "hard_ratio": "43.13%"
+    },
+    "03bd1bf47fe408f835cf31a3f6262555": {
+        "fc_ratio": "0%",
+        "hard_ratio": "57.69%"
+    },
+    "831be5de415ae5c2f9b30ccedf5aad8b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "44.82%"
+    },
+    "67511e989c25e33058876478aa9566c4": {
+        "fc_ratio": "0%",
+        "hard_ratio": "35.71%"
+    },
+    "6ec50d36a67885a78fc7e3dc4530b314": {
+        "fc_ratio": "0.89%",
+        "hard_ratio": "16.96%"
+    },
+    "5571fdd440253f1ab63ce9f0941f15b3": {
+        "fc_ratio": "0%",
+        "hard_ratio": "28.78%"
+    },
+    "bf0d010be8c2228b9e005a11a9fe19d4": {
+        "fc_ratio": "0%",
+        "hard_ratio": "15.51%"
+    },
+    "4574a01f6a6350b319e8c70373f7fd30": {
+        "fc_ratio": "0%",
+        "hard_ratio": "12.5%"
+    },
+    "95f14007516fc382c36d44aedfcbb1cb": {
+        "fc_ratio": "0%",
+        "hard_ratio": "5.95%"
+    },
+    "e664f93afb3221a236c4de547189ba66": {
+        "fc_ratio": "0%",
+        "hard_ratio": "31.81%"
+    },
+    "71a29e4cc396881b11c389879874598c": {
+        "fc_ratio": "0%",
+        "hard_ratio": "13.95%"
+    },
+    "008eb1ea88e9e45342f867b8bac3965b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "13.23%"
+    },
+    "7108a3a73795a5da5fb9df03d0c2b09d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "11.11%"
+    },
+    "07e59df1b9a638912df4c649aae1fd70": {
+        "fc_ratio": "0%",
+        "hard_ratio": "22.22%"
+    },
+    "738bba604155ae6d59ee6cda8f22e407": {
+        "fc_ratio": "0%",
+        "hard_ratio": "13.79%"
+    },
+    "20aad85c9812c6e3b7bc3633fc72b1c9": {
+        "fc_ratio": "0%",
+        "hard_ratio": "2%"
+    },
+    "2afe37eb636bbddfbd1c3f86dc19f2df": {
+        "fc_ratio": "0%",
+        "hard_ratio": "10%"
+    },
+    "43eb214cfb65388b11933d3902043b77": {
+        "fc_ratio": "0%",
+        "hard_ratio": "29.54%"
+    },
+    "ede96fd4111f6c5796bcf5086780a8b1": {
+        "fc_ratio": "0%",
+        "hard_ratio": "30.55%"
+    },
+    "5bc01c009d2d092ab29a42ddafd66f1c": {
+        "fc_ratio": "0%",
+        "hard_ratio": "16.66%"
+    },
+    "b503c02dd7244355932b56b37229fd6d": {
+        "fc_ratio": "0%",
+        "hard_ratio": "18.18%"
+    },
+    "c41811a5b6a396ffe6ea1371723d8011": {
+        "fc_ratio": "0%",
+        "hard_ratio": "38.7%"
+    },
+    "4789bd0c9b22a03462d59df1baf111db": {
+        "fc_ratio": "0%",
+        "hard_ratio": "21.73%"
+    },
+    "e66a509dcbb4ae2e0aa28e5b713291d4": {
+        "fc_ratio": "0%",
+        "hard_ratio": "13.04%"
+    },
+    "2c71026f26d2dbd66d25b83314a037bc": {
+        "fc_ratio": "50%",
+        "hard_ratio": "87.5%"
+    },
+    "3405c45c99deaa488a9b5a679d416a3d": {
+        "fc_ratio": "60%",
+        "hard_ratio": "80%"
+    },
+    "2b50029567ec5b5b80157f619635bc40": {
+        "fc_ratio": "50%",
+        "hard_ratio": "100%"
+    },
+    "36e267f3f5d1e1a8977024484c84f550": {
+        "fc_ratio": "42.85%",
+        "hard_ratio": "85.71%"
+    },
+    "7d84026c1d7718eca2fe4702df4898b1": {
+        "fc_ratio": "75%",
+        "hard_ratio": "100%"
+    },
+    "fd9ac6dd70b30bc051299fe4ec09e873": {
+        "fc_ratio": "27.27%",
+        "hard_ratio": "81.81%"
+    },
+    "2639f3176e7e2268fdbc3b74718f7309": {
+        "fc_ratio": "75%",
+        "hard_ratio": "100%"
+    },
+    "18d38062f0f1759a56e0854c32ce3bf6": {
+        "fc_ratio": "44.44%",
+        "hard_ratio": "88.88%"
+    },
+    "5d3898c67a4b230324d45cdb107ce6f9": {
+        "fc_ratio": "62.5%",
+        "hard_ratio": "87.5%"
+    },
+    "95bc765271b49d7e9dd90bf47d817f3b": {
+        "fc_ratio": "47.05%",
+        "hard_ratio": "100%"
+    },
+    "f7a6d4dcc24a0e662f42ed315ca91cdd": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "95.83%"
+    },
+    "060f83ccda6208d65d10dde3e12fade6": {
+        "fc_ratio": "56.52%",
+        "hard_ratio": "95.65%"
+    },
+    "9415cf75710e923b901e859704a29531": {
+        "fc_ratio": "5.26%",
+        "hard_ratio": "68.42%"
+    },
+    "ef9c2d92d39bd481b7dde7c51bff687d": {
+        "fc_ratio": "60%",
+        "hard_ratio": "100%"
+    },
+    "4289f57b07e0493a32e0ab266882df0c": {
+        "fc_ratio": "29.41%",
+        "hard_ratio": "100%"
+    },
+    "e166841c39f131f459ad72afa9cd75bf": {
+        "fc_ratio": "11.42%",
+        "hard_ratio": "85.71%"
+    },
+    "a6b84034920940f19253c3b90e24ff5a": {
+        "fc_ratio": "34.78%",
+        "hard_ratio": "91.3%"
+    },
+    "ba519f4db738eb4c08bec3df8724cd4c": {
+        "fc_ratio": "25%",
+        "hard_ratio": "100%"
+    },
+    "397d75db3d6029b3d973bf26d8616a36": {
+        "fc_ratio": "17.85%",
+        "hard_ratio": "89.28%"
+    },
+    "0a61b6ab08d2262d7bac6b15db3e9f62": {
+        "fc_ratio": "31.25%",
+        "hard_ratio": "93.75%"
+    },
+    "6fe970758cc7710221fa5887973cd0af": {
+        "fc_ratio": "50%",
+        "hard_ratio": "95%"
+    },
+    "df04d5d10fff6fc2d4506d2e68597c34": {
+        "fc_ratio": "11.76%",
+        "hard_ratio": "94.11%"
+    },
+    "e66dc8dbca7a591ce81b3167538721d2": {
+        "fc_ratio": "27.27%",
+        "hard_ratio": "90.9%"
+    },
+    "849f8b62022153975722a1ed7a20861d": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "91.66%"
+    },
+    "df43bc2c6122b157995709a9253e7802": {
+        "fc_ratio": "13.33%",
+        "hard_ratio": "100%"
+    },
+    "ba457e44133458d5a8df49aaaf473d08": {
+        "fc_ratio": "26.31%",
+        "hard_ratio": "100%"
+    },
+    "50a6ad43a663e59b867f41a3f2b4e207": {
+        "fc_ratio": "26.66%",
+        "hard_ratio": "93.33%"
+    },
+    "afd3ce464697499c0c21b2afaa9722aa": {
+        "fc_ratio": "9.09%",
+        "hard_ratio": "81.81%"
+    },
+    "d9045a1152d0324e3b9f0e74712aba44": {
+        "fc_ratio": "55%",
+        "hard_ratio": "100%"
+    },
+    "432665ccf956fb93b6e4d55294f38f6e": {
+        "fc_ratio": "19.23%",
+        "hard_ratio": "88.46%"
+    },
+    "6143cce789266e9d85e05c54e1ee0afb": {
+        "fc_ratio": "16%",
+        "hard_ratio": "100%"
+    },
+    "947d6749c44573143c33f3339f3a5ec8": {
+        "fc_ratio": "10.34%",
+        "hard_ratio": "86.2%"
+    },
+    "c87e1c08690282ec9a9e9b6e8d31ce84": {
+        "fc_ratio": "19.35%",
+        "hard_ratio": "100%"
+    },
+    "0d524a5ebfe1a0fba159ba3da1018e5d": {
+        "fc_ratio": "3.57%",
+        "hard_ratio": "96.42%"
+    },
+    "64ba92b9e627b077fdb7de45af78a52e": {
+        "fc_ratio": "10.34%",
+        "hard_ratio": "89.65%"
+    },
+    "37241a326db37fb7faa27770a3aae443": {
+        "fc_ratio": "13.33%",
+        "hard_ratio": "90%"
+    },
+    "e0edaf1a07235f04b6b83132ebd56f2f": {
+        "fc_ratio": "13.04%",
+        "hard_ratio": "91.3%"
+    },
+    "30b7849677a2e076d944132d85e9f1fa": {
+        "fc_ratio": "18.51%",
+        "hard_ratio": "92.59%"
+    },
+    "9a887e46a5d41d996bf6470c19b933af": {
+        "fc_ratio": "6.89%",
+        "hard_ratio": "100%"
+    },
+    "de555093ce3afc477cb539dd9e7742fe": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "92.85%"
+    },
+    "ecb9bb9a21b754427ec9e3526b4ad7a0": {
+        "fc_ratio": "27.27%",
+        "hard_ratio": "96.96%"
+    },
+    "e85bd2afa05792bbae9093319e48293a": {
+        "fc_ratio": "22.22%",
+        "hard_ratio": "100%"
+    },
+    "7f0f24b973c126056310d93494272ff1": {
+        "fc_ratio": "12.5%",
+        "hard_ratio": "96.87%"
+    },
+    "7d95058a3928efe588e5088b4f816c40": {
+        "fc_ratio": "25%",
+        "hard_ratio": "93.75%"
+    },
+    "2b34f508a459cd9d7cc1a6a2e3770d59": {
+        "fc_ratio": "11.11%",
+        "hard_ratio": "88.88%"
+    },
+    "1d459ec39adc4aa2fff25246d443b532": {
+        "fc_ratio": "21.87%",
+        "hard_ratio": "93.75%"
+    },
+    "2c5c77783ffa11a64195811deb8d8d49": {
+        "fc_ratio": "2.94%",
+        "hard_ratio": "97.05%"
+    },
+    "4233bf11b8e191f752f3b8aee839223a": {
+        "fc_ratio": "15.15%",
+        "hard_ratio": "90.9%"
+    },
+    "3fd6411d93ad3d76df1edbdfd8c7dc39": {
+        "fc_ratio": "16.66%",
+        "hard_ratio": "94.44%"
+    },
+    "15ba3a8484c71e952b8e632d05718338": {
+        "fc_ratio": "7.89%",
+        "hard_ratio": "73.68%"
+    },
+    "a6b468d59c793da26a11462a776fe4c6": {
+        "fc_ratio": "4.65%",
+        "hard_ratio": "79.06%"
+    },
+    "ca0f38ddacb5d39c6a0153b245d8c766": {
+        "fc_ratio": "5.12%",
+        "hard_ratio": "76.92%"
+    },
+    "7b126e5fede82e045f157e99f6bb0290": {
+        "fc_ratio": "17.24%",
+        "hard_ratio": "93.1%"
+    },
+    "015d222d4144797d016453e11d86576f": {
+        "fc_ratio": "8.33%",
+        "hard_ratio": "95.83%"
+    },
+    "98809e88f51388ac6e1359397b220349": {
+        "fc_ratio": "5.26%",
+        "hard_ratio": "81.57%"
+    },
+    "b2c43fdcfeade0fcec18e587402f999f": {
+        "fc_ratio": "6.06%",
+        "hard_ratio": "69.69%"
+    },
+    "2912e5ad08101b5d4af0c50ccc672b14": {
+        "fc_ratio": "8.82%",
+        "hard_ratio": "97.05%"
+    },
+    "e3bf50b24e7da202b9c952bb729ffa6e": {
+        "fc_ratio": "3.7%",
+        "hard_ratio": "92.59%"
+    },
+    "d897e5f410bf89b27c6b494ddb0d2a3f": {
+        "fc_ratio": "7.14%",
+        "hard_ratio": "78.57%"
+    },
+    "1f0a68315b0990086030235c0548e2ca": {
+        "fc_ratio": "0%",
+        "hard_ratio": "82.35%"
+    },
+    "492f6804cdeada7c71bb080d14d45bec": {
+        "fc_ratio": "6.66%",
+        "hard_ratio": "64.44%"
+    },
+    "4d0d02fa3540e8ac7f57d90fdc01d24a": {
+        "fc_ratio": "4.54%",
+        "hard_ratio": "81.81%"
+    },
+    "6b6c3dd3e920fa705fce201ff8237dfd": {
+        "fc_ratio": "2.94%",
+        "hard_ratio": "88.23%"
+    },
+    "4f3109d5c702eae2acae49b97f955424": {
+        "fc_ratio": "16.12%",
+        "hard_ratio": "93.54%"
+    },
+    "aa25d6b611dfd923725fcc0995be96a3": {
+        "fc_ratio": "0%",
+        "hard_ratio": "67.85%"
+    },
+    "1116e5915cbfb60fbf5fe9a2dc866e7f": {
+        "fc_ratio": "13.51%",
+        "hard_ratio": "81.08%"
+    },
+    "87b014761875ccaabbd7357b18be0637": {
+        "fc_ratio": "6.45%",
+        "hard_ratio": "77.41%"
+    },
+    "ae089250922cdc61a63d5679801f43d4": {
+        "fc_ratio": "0%",
+        "hard_ratio": "68%"
+    },
+    "8148dce7cfb88e2a0fb8597ec7f90004": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54.54%"
+    },
+    "dbe7669e70e55f8c123435ed14d2afaa": {
+        "fc_ratio": "0%",
+        "hard_ratio": "54.28%"
+    },
+    "1c1f6033faef62685843814abb42472a": {
+        "fc_ratio": "0%",
+        "hard_ratio": "68%"
+    },
+    "096ac0829943aa14afbd41eb07df8c9b": {
+        "fc_ratio": "0%",
+        "hard_ratio": "55.55%"
+    },
+    "800a152c2fcdfca65eff580fac9640e6": {
+        "fc_ratio": "5.55%",
+        "hard_ratio": "66.66%"
+    },
+    "9ec3d6ef54301ae62274fefe47635df8": {
+        "fc_ratio": "0%",
+        "hard_ratio": "61.11%"
+    },
+    "2cfdfc8709c696b02144fc4d0ba793ec": {
+        "fc_ratio": "5.88%",
+        "hard_ratio": "70.58%"
+    },
+    "1142c71775adcf6812ac5f477af58d8e": {
+        "fc_ratio": "0%",
+        "hard_ratio": "60%"
+    },
+    "0617f3886cf27c769dcfcc8e6f8e8caa": {
+        "fc_ratio": "0%",
+        "hard_ratio": "70.58%"
+    },
+    "81dde994ad6a7e012a743c33a7cb2761": {
+        "fc_ratio": "5%",
+        "hard_ratio": "55%"
+    },
+    "9c26f359d914b8e172909bf676362811": {
+        "fc_ratio": "0%",
+        "hard_ratio": "16.66%"
+    },
+    "9b6597ee48d1c98e19f27adb929537b1": {
+        "fc_ratio": "0%",
+        "hard_ratio": "31.25%"
+    },
+    "04009c7364cbd03f2bd3cd08cef262ef": {
+        "fc_ratio": "0%",
+        "hard_ratio": "66.66%"
+    }
+}

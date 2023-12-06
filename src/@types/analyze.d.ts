@@ -12,5 +12,6 @@ export interface IHistory {
         bp: number;
         rate: number;
         md5: string;
+        level: string;
     }[];
 }

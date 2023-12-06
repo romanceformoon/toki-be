@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { Database } from 'sqlite3';
 import { logger } from '~/config/winston';
+import ratingData from '~/utils/aery/ratingData.json';
 import { sqliteGetSync } from '../sqliteGetSync';
 import { danData } from './danData';
 
@@ -15,6 +16,8 @@ export const generateAeryScoreData = async (db: Database) => {
         );
         const tableData = data.data;
 
+        const ratingDataJson: any = ratingData;
+
         let userExp = 0;
 
         for (const data of tableData) {
@@ -22,6 +25,14 @@ export const generateAeryScoreData = async (db: Database) => {
             const numberLevel = parseInt(currentSongLevel.split(' ')[1]);
 
             if (currentSongLevel === 'LEVEL DUMMY') continue;
+
+            const fcRatio = parseFloat(
+                ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')
+            );
+
+            const hardRatio = parseFloat(
+                ratingDataJson[data['md5']]['hard_ratio'].replace('%', '')
+            );
 
             const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
             const hardBonus = 100;
@@ -46,13 +57,10 @@ export const generateAeryScoreData = async (db: Database) => {
                         (FCLevel ** numberLevel).toFixed(2)
                     );
 
+                    // Full Combo는 BP에 따른 경험치 감소 제외
                     const addScore =
-                        baseScore +
-                        (1 / (Math.abs(row['minbp']) + 1)) * 100 +
-                        fcBonus +
-                        Math.abs(row['rate']) +
-                        0.1;
-                    userExp += addScore;
+                        baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
+                    userExp += addScore + (100 - fcRatio) ** (numberLevel / 10);
                 } else if (row['clear'] === 4) {
                     const baseScore = parseFloat(
                         (hardLevel ** numberLevel).toFixed(2)
@@ -64,7 +72,8 @@ export const generateAeryScoreData = async (db: Database) => {
                         hardBonus +
                         Math.abs(row['rate']) +
                         0.1;
-                    userExp += addScore;
+                    userExp +=
+                        addScore + (100 - hardRatio) ** (numberLevel / 10);
                 } else if (row['clear'] === 3) {
                     const baseScore = parseFloat(
                         (grooveLevel ** numberLevel).toFixed(2)

@@ -2,6 +2,7 @@ import axios from 'axios';
 import { Database } from 'sqlite3';
 import { IHistory } from '~/@types/analyze';
 import { logger } from '~/config/winston';
+import ratingData from '~/utils/aery/ratingData.json';
 import { sqliteGetSync } from '../sqliteGetSync';
 
 export const generateAeryHistory = async (db: Database) => {
@@ -36,11 +37,21 @@ export const generateAeryHistory = async (db: Database) => {
         );
         const tableData = data.data;
 
+        const ratingDataJson: any = ratingData;
+
         for (const data of tableData) {
             const currentSongLevel: string = data['level'];
             const numberLevel = parseInt(currentSongLevel.split(' ')[1]);
 
             if (currentSongLevel === 'LEVEL DUMMY') continue;
+
+            const fcRatio = parseFloat(
+                ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')
+            );
+
+            const hardRatio = parseFloat(
+                ratingDataJson[data['md5']]['hard_ratio'].replace('%', '')
+            );
 
             const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
             const hardBonus = 100;
@@ -66,26 +77,25 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: 0,
                         rate: 0,
                         md5: data['md5'],
+                        level: data['level'],
                     });
                 } else if (row['clear'] === 5) {
                     const baseScore = parseFloat(
                         (FCLevel ** numberLevel).toFixed(2)
                     );
 
+                    // Full Combo는 BP에 따른 경험치 감소 제외
                     const addScore =
-                        baseScore +
-                        (1 / (Math.abs(row['minbp']) + 1)) * 100 +
-                        fcBonus +
-                        Math.abs(row['rate']) +
-                        0.1;
+                        baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
 
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'FULL COMBO',
-                        exp: addScore,
+                        exp: addScore + (100 - fcRatio) ** (numberLevel / 10),
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
+                        level: data['level'],
                     });
                 } else if (row['clear'] === 4) {
                     const baseScore = parseFloat(
@@ -102,10 +112,11 @@ export const generateAeryHistory = async (db: Database) => {
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'HARD CLEAR',
-                        exp: addScore,
+                        exp: addScore + (100 - hardRatio) ** (numberLevel / 10),
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
+                        level: data['level'],
                     });
                 } else if (row['clear'] === 3) {
                     const baseScore = parseFloat(
@@ -126,6 +137,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
+                        level: data['level'],
                     });
                 } else if (row['clear'] === 2) {
                     const baseScore = parseFloat(
@@ -146,6 +158,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
+                        level: data['level'],
                     });
                 } else if (row['clear'] === 1) {
                     const addScore =
@@ -160,6 +173,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
+                        level: data['level'],
                     });
                 }
             } catch (err) {
