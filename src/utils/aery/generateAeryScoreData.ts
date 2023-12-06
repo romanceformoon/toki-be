@@ -139,7 +139,6 @@ export const generateAeryScoreData = async (db: Database) => {
             lr2Id = row['irid'];
         } catch (err) {
             logger.error(err);
-            rej(err);
         }
 
         res({ userExp, clearDan, lr2Id });
