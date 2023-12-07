@@ -40,7 +40,7 @@ export const analyze = (req: Request, res: Response) => {
                     if (queryResult.length === 0) {
                         try {
                             await req.database.query(
-                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating) VALUES(?, ?, ?)',
+                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating) VALUES(?, ?, ?, ?)',
                                 [decoded['uid'], userExp, clearDan, topExp]
                             );
                         } catch (err) {
