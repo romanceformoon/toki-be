@@ -23,13 +23,16 @@ export const changeNickname = async (req: Request, res: Response) => {
                 [nickname, decoded['uid']]
             );
         } catch (err) {
+            req.database.end();
             return res.status(500).json({ result: 'DB Failed' });
         }
 
+        req.database.end();
         return res.status(200).json({
             nickname,
         });
     } catch (err) {
+        req.database.end();
         logger.error(err);
         return res.status(500).json({ result: 'Failed' });
     }

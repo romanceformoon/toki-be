@@ -22,18 +22,19 @@ export const getEXPRanking = async (req: Request, res: Response) => {
                         avatar: userQuery[0].avatar,
                         nickname: userQuery[0].nickname,
                         exp: user.aery_exp,
-                        clearDan: user.aery_dan ?? "None",
+                        clearDan: user.aery_dan ?? 'None',
                     });
                 }
             }
 
             req.database.end();
-
             return res.status(200).json(result);
         } else {
+            req.database.end();
             return res.status(500).send('No DB Data');
         }
     } catch (err) {
+        req.database.end();
         logger.error(`Error occured: ${err}`);
         return res.status(500).send('Unknown error occurred.');
     }

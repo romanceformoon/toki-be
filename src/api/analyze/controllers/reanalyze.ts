@@ -48,6 +48,7 @@ export const reanalyze = async (req: Request, res: Response) => {
         req.database.end();
         return res.status(200).json({ result: 'Success' });
     } catch (err) {
+        req.database.end();
         logger.error(`Error occured: ${err}`);
         return res.status(500).send('Unknown error occurred.');
     }

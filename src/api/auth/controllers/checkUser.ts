@@ -18,7 +18,6 @@ export const checkUser = async (req: Request, res: Response) => {
         );
 
         req.database.end();
-
         return res.status(200).json({
             user: {
                 uid: decoded['uid'],
@@ -27,6 +26,7 @@ export const checkUser = async (req: Request, res: Response) => {
             },
         });
     } catch (err) {
+        req.database.end();
         logger.error(err);
         return res.status(500).json({ result: 'Failed' });
     }

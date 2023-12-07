@@ -61,6 +61,7 @@ export const getUser = async (req: Request, res: Response) => {
             });
         }
     } catch (err) {
+        req.database.end();
         logger.error(`Error occured: ${err}`);
         return res.status(500).send('Unknown error occurred.');
     }

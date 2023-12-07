@@ -122,6 +122,7 @@ export const discordLogin = async (req: Request, res: Response) => {
             accessToken: accessToken,
         });
     } catch (err) {
+        req.database.end();
         logger.error(err);
         return res.status(500).json({ result: 'Failed' });
     }

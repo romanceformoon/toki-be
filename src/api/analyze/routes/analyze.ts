@@ -15,8 +15,8 @@ router.post('/', authChecker, databaseConnector, analyze);
 router.post('/reanalyze', databaseConnector, reanalyze);
 
 router.get('/user/score/:uid', databaseConnector, getUser);
-router.get('/user/graph/:uid', databaseConnector, getGraph);
-router.get('/user/history/:uid', databaseConnector, getHistory);
+router.get('/user/graph/:uid', getGraph);
+router.get('/user/history/:uid', getHistory);
 
 router.get('/ranking', databaseConnector, getEXPRanking);
 router.get('/rating-ranking', databaseConnector, getRatingRanking);

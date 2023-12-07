@@ -29,12 +29,13 @@ export const getRatingRanking = async (req: Request, res: Response) => {
             }
 
             req.database.end();
-
             return res.status(200).json(result);
         } else {
+            req.database.end();
             return res.status(500).send('No DB Data');
         }
     } catch (err) {
+        req.database.end();
         logger.error(`Error occured: ${err}`);
         return res.status(500).send('Unknown error occurred.');
     }

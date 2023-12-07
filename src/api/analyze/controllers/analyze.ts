@@ -69,10 +69,12 @@ export const analyze = (req: Request, res: Response) => {
                 }
             });
         } else {
+            req.database.end();
             logger.error(`file not available`);
             return res.status(400).send('file not available');
         }
     } catch (err) {
+        req.database.end();
         logger.error(`Error occured: ${err}`);
         return res.status(500).send('Unknown error occurred.');
     }
