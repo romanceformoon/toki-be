@@ -61,7 +61,7 @@ export const generateAeryHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['hard_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const fcBonus = 300 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const hardBonus = 100 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const grooveBonus = 50;
             const easyBonus = 25;

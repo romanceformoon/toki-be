@@ -39,7 +39,7 @@ export const generateStellaHistory = async (db: Database) => {
 
         for (const data of tableData) {
             const currentSongLevel: string = 'LEVEL ' + data['level'];
-            const numberLevel = parseInt(data['level']) * 2;
+            const numberLevel = (parseInt(data['level']) + 1) * 2;
 
             const fcRatio = parseFloat(
                 ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')
@@ -57,7 +57,7 @@ export const generateStellaHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['easy_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
+            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
             const hardBonus = 100 + parseFloat((1.3 ** numberLevel).toFixed(2));
             const grooveBonus =
                 50 + parseFloat((1.25 ** numberLevel).toFixed(2));
