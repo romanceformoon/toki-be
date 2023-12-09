@@ -57,7 +57,7 @@ export const generateSatelliteHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['easy_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
             const hardBonus = 100 + parseFloat((1.3 ** numberLevel).toFixed(2));
             const grooveBonus =
                 50 + parseFloat((1.25 ** numberLevel).toFixed(2));
@@ -93,7 +93,8 @@ export const generateSatelliteHistory = async (db: Database) => {
                     const addScore =
                         baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
 
-                    const ratingWeight = (100 - fcRatio) ** (numberLevel / 10);
+                    const ratingWeight =
+                        ((100 - fcRatio) / 10) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
@@ -122,7 +123,7 @@ export const generateSatelliteHistory = async (db: Database) => {
                         0.1;
 
                     const ratingWeight =
-                        (100 - hardRatio) ** (numberLevel / 10);
+                        ((100 - hardRatio) / 5) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 

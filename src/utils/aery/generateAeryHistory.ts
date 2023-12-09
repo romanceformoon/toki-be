@@ -61,7 +61,7 @@ export const generateAeryHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['hard_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.2 ** numberLevel).toFixed(2));
+            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
             const hardBonus = 100 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const grooveBonus = 50;
             const easyBonus = 25;
@@ -96,7 +96,8 @@ export const generateAeryHistory = async (db: Database) => {
                     const addScore =
                         baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
 
-                    const ratingWeight = (100 - fcRatio) ** (numberLevel / 10);
+                    const ratingWeight =
+                        ((100 - fcRatio) / 10) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
@@ -125,7 +126,7 @@ export const generateAeryHistory = async (db: Database) => {
                         0.1;
 
                     const ratingWeight =
-                        (100 - hardRatio) ** (numberLevel / 10);
+                        ((100 - hardRatio) / 5) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
