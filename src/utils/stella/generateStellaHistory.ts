@@ -94,7 +94,7 @@ export const generateStellaHistory = async (db: Database) => {
                         baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
 
                     const ratingWeight =
-                        ((100 - fcRatio) / 10) ** (numberLevel / 10);
+                        ((100 - fcRatio) / 5) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
@@ -123,7 +123,7 @@ export const generateStellaHistory = async (db: Database) => {
                         0.1;
 
                     const ratingWeight =
-                        ((100 - hardRatio) / 5) ** (numberLevel / 10);
+                        ((100 - hardRatio) / 4) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
@@ -152,7 +152,7 @@ export const generateStellaHistory = async (db: Database) => {
                         0.1;
 
                     const ratingWeight =
-                        (100 - grooveRatio) ** (numberLevel / 10);
+                        ((100 - grooveRatio) / 3) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
@@ -181,7 +181,7 @@ export const generateStellaHistory = async (db: Database) => {
                         0.1;
 
                     const ratingWeight =
-                        (100 - easyRatio) ** (numberLevel / 10);
+                        ((100 - easyRatio) / 2) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
