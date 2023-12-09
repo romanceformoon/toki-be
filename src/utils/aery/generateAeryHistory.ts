@@ -97,7 +97,7 @@ export const generateAeryHistory = async (db: Database) => {
                         baseScore + 100 + fcBonus + Math.abs(row['rate']) + 0.1;
 
                     const ratingWeight =
-                        ((100 - fcRatio) / 5) ** (numberLevel / 10);
+                        ((100 - fcRatio) / 4) ** (numberLevel / 10);
 
                     const finalExp = addScore + ratingWeight;
 
