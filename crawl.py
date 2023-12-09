@@ -3,7 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-_resp = requests.get('https://asumatoki.kr/table/aery/data.json')
+_resp = requests.get('https://asumatoki.kr/table/insane/data.json')
 aery_data = _resp.json()
 
 data = {}
@@ -17,13 +17,15 @@ for _ in aery_data:
 
         fc_ratio = result[0].text
         hard_ratio = result[1].text
+        groove_ratio = result[2].text
+        easy_ratio = result[3].text
 
         print({
-            "fc_ratio": fc_ratio, "hard_ratio": hard_ratio
+            "fc_ratio": fc_ratio, "hard_ratio": hard_ratio, "groove_ratio": groove_ratio, "easy_ratio": easy_ratio
         })
 
         data[_["md5"]] = {
-            "fc_ratio": fc_ratio, "hard_ratio": hard_ratio
+            "fc_ratio": fc_ratio, "hard_ratio": hard_ratio, "groove_ratio": groove_ratio, "easy_ratio": easy_ratio
         }
 
 

@@ -61,8 +61,8 @@ export const generateAeryHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['hard_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
-            const hardBonus = 100;
+            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const hardBonus = 100 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const grooveBonus = 50;
             const easyBonus = 25;
 
@@ -98,18 +98,20 @@ export const generateAeryHistory = async (db: Database) => {
 
                     const ratingWeight = (100 - fcRatio) ** (numberLevel / 10);
 
+                    const finalExp = addScore + ratingWeight;
+
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'FULL COMBO',
-                        exp: addScore + ratingWeight,
+                        exp: finalExp,
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
                         level: data['level'],
                     });
 
-                    userExp += addScore + ratingWeight;
-                    top50.push(addScore + ratingWeight);
+                    userExp += finalExp;
+                    top50.push(finalExp);
                 } else if (row['clear'] === 4) {
                     const baseScore = parseFloat(
                         (hardLevel ** numberLevel).toFixed(2)
@@ -125,18 +127,20 @@ export const generateAeryHistory = async (db: Database) => {
                     const ratingWeight =
                         (100 - hardRatio) ** (numberLevel / 10);
 
+                    const finalExp = addScore + ratingWeight;
+
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'HARD CLEAR',
-                        exp: addScore + ratingWeight,
+                        exp: finalExp,
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
                         level: data['level'],
                     });
 
-                    userExp += addScore + ratingWeight;
-                    top50.push(addScore + ratingWeight);
+                    userExp += finalExp;
+                    top50.push(finalExp);
                 } else if (row['clear'] === 3) {
                     const baseScore = parseFloat(
                         (grooveLevel ** numberLevel).toFixed(2)

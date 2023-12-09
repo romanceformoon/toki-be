@@ -66,16 +66,24 @@ export const generateInsaneHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['hard_ratio'].replace('%', '')
             );
 
+            const grooveRatio = parseFloat(
+                ratingDataJson[data['md5']]['groove_ratio'].replace('%', '')
+            );
+
+            const easyRatio = parseFloat(
+                ratingDataJson[data['md5']]['easy_ratio'].replace('%', '')
+            );
+
             const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
             const hardBonus = 100 + parseFloat((1.3 ** numberLevel).toFixed(2));
             const grooveBonus =
-                50 + parseFloat((1.2 ** numberLevel).toFixed(2));
-            const easyBonus = 25 + parseFloat((1.1 ** numberLevel).toFixed(2));
+                50 + parseFloat((1.25 ** numberLevel).toFixed(2));
+            const easyBonus = 50 + parseFloat((1.2 ** numberLevel).toFixed(2));
 
-            const FCLevel = 1.35;
-            const hardLevel = 1.3;
-            const grooveLevel = 1.25;
-            const easyLevel = 1.2;
+            const FCLevel = 1.55;
+            const hardLevel = 1.5;
+            const grooveLevel = 1.3;
+            const easyLevel = 1.1;
 
             try {
                 const row = await sqliteGetSync(
@@ -104,18 +112,20 @@ export const generateInsaneHistory = async (db: Database) => {
 
                     const ratingWeight = (100 - fcRatio) ** (numberLevel / 10);
 
+                    const finalExp = addScore + ratingWeight;
+
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'FULL COMBO',
-                        exp: addScore + ratingWeight,
+                        exp: finalExp,
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
                         level: currentSongLevel,
                     });
 
-                    userExp += addScore + ratingWeight;
-                    top50.push(addScore + ratingWeight);
+                    userExp += finalExp;
+                    top50.push(finalExp);
                 } else if (row['clear'] === 4) {
                     const baseScore = parseFloat(
                         (hardLevel ** numberLevel).toFixed(2)
@@ -131,18 +141,20 @@ export const generateInsaneHistory = async (db: Database) => {
                     const ratingWeight =
                         (100 - hardRatio) ** (numberLevel / 10);
 
+                    const finalExp = addScore + ratingWeight;
+
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'HARD CLEAR',
-                        exp: addScore + ratingWeight,
+                        exp: finalExp,
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
                         level: currentSongLevel,
                     });
 
-                    userExp += addScore + ratingWeight;
-                    top50.push(addScore + ratingWeight);
+                    userExp += finalExp;
+                    top50.push(finalExp);
                 } else if (row['clear'] === 3) {
                     const baseScore = parseFloat(
                         (grooveLevel ** numberLevel).toFixed(2)
@@ -155,18 +167,23 @@ export const generateInsaneHistory = async (db: Database) => {
                         Math.abs(row['rate']) +
                         0.1;
 
+                    const ratingWeight =
+                        (100 - grooveRatio) ** (numberLevel / 10);
+
+                    const finalExp = addScore + ratingWeight;
+
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'GROOVE CLEAR',
-                        exp: addScore,
+                        exp: finalExp,
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
                         level: currentSongLevel,
                     });
 
-                    userExp += addScore;
-                    top50.push(addScore);
+                    userExp += finalExp;
+                    top50.push(finalExp);
                 } else if (row['clear'] === 2) {
                     const baseScore = parseFloat(
                         (easyLevel ** numberLevel).toFixed(2)
@@ -179,18 +196,23 @@ export const generateInsaneHistory = async (db: Database) => {
                         Math.abs(row['rate']) +
                         0.1;
 
+                    const ratingWeight =
+                        (100 - easyRatio) ** (numberLevel / 10);
+
+                    const finalExp = addScore + ratingWeight;
+
                     history[currentSongLevel].push({
                         title: data['title'],
                         clear: 'EASY CLEAR',
-                        exp: addScore,
+                        exp: finalExp,
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
                         level: currentSongLevel,
                     });
 
-                    userExp += addScore;
-                    top50.push(addScore);
+                    userExp += finalExp;
+                    top50.push(finalExp);
                 } else if (row['clear'] === 1) {
                     const addScore =
                         (1 / (Math.abs(row['minbp']) + 1)) * 100 +
