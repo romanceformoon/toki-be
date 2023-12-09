@@ -2,11 +2,11 @@ import axios from 'axios';
 import { Database } from 'sqlite3';
 import { IHistory } from '~/@types/analyze';
 import { logger } from '~/config/winston';
-import ratingData from '~/utils/aery/ratingData.json';
+import ratingData from '~/utils/insane/ratingData.json';
 import { sqliteGetSync } from '../sqliteGetSync';
 import { danData } from './danData';
 
-export const generateAeryHistory = async (db: Database) => {
+export const generateInsaneHistory = async (db: Database) => {
     return new Promise<{
         history: IHistory;
         userExp: number;
@@ -34,10 +34,15 @@ export const generateAeryHistory = async (db: Database) => {
             'LEVEL 18': [],
             'LEVEL 19': [],
             'LEVEL 20': [],
+            'LEVEL 21': [],
+            'LEVEL 22': [],
+            'LEVEL 23': [],
+            'LEVEL 24': [],
+            'LEVEL 25': [],
         };
 
         const data = await axios.get(
-            'https://asumatoki.kr/table/aery/data.json'
+            'https://asumatoki.kr/table/insane/data.json'
         );
         const tableData = data.data;
 
@@ -48,10 +53,10 @@ export const generateAeryHistory = async (db: Database) => {
         const top50 = [];
 
         for (const data of tableData) {
-            const currentSongLevel: string = data['level'];
-            const numberLevel = parseInt(currentSongLevel.split(' ')[1]);
+            const currentSongLevel: string = 'LEVEL ' + data['level'];
+            const numberLevel = parseInt(data['level']);
 
-            if (currentSongLevel === 'LEVEL DUMMY') continue;
+            if (data['level'] === '???') continue;
 
             const fcRatio = parseFloat(
                 ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')
@@ -62,14 +67,15 @@ export const generateAeryHistory = async (db: Database) => {
             );
 
             const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
-            const hardBonus = 100;
-            const grooveBonus = 50;
-            const easyBonus = 25;
+            const hardBonus = 100 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const grooveBonus =
+                50 + parseFloat((1.2 ** numberLevel).toFixed(2));
+            const easyBonus = 25 + parseFloat((1.1 ** numberLevel).toFixed(2));
 
-            const FCLevel = 1.55;
-            const hardLevel = 1.5;
-            const grooveLevel = 1.3;
-            const easyLevel = 1.1;
+            const FCLevel = 1.35;
+            const hardLevel = 1.3;
+            const grooveLevel = 1.25;
+            const easyLevel = 1.2;
 
             try {
                 const row = await sqliteGetSync(
@@ -85,7 +91,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: 0,
                         rate: 0,
                         md5: data['md5'],
-                        level: data['level'],
+                        level: currentSongLevel,
                     });
                 } else if (row['clear'] === 5) {
                     const baseScore = parseFloat(
@@ -105,7 +111,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
-                        level: data['level'],
+                        level: currentSongLevel,
                     });
 
                     userExp += addScore + ratingWeight;
@@ -132,7 +138,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
-                        level: data['level'],
+                        level: currentSongLevel,
                     });
 
                     userExp += addScore + ratingWeight;
@@ -156,7 +162,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
-                        level: data['level'],
+                        level: currentSongLevel,
                     });
 
                     userExp += addScore;
@@ -180,7 +186,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
-                        level: data['level'],
+                        level: currentSongLevel,
                     });
 
                     userExp += addScore;
@@ -198,7 +204,7 @@ export const generateAeryHistory = async (db: Database) => {
                         bp: row['minbp'],
                         rate: row['rate'],
                         md5: data['md5'],
-                        level: data['level'],
+                        level: currentSongLevel,
                     });
 
                     userExp += addScore;

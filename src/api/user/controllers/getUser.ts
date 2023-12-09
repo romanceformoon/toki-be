@@ -6,6 +6,7 @@ import { getLR2ID } from '~/utils/getLR2ID';
 export const getUser = async (req: Request, res: Response) => {
     try {
         const uid = req.params.uid;
+        const category = req.params.category;
 
         if (!uid) return res.status(404).send('User not found');
 
@@ -14,12 +15,21 @@ export const getUser = async (req: Request, res: Response) => {
             [uid]
         );
 
-        const [scoreQuery] = await req.database.query(
-            'SELECT aery_exp, aery_dan FROM score WHERE uid = ?',
-            [uid]
-        );
+        let scoreQueryString = '';
+        if (category === 'aery') {
+            scoreQueryString =
+                'SELECT aery_exp, aery_dan FROM score WHERE uid = ?';
+        } else if (category === 'insane') {
+            scoreQueryString =
+                'SELECT insane_exp, insane_dan FROM score WHERE uid = ?';
+        }
+
+        const [scoreQuery] = await req.database.query(scoreQueryString, [uid]);
 
         req.database.end();
+
+        let exp = 0;
+        let clearDan = 'None';
 
         const tempPath = `scores/${uid}`;
 
@@ -32,12 +42,20 @@ export const getUser = async (req: Request, res: Response) => {
 
                 db.close();
 
+                if (category === 'aery') {
+                    exp = scoreQuery[0].aery_exp;
+                    clearDan = scoreQuery[0].aery_dan;
+                } else if (category === 'insane') {
+                    exp = scoreQuery[0].insane_exp;
+                    clearDan = scoreQuery[0].insane_dan;
+                }
+
                 return res.status(200).json({
                     uid,
                     nickname: userQuery[0].nickname,
                     avatar: userQuery[0].avatar,
-                    exp: scoreQuery[0].aery_exp,
-                    clearDan: scoreQuery[0].aery_dan,
+                    exp,
+                    clearDan,
                     lr2Id,
                 });
             } catch (err) {
@@ -45,8 +63,8 @@ export const getUser = async (req: Request, res: Response) => {
                     uid,
                     nickname: userQuery[0].nickname,
                     avatar: userQuery[0].avatar,
-                    exp: 0,
-                    clearDan: 'None',
+                    exp,
+                    clearDan,
                     lr2Id: 0,
                 });
             }
@@ -55,8 +73,8 @@ export const getUser = async (req: Request, res: Response) => {
                 uid,
                 nickname: userQuery[0].nickname,
                 avatar: userQuery[0].avatar,
-                exp: 0,
-                clearDan: 'None',
+                exp,
+                clearDan,
                 lr2Id: 0,
             });
         }

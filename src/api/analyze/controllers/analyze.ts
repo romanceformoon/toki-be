@@ -3,7 +3,8 @@ import { UploadedFile } from 'express-fileupload';
 import jwt from 'jsonwebtoken';
 import { IAuth } from '~/@types/auth';
 import { logger } from '~/config/winston';
-import { generateAeryScoreData } from '~/utils/aery/generateAeryScoreData';
+import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
+import { generateInsaneHistory } from '~/utils/insane/generateInsaneHistory';
 
 export const analyze = (req: Request, res: Response) => {
     try {
@@ -27,8 +28,17 @@ export const analyze = (req: Request, res: Response) => {
                     const sqlite3 = require('sqlite3').verbose();
                     const db = new sqlite3.Database(tempPath);
 
-                    const { userExp, clearDan, topExp } =
-                        await generateAeryScoreData(db);
+                    const {
+                        userExp: aeryExp,
+                        clearDan: aeryDan,
+                        topExp: aeryTopExp,
+                    } = await generateAeryHistory(db);
+
+                    const {
+                        userExp: insaneExp,
+                        clearDan: insaneDan,
+                        topExp: insaneTopExp,
+                    } = await generateInsaneHistory(db);
 
                     db.close();
 
@@ -40,8 +50,16 @@ export const analyze = (req: Request, res: Response) => {
                     if (queryResult.length === 0) {
                         try {
                             await req.database.query(
-                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating) VALUES(?, ?, ?, ?)',
-                                [decoded['uid'], userExp, clearDan, topExp]
+                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating, insane_exp, insane_dan, insane_rating) VALUES(?, ?, ?, ?, ?, ?, ?)',
+                                [
+                                    decoded['uid'],
+                                    aeryExp,
+                                    aeryDan,
+                                    aeryTopExp,
+                                    insaneExp,
+                                    insaneDan,
+                                    insaneTopExp,
+                                ]
                             );
                         } catch (err) {
                             logger.error(err);
@@ -52,8 +70,16 @@ export const analyze = (req: Request, res: Response) => {
                     } else {
                         try {
                             await req.database.query(
-                                'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ? WHERE uid = ?',
-                                [userExp, clearDan, topExp, decoded['uid']]
+                                'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ?, insane_exp = ?, insane_dan = ?, insane_rating = ? WHERE uid = ?',
+                                [
+                                    aeryExp,
+                                    aeryDan,
+                                    aeryTopExp,
+                                    insaneExp,
+                                    insaneDan,
+                                    insaneTopExp,
+                                    decoded['uid'],
+                                ]
                             );
                         } catch (err) {
                             logger.error(err);

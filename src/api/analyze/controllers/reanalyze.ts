@@ -1,7 +1,8 @@
 import { Request, Response } from 'express';
 import { readdir } from 'fs/promises';
 import { logger } from '~/config/winston';
-import { generateAeryScoreData } from '~/utils/aery/generateAeryScoreData';
+import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
+import { generateInsaneHistory } from '~/utils/insane/generateInsaneHistory';
 
 export const reanalyze = async (req: Request, res: Response) => {
     try {
@@ -11,10 +12,18 @@ export const reanalyze = async (req: Request, res: Response) => {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(`scores/${dbFile}`);
 
-            const { userExp, clearDan, topExp } = await generateAeryScoreData(
-                db
-            );
+            const {
+                userExp: aeryExp,
+                clearDan: aeryDan,
+                topExp: aeryTopExp,
+            } = await generateAeryHistory(db);
 
+            const {
+                userExp: insaneExp,
+                clearDan: insaneDan,
+                topExp: insaneTopExp,
+            } = await generateInsaneHistory(db);
+            
             db.close();
 
             const [queryResult] = await req.database.query(
@@ -25,8 +34,16 @@ export const reanalyze = async (req: Request, res: Response) => {
             if (queryResult.length === 0) {
                 try {
                     await req.database.query(
-                        'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating) VALUES(?, ?, ?)',
-                        [dbFile, userExp, clearDan]
+                        'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating, insane_exp, insane_dan, insane_rating) VALUES(?, ?, ?, ?, ?, ?, ?)',
+                        [
+                            dbFile,
+                            aeryExp,
+                            aeryDan,
+                            aeryTopExp,
+                            insaneExp,
+                            insaneDan,
+                            insaneTopExp,
+                        ]
                     );
                 } catch (err) {
                     logger.error(err);
@@ -35,8 +52,16 @@ export const reanalyze = async (req: Request, res: Response) => {
             } else {
                 try {
                     await req.database.query(
-                        'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ? WHERE uid = ?',
-                        [userExp, clearDan, topExp, dbFile]
+                        'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ?, insane_exp = ?, insane_dan = ?, insane_rating = ? WHERE uid = ?',
+                        [
+                            aeryExp,
+                            aeryDan,
+                            aeryTopExp,
+                            insaneExp,
+                            insaneDan,
+                            insaneTopExp,
+                            dbFile,
+                        ]
                     );
                 } catch (err) {
                     logger.error(err);

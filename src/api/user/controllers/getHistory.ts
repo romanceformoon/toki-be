@@ -2,10 +2,12 @@ import { Request, Response } from 'express';
 import { existsSync } from 'fs';
 import { logger } from '~/config/winston';
 import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
+import { generateInsaneHistory } from '~/utils/insane/generateInsaneHistory';
 
 export const getHistory = async (req: Request, res: Response) => {
     try {
         const uid = req.params.uid;
+        const category = req.params.category;
 
         if (!uid) return res.status(404).send('User not found');
 
@@ -15,11 +17,17 @@ export const getHistory = async (req: Request, res: Response) => {
             const sqlite3 = require('sqlite3').verbose();
             const db = new sqlite3.Database(tempPath);
 
-            const { history } = await generateAeryHistory(db);
+            if (category === 'aery') {
+                const { history } = await generateAeryHistory(db);
 
-            db.close();
+                db.close();
+                return res.status(200).json(history);
+            } else if (category === 'insane') {
+                const { history } = await generateInsaneHistory(db);
 
-            return res.status(200).json(history);
+                db.close();
+                return res.status(200).json(history);
+            }
         } else {
             return res.status(200).json({
                 'LEVEL 1': [],
@@ -42,6 +50,11 @@ export const getHistory = async (req: Request, res: Response) => {
                 'LEVEL 18': [],
                 'LEVEL 19': [],
                 'LEVEL 20': [],
+                'LEVEL 21': [],
+                'LEVEL 22': [],
+                'LEVEL 23': [],
+                'LEVEL 24': [],
+                'LEVEL 25': [],
             });
         }
     } catch (err) {

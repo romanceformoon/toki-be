@@ -39,6 +39,10 @@ class App {
     getRouting() {
         this.app.use('/toki-api', require('~/api/analyze'));
         this.app.use('/toki-api', require('~/api/auth'));
+        this.app.use('/toki-api', require('~/api/user'));
+        this.app.use('/toki-api', require('~/api/ranking'));
+
+
     }
 }
 
