@@ -3,6 +3,8 @@ import { existsSync } from 'fs';
 import { logger } from '~/config/winston';
 import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
 import { generateInsaneHistory } from '~/utils/insane/generateInsaneHistory';
+import { generateSatelliteHistory } from '~/utils/satellite/generateSatelliteHistory';
+import { generateStellaHistory } from '~/utils/stella/generateStellaHistory';
 
 export const getHistory = async (req: Request, res: Response) => {
     try {
@@ -24,6 +26,16 @@ export const getHistory = async (req: Request, res: Response) => {
                 return res.status(200).json(history);
             } else if (category === 'insane') {
                 const { history } = await generateInsaneHistory(db);
+
+                db.close();
+                return res.status(200).json(history);
+            } else if (category === 'sl') {
+                const { history } = await generateSatelliteHistory(db);
+
+                db.close();
+                return res.status(200).json(history);
+            } else if (category === 'st') {
+                const { history } = await generateStellaHistory(db);
 
                 db.close();
                 return res.status(200).json(history);

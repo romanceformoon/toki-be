@@ -2,9 +2,9 @@ import axios from 'axios';
 import { Database } from 'sqlite3';
 import { IHistory } from '~/@types/analyze';
 import { logger } from '~/config/winston';
-import ratingData from '~/utils/aery/ratingData.json';
 import { sqliteGetSync } from '../sqliteGetSync';
 import { danData } from './danData';
+import ratingData from './ratingData.json';
 
 export const generateAeryHistory = async (db: Database) => {
     return new Promise<{

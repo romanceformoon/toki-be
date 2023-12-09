@@ -12,6 +12,12 @@ export const getEXPRanking = async (req: Request, res: Response) => {
         } else if (category === 'insane') {
             scoreQueryString =
                 'SELECT uid, insane_exp, insane_dan FROM score ORDER BY insane_exp DESC';
+        } else if (category === 'sl') {
+            scoreQueryString =
+                'SELECT uid, sl_exp, sl_dan FROM score ORDER BY sl_exp DESC';
+        } else if (category === 'st') {
+            scoreQueryString =
+                'SELECT uid, st_exp, st_dan FROM score ORDER BY st_exp DESC';
         }
 
         const [expQuery] = await req.database.query(scoreQueryString);
@@ -34,6 +40,12 @@ export const getEXPRanking = async (req: Request, res: Response) => {
                 } else if (category === 'insane') {
                     exp = user.insane_exp;
                     clearDan = user.insane_dan;
+                } else if (category === 'sl') {
+                    exp = user.sl_exp;
+                    clearDan = user.sl_dan;
+                } else if (category === 'st') {
+                    exp = user.st_exp;
+                    clearDan = user.st_dan;
                 }
 
                 if (userQuery.length > 0) {

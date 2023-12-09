@@ -5,6 +5,8 @@ import { IAuth } from '~/@types/auth';
 import { logger } from '~/config/winston';
 import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
 import { generateInsaneHistory } from '~/utils/insane/generateInsaneHistory';
+import { generateSatelliteHistory } from '~/utils/satellite/generateSatelliteHistory';
+import { generateStellaHistory } from '~/utils/stella/generateStellaHistory';
 
 export const analyze = (req: Request, res: Response) => {
     try {
@@ -40,6 +42,18 @@ export const analyze = (req: Request, res: Response) => {
                         topExp: insaneTopExp,
                     } = await generateInsaneHistory(db);
 
+                    const {
+                        userExp: satelliteExp,
+                        clearDan: satelliteDan,
+                        topExp: satelliteTopExp,
+                    } = await generateSatelliteHistory(db);
+
+                    const {
+                        userExp: stellaExp,
+                        clearDan: stellaDan,
+                        topExp: stellaTopExp,
+                    } = await generateStellaHistory(db);
+
                     db.close();
 
                     const [queryResult] = await req.database.query(
@@ -50,7 +64,7 @@ export const analyze = (req: Request, res: Response) => {
                     if (queryResult.length === 0) {
                         try {
                             await req.database.query(
-                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating, insane_exp, insane_dan, insane_rating) VALUES(?, ?, ?, ?, ?, ?, ?)',
+                                'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating, insane_exp, insane_dan, insane_rating, sl_exp, sl_dan, sl_rating, st_exp, st_dan, st_rating) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
                                 [
                                     decoded['uid'],
                                     aeryExp,
@@ -59,6 +73,12 @@ export const analyze = (req: Request, res: Response) => {
                                     insaneExp,
                                     insaneDan,
                                     insaneTopExp,
+                                    satelliteExp,
+                                    satelliteDan,
+                                    satelliteTopExp,
+                                    stellaExp,
+                                    stellaDan,
+                                    stellaTopExp,
                                 ]
                             );
                         } catch (err) {
@@ -70,7 +90,7 @@ export const analyze = (req: Request, res: Response) => {
                     } else {
                         try {
                             await req.database.query(
-                                'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ?, insane_exp = ?, insane_dan = ?, insane_rating = ? WHERE uid = ?',
+                                'UPDATE score SET aery_exp = ?, aery_dan = ?, aery_rating = ?, insane_exp = ?, insane_dan = ?, insane_rating = ?, sl_exp = ?, sl_dan = ?, sl_rating = ?, st_exp = ?, st_dan = ?, st_rating = ? WHERE uid = ?',
                                 [
                                     aeryExp,
                                     aeryDan,
@@ -78,6 +98,12 @@ export const analyze = (req: Request, res: Response) => {
                                     insaneExp,
                                     insaneDan,
                                     insaneTopExp,
+                                    satelliteExp,
+                                    satelliteDan,
+                                    satelliteTopExp,
+                                    stellaExp,
+                                    stellaDan,
+                                    stellaTopExp,
                                     decoded['uid'],
                                 ]
                             );

@@ -3,7 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-_resp = requests.get('https://asumatoki.kr/table/insane/data.json')
+_resp = requests.get('https://stellabms.xyz/st/score.json')
 aery_data = _resp.json()
 
 data = {}

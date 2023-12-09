@@ -22,6 +22,10 @@ export const getUser = async (req: Request, res: Response) => {
         } else if (category === 'insane') {
             scoreQueryString =
                 'SELECT insane_exp, insane_dan FROM score WHERE uid = ?';
+        } else if (category === 'sl') {
+            scoreQueryString = 'SELECT sl_exp, sl_dan FROM score WHERE uid = ?';
+        } else if (category === 'st') {
+            scoreQueryString = 'SELECT st_exp, st_dan FROM score WHERE uid = ?';
         }
 
         const [scoreQuery] = await req.database.query(scoreQueryString, [uid]);
@@ -48,6 +52,12 @@ export const getUser = async (req: Request, res: Response) => {
                 } else if (category === 'insane') {
                     exp = scoreQuery[0].insane_exp;
                     clearDan = scoreQuery[0].insane_dan;
+                } else if (category === 'sl') {
+                    exp = scoreQuery[0].sl_exp;
+                    clearDan = scoreQuery[0].sl_dan;
+                } else if (category === 'st') {
+                    exp = scoreQuery[0].st_exp;
+                    clearDan = scoreQuery[0].st_dan;
                 }
 
                 return res.status(200).json({

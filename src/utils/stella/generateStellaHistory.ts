@@ -3,10 +3,9 @@ import { Database } from 'sqlite3';
 import { IHistory } from '~/@types/analyze';
 import { logger } from '~/config/winston';
 import { sqliteGetSync } from '../sqliteGetSync';
-import { danData } from './danData';
 import ratingData from './ratingData.json';
 
-export const generateInsaneHistory = async (db: Database) => {
+export const generateStellaHistory = async (db: Database) => {
     return new Promise<{
         history: IHistory;
         userExp: number;
@@ -14,6 +13,7 @@ export const generateInsaneHistory = async (db: Database) => {
         topExp: number;
     }>(async (res, rej) => {
         const history: IHistory = {
+            'LEVEL 0': [],
             'LEVEL 1': [],
             'LEVEL 2': [],
             'LEVEL 3': [],
@@ -26,24 +26,9 @@ export const generateInsaneHistory = async (db: Database) => {
             'LEVEL 10': [],
             'LEVEL 11': [],
             'LEVEL 12': [],
-            'LEVEL 13': [],
-            'LEVEL 14': [],
-            'LEVEL 15': [],
-            'LEVEL 16': [],
-            'LEVEL 17': [],
-            'LEVEL 18': [],
-            'LEVEL 19': [],
-            'LEVEL 20': [],
-            'LEVEL 21': [],
-            'LEVEL 22': [],
-            'LEVEL 23': [],
-            'LEVEL 24': [],
-            'LEVEL 25': [],
         };
 
-        const data = await axios.get(
-            'https://asumatoki.kr/table/insane/data.json'
-        );
+        const data = await axios.get('https://stellabms.xyz/st/score.json');
         const tableData = data.data;
 
         const ratingDataJson: any = ratingData;
@@ -54,9 +39,7 @@ export const generateInsaneHistory = async (db: Database) => {
 
         for (const data of tableData) {
             const currentSongLevel: string = 'LEVEL ' + data['level'];
-            const numberLevel = parseInt(data['level']);
-
-            if (data['level'] === '???') continue;
+            const numberLevel = parseInt(data['level']) * 2;
 
             const fcRatio = parseFloat(
                 ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')
@@ -240,24 +223,24 @@ export const generateInsaneHistory = async (db: Database) => {
 
         let clearDan = 'None';
 
-        for (const [dan, hash] of Object.entries(danData).reverse()) {
-            try {
-                const row = await sqliteGetSync(
-                    db,
-                    `SELECT clear FROM score WHERE hash = '${hash}'`
-                );
+        // for (const [dan, hash] of Object.entries(danData).reverse()) {
+        //     try {
+        //         const row = await sqliteGetSync(
+        //             db,
+        //             `SELECT clear FROM score WHERE hash = '${hash}'`
+        //         );
 
-                if (!row) continue;
+        //         if (!row) continue;
 
-                if (row['clear'] > 1) {
-                    clearDan = dan;
-                    break;
-                }
-            } catch (err) {
-                logger.error(err);
-                rej(err);
-            }
-        }
+        //         if (row['clear'] > 1) {
+        //             clearDan = dan;
+        //             break;
+        //         }
+        //     } catch (err) {
+        //         logger.error(err);
+        //         rej(err);
+        //     }
+        // }
 
         top50.sort((a: number, b: number) => {
             return b - a;

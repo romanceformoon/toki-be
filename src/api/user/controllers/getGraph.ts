@@ -3,6 +3,8 @@ import { existsSync } from 'fs';
 import { logger } from '~/config/winston';
 import { generateAeryGraph } from '~/utils/aery/generateAeryGraph';
 import { generateInsaneGraph } from '~/utils/insane/generateInsaneGraph';
+import { generateSatelliteGraph } from '~/utils/satellite/generateSatelliteGraph';
+import { generateStellaGraph } from '~/utils/stella/generateStellaGraph';
 
 export const getGraph = async (req: Request, res: Response) => {
     try {
@@ -24,6 +26,16 @@ export const getGraph = async (req: Request, res: Response) => {
                 return res.status(200).json(graph);
             } else if (category === 'insane') {
                 const { graph } = await generateInsaneGraph(db);
+
+                db.close();
+                return res.status(200).json(graph);
+            } else if (category === 'sl') {
+                const { graph } = await generateSatelliteGraph(db);
+
+                db.close();
+                return res.status(200).json(graph);
+            } else if (category === 'st') {
+                const { graph } = await generateStellaGraph(db);
 
                 db.close();
                 return res.status(200).json(graph);
