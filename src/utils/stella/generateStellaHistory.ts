@@ -42,7 +42,7 @@ export const generateStellaHistory = async (db: Database) => {
             const numberLevel = (parseInt(data['level']) + 1) * 2;
 
             try {
-                const checkData = ratingDataJson[data['md5']];
+                const checkData = ratingDataJson[data['md5']]['fc_ratio'];
             } catch (err) {
                 continue;
             }
