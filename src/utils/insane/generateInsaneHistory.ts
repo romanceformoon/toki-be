@@ -56,6 +56,12 @@ export const generateInsaneHistory = async (db: Database) => {
             const currentSongLevel: string = 'LEVEL ' + data['level'];
             const numberLevel = parseInt(data['level']);
 
+            try {
+                const checkData = ratingDataJson[data['md5']];
+            } catch (err) {
+                continue;
+            }
+
             if (data['level'] === '???') continue;
 
             const fcRatio = parseFloat(

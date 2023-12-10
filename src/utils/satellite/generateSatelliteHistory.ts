@@ -41,6 +41,12 @@ export const generateSatelliteHistory = async (db: Database) => {
             const currentSongLevel: string = 'LEVEL ' + data['level'];
             const numberLevel = (parseInt(data['level']) + 1) * 2;
 
+            try {
+                const checkData = ratingDataJson[data['md5']];
+            } catch (err) {
+                continue;
+            }
+
             const fcRatio = parseFloat(
                 ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')
             );
