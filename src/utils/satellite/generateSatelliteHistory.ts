@@ -28,7 +28,9 @@ export const generateSatelliteHistory = async (db: Database) => {
             'LEVEL 12': [],
         };
 
-        const data = await axios.get('https://stellabms.xyz/sl/score.json');
+        const data = await axios.get(
+            `https://stellabms.xyz/sl/score.json?_=${Date.now()}`
+        );
         const tableData = data.data;
 
         const ratingDataJson: any = ratingData;

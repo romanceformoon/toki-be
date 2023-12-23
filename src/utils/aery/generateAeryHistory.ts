@@ -37,7 +37,7 @@ export const generateAeryHistory = async (db: Database) => {
         };
 
         const data = await axios.get(
-            'https://asumatoki.kr/table/aery/data.json'
+            `https://asumatoki.kr/table/aery/data.json?_=${Date.now()}`
         );
         const tableData = data.data;
 
