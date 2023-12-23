@@ -29,7 +29,7 @@ for _ in aery_data:
         }
 
 
-file_path = "./rating.json"
+file_path = "./ratingData.json"
 with open(file_path, 'w', encoding='utf-8') as file:
     print(data)
     json.dump(data, file)
