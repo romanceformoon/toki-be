@@ -28,9 +28,7 @@ export const generateStellaHistory = async (db: Database) => {
             'LEVEL 12': [],
         };
 
-        const data = await axios.get(
-            `https://stellabms.xyz/st/score.json?_=${Date.now()}`
-        );
+        const data = await axios.get(`https://stellabms.xyz/st/score.json`);
         const tableData = data.data;
 
         const ratingDataJson: any = ratingData;

@@ -101,9 +101,7 @@ export const generateSatelliteGraph = async (db: Database) => {
             },
         };
 
-        const data = await axios.get(
-            `https://stellabms.xyz/sl/score.json?_=${Date.now()}`
-        );
+        const data = await axios.get(`https://stellabms.xyz/sl/score.json`);
         const tableData = data.data;
 
         for (const data of tableData) {

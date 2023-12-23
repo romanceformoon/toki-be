@@ -101,9 +101,7 @@ export const generateStellaGraph = async (db: Database) => {
             },
         };
 
-        const data = await axios.get(
-            `https://stellabms.xyz/st/score.json?_=${Date.now()}`
-        );
+        const data = await axios.get(`https://stellabms.xyz/st/score.json`);
         const tableData = data.data;
 
         for (const data of tableData) {

@@ -42,7 +42,7 @@ export const generateInsaneHistory = async (db: Database) => {
         };
 
         const data = await axios.get(
-            `https://asumatoki.kr/table/insane/data.json?_=${Date.now()}`
+            `https://asumatoki.kr/table/insane/data.json`
         );
         const tableData = data.data;
 
