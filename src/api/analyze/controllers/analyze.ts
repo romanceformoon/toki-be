@@ -1,7 +1,5 @@
 import { Request, Response } from 'express';
 import { UploadedFile } from 'express-fileupload';
-import jwt from 'jsonwebtoken';
-import { IAuth } from '~/@types/auth';
 import { logger } from '~/config/winston';
 import { generateAeryHistory } from '~/utils/aery/generateAeryHistory';
 import { generateInsaneHistory } from '~/utils/insane/generateInsaneHistory';
@@ -10,17 +8,10 @@ import { generateStellaHistory } from '~/utils/stella/generateStellaHistory';
 
 export const analyze = (req: Request, res: Response) => {
     try {
-        if (!req.accessToken) return res.status(401).send('Not authorized');
-
         const scoreDB = req.files?.db as UploadedFile;
 
         if (scoreDB) {
-            const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY as jwt.Secret;
-
-            jwt.verify(req.accessToken, JWT_SECRET_KEY);
-            const decoded = jwt.decode(req.accessToken) as IAuth;
-
-            const tempPath = `scores/${decoded['uid']}`;
+            const tempPath = `scores/${req.decoded['uid']}`;
             // Use the mv() method to place the file somewhere on your server
             scoreDB.mv(tempPath, async function (err: Error | null) {
                 if (err) {
@@ -58,7 +49,7 @@ export const analyze = (req: Request, res: Response) => {
 
                     const [queryResult] = await req.database.query(
                         'SELECT * FROM score WHERE uid = ?',
-                        [decoded['uid']]
+                        [req.decoded['uid']]
                     );
 
                     if (queryResult.length === 0) {
@@ -66,7 +57,7 @@ export const analyze = (req: Request, res: Response) => {
                             await req.database.query(
                                 'INSERT INTO score (uid, aery_exp, aery_dan, aery_rating, insane_exp, insane_dan, insane_rating, sl_exp, sl_dan, sl_rating, st_exp, st_dan, st_rating) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
                                 [
-                                    decoded['uid'],
+                                    req.decoded['uid'],
                                     aeryExp,
                                     aeryDan,
                                     aeryTopExp,
@@ -104,7 +95,7 @@ export const analyze = (req: Request, res: Response) => {
                                     stellaExp,
                                     stellaDan,
                                     stellaTopExp,
-                                    decoded['uid'],
+                                    req.decoded['uid'],
                                 ]
                             );
                         } catch (err) {
