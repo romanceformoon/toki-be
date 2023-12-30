@@ -23,16 +23,16 @@ export const createSchema = async () => {
     uid VARCHAR(100) NOT NULL PRIMARY KEY,
     aery_exp INTEGER DEFAULT 0,
     aery_rating INTEGER DEFAULT 0,
-    aery_dan VARCHAR(50) DEFAULT NULL,
+    aery_dan VARCHAR(50),
     insane_exp INTEGER DEFAULT 0,
     insane_rating INTEGER DEFAULT 0,
-    insane_dan VARCHAR(50) DEFAULT NULL,
+    insane_dan VARCHAR(50),
     sl_exp INTEGER DEFAULT 0,
     sl_rating INTEGER DEFAULT 0,
-    sl_dan VARCHAR(50) DEFAULT NULL,
+    sl_dan VARCHAR(50),
     st_exp INTEGER DEFAULT 0,
     st_rating INTEGER DEFAULT 0,
-    st_dan VARCHAR(50) DEFAULT NULL
+    st_dan VARCHAR(50)
     )`;
     await conn.query(createScoreTableQuery);
 
