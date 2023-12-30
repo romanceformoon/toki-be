@@ -1,3 +1,4 @@
+import { createSchema } from '~/config/createSchema';
 import { logger } from '~/config/winston';
 
 // Express Server Initialize
@@ -10,6 +11,8 @@ const server = app.listen(port, () => {
         process.send('ready');
     }
 });
+
+createSchema();
 
 process.on('SIGINT', function () {
     // pm2 재시작 신호가 들어오면 서버를 종료시킨다.
