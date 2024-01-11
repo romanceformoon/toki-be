@@ -4,8 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # _resp = requests.get('https://asumatoki.kr/table/aery/data.json')
-_resp = requests.get('https://stellabms.xyz/sl/score.json')
-# _resp = requests.get('https://stellabms.xyz/st/score.json')
+# _resp = requests.get('https://stellabms.xyz/sl/score.json')
+_resp = requests.get('https://stellabms.xyz/st/score.json')
 aery_data = _resp.json()
 
 data = {}
