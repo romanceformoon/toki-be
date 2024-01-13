@@ -37,9 +37,7 @@ export const generateStellaHistory = async (db: Database) => {
 
         const top50 = [];
 
-        const stLevel = [
-            19, 20, 21, 22, 23, 23.5, 24, 24.4, 24.8, 25.2, 25.8, 26.2, 27,
-        ];
+        const stLevel = [10, 12, 14, 16, 18, 20, 21, 22, 23, 24, 25, 26, 27];
 
         for (const data of tableData) {
             const currentSongLevel: string = 'LEVEL ' + data['level'];

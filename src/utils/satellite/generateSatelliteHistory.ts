@@ -37,7 +37,7 @@ export const generateSatelliteHistory = async (db: Database) => {
 
         const top50 = [];
 
-        const slLevel = [1, 2, 3, 5, 7, 9, 11, 12, 14, 15, 16, 18, 19];
+        const slLevel = [3, 6, 8, 10, 11, 12, 13, 14, 16, 18, 20, 21, 22];
 
         for (const data of tableData) {
             const currentSongLevel: string = 'LEVEL ' + data['level'];
