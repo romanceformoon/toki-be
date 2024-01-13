@@ -37,9 +37,11 @@ export const generateSatelliteHistory = async (db: Database) => {
 
         const top50 = [];
 
+        const slLevel = [1, 2, 3, 5, 7, 9, 11, 12, 14, 15, 16, 18, 19];
+
         for (const data of tableData) {
             const currentSongLevel: string = 'LEVEL ' + data['level'];
-            const numberLevel = (parseInt(data['level']) + 1) * 2;
+            const numberLevel = slLevel[parseInt(data['level'])];
 
             try {
                 const checkData = ratingDataJson[data['md5']]['fc_ratio'];
@@ -63,11 +65,11 @@ export const generateSatelliteHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['easy_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
-            const hardBonus = 100 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const hardBonus = 100 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const grooveBonus =
-                50 + parseFloat((1.25 ** numberLevel).toFixed(2));
-            const easyBonus = 50 + parseFloat((1.2 ** numberLevel).toFixed(2));
+                50 + parseFloat((1.15 ** numberLevel).toFixed(2));
+            const easyBonus = 50 + parseFloat((1.1 ** numberLevel).toFixed(2));
 
             const FCLevel = 1.55;
             const hardLevel = 1.5;

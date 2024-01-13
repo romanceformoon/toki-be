@@ -80,11 +80,11 @@ export const generateInsaneHistory = async (db: Database) => {
                 ratingDataJson[data['md5']]['easy_ratio'].replace('%', '')
             );
 
-            const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
-            const hardBonus = 100 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const fcBonus = 300 + parseFloat((1.3 ** numberLevel).toFixed(2));
+            const hardBonus = 100 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const grooveBonus =
-                50 + parseFloat((1.25 ** numberLevel).toFixed(2));
-            const easyBonus = 50 + parseFloat((1.2 ** numberLevel).toFixed(2));
+                50 + parseFloat((1.15 ** numberLevel).toFixed(2));
+            const easyBonus = 50 + parseFloat((1.1 ** numberLevel).toFixed(2));
 
             const FCLevel = 1.55;
             const hardLevel = 1.5;
