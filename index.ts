@@ -1,5 +1,6 @@
 import { createSchema } from '~/config/createSchema';
 import { logger } from '~/config/winston';
+import { gradeData } from '~/utils/aery/gradeData';
 
 // Express Server Initialize
 const app = require('./app');
@@ -13,6 +14,7 @@ const server = app.listen(port, () => {
 });
 
 createSchema();
+gradeData();
 
 process.on('SIGINT', function () {
     // pm2 재시작 신호가 들어오면 서버를 종료시킨다.
