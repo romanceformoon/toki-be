@@ -223,6 +223,24 @@ export const generateStellaHistory = async (db: Database) => {
 
                     userExp += addScore;
                     top50.push(addScore);
+                } else if (row['clear'] === 0) {
+                    const addScore =
+                        (1 / (Math.abs(row['minbp']) + 1)) * 100 +
+                        Math.abs(row['rate']) +
+                        0.1;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'FAILED',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                        level: currentSongLevel,
+                    });
+
+                    userExp += addScore;
+                    top50.push(addScore);
                 }
             } catch (err) {
                 logger.error(err);

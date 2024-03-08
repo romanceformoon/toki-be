@@ -81,7 +81,8 @@ export const generateInsaneHistory = async (db: Database) => {
             );
 
             const fcBonus = 300 + parseFloat((1.4 ** numberLevel).toFixed(2));
-            const hardBonus = 100 + parseFloat((1.25 ** numberLevel).toFixed(2));
+            const hardBonus =
+                100 + parseFloat((1.25 ** numberLevel).toFixed(2));
             const grooveBonus =
                 50 + parseFloat((1.2 ** numberLevel).toFixed(2));
             const easyBonus = 50 + parseFloat((1.15 ** numberLevel).toFixed(2));
@@ -221,6 +222,24 @@ export const generateInsaneHistory = async (db: Database) => {
                     userExp += finalExp;
                     top50.push(finalExp);
                 } else if (row['clear'] === 1) {
+                    const addScore =
+                        (1 / (Math.abs(row['minbp']) + 1)) * 100 +
+                        Math.abs(row['rate']) +
+                        0.1;
+
+                    history[currentSongLevel].push({
+                        title: data['title'],
+                        clear: 'FAILED',
+                        exp: addScore,
+                        bp: row['minbp'],
+                        rate: row['rate'],
+                        md5: data['md5'],
+                        level: currentSongLevel,
+                    });
+
+                    userExp += addScore;
+                    top50.push(addScore);
+                } else if (row['clear'] === 0) {
                     const addScore =
                         (1 / (Math.abs(row['minbp']) + 1)) * 100 +
                         Math.abs(row['rate']) +
