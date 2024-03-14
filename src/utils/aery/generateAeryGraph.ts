@@ -152,6 +152,7 @@ export const generateAeryGraph = async (db: Database) => {
             const currentSongLevel: string = data['level'];
 
             if (currentSongLevel === 'LEVEL DUMMY') continue;
+            if (currentSongLevel === 'OLD CHARTS') continue;
 
             try {
                 const row = await sqliteGetSync(
