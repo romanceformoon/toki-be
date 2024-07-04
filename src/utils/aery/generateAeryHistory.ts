@@ -59,6 +59,7 @@ export const generateAeryHistory = async (db: Database) => {
 
             if (currentSongLevel === 'LEVEL DUMMY') continue;
             if (currentSongLevel === 'OLD CHARTS') continue;
+            if (currentSongLevel === 'LEVEL 20+') continue;
 
             const fcRatio = parseFloat(
                 ratingDataJson[data['md5']]['fc_ratio'].replace('%', '')

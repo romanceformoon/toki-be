@@ -30,6 +30,7 @@ export const generateAeryGraph = async (db: Database) => {
                 'LEVEL 18': 0,
                 'LEVEL 19': 0,
                 'LEVEL 20': 0,
+                'LEVEL 20+': 0,
             },
             HARD_COUNT: {
                 'LEVEL 1': 0,
@@ -52,6 +53,7 @@ export const generateAeryGraph = async (db: Database) => {
                 'LEVEL 18': 0,
                 'LEVEL 19': 0,
                 'LEVEL 20': 0,
+                'LEVEL 20+': 0,
             },
             GROOVE_COUNT: {
                 'LEVEL 1': 0,
@@ -74,6 +76,7 @@ export const generateAeryGraph = async (db: Database) => {
                 'LEVEL 18': 0,
                 'LEVEL 19': 0,
                 'LEVEL 20': 0,
+                'LEVEL 20+': 0,
             },
             EASY_COUNT: {
                 'LEVEL 1': 0,
@@ -96,6 +99,7 @@ export const generateAeryGraph = async (db: Database) => {
                 'LEVEL 18': 0,
                 'LEVEL 19': 0,
                 'LEVEL 20': 0,
+                'LEVEL 20+': 0,
             },
             FAILED_COUNT: {
                 'LEVEL 1': 0,
@@ -118,6 +122,7 @@ export const generateAeryGraph = async (db: Database) => {
                 'LEVEL 18': 0,
                 'LEVEL 19': 0,
                 'LEVEL 20': 0,
+                'LEVEL 20+': 0,
             },
             NOPLAY_COUNT: {
                 'LEVEL 1': 0,
@@ -140,6 +145,7 @@ export const generateAeryGraph = async (db: Database) => {
                 'LEVEL 18': 0,
                 'LEVEL 19': 0,
                 'LEVEL 20': 0,
+                'LEVEL 20+': 0,
             },
         };
 
