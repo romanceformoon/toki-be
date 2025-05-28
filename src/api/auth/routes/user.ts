@@ -15,10 +15,10 @@ router.get('/check-user', authChecker, databaseConnector, checkUser);
 router.get('/logout', authChecker, logout);
 
 router.post(
-    '/change-nickname/:nickname',
-    authChecker,
-    databaseConnector,
-    changeNickname
+  '/change-nickname/:nickname',
+  authChecker,
+  databaseConnector,
+  changeNickname
 );
 
 module.exports = router;

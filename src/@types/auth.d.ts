@@ -1,5 +1,5 @@
 export interface IAuth {
-    uid: string;
-    nickname: string;
-    avatar: string;
+  uid: string;
+  nickname: string;
+  avatar: string;
 }
