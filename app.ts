@@ -41,6 +41,7 @@ class App {
     this.app.use('/toki-api', require('~/api/auth'));
     this.app.use('/toki-api', require('~/api/user'));
     this.app.use('/toki-api', require('~/api/ranking'));
+    this.app.use('/toki-api', require('~/api/table'));
   }
 }
 
