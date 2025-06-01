@@ -16,6 +16,7 @@ export const refresh = (req: Request, res: Response) => {
         uid: decoded['uid'],
         nickname: decoded['nickname'],
         avatar: decoded['avatar'],
+        admin: decoded['admin'],
       },
       JWT_SECRET_KEY,
       {
