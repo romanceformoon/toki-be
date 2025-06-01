@@ -9,11 +9,13 @@ export const checkUser = async (req: Request, res: Response) => {
     );
 
     req.database.end();
+
     return res.status(200).json({
       user: {
         uid: req.decoded['uid'],
         nickname: userQuery[0].nickname,
         avatar: userQuery[0].avatar,
+        admin: userQuery[0].admin,
       },
     });
   } catch (err) {

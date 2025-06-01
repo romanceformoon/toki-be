@@ -42,7 +42,7 @@ export const discordLogin = async (req: Request, res: Response) => {
       [discordIdentifyResponse.data.id]
     );
 
-    console.log(queryResult);
+    console.log({ queryResult });
 
     if (queryResult.length === 0) {
       try {
@@ -68,8 +68,8 @@ export const discordLogin = async (req: Request, res: Response) => {
       }
     }
 
-    const [nicknameQuery] = await req.database.query(
-      'SELECT nickname FROM user WHERE uid = ?',
+    const [checkQuery] = await req.database.query(
+      'SELECT nickname, admin FROM user WHERE uid = ?',
       [discordIdentifyResponse.data.id]
     );
 
@@ -80,8 +80,9 @@ export const discordLogin = async (req: Request, res: Response) => {
     const accessToken = jwt.sign(
       {
         uid: discordIdentifyResponse.data.id,
-        nickname: nicknameQuery[0].nickname,
+        nickname: checkQuery[0].nickname,
         avatar: discordIdentifyResponse.data.avatar,
+        admin: checkQuery[0].admin,
       },
       JWT_SECRET_KEY,
       {
@@ -92,8 +93,9 @@ export const discordLogin = async (req: Request, res: Response) => {
     const refreshToken = jwt.sign(
       {
         uid: discordIdentifyResponse.data.id,
-        nickname: nicknameQuery[0].nickname,
+        nickname: checkQuery[0].nickname,
         avatar: discordIdentifyResponse.data.avatar,
+        admin: checkQuery[0].admin,
       },
       JWT_SECRET_KEY,
       {

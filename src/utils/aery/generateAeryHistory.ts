@@ -47,7 +47,7 @@ export const generateAeryHistory = async (db: Database) => {
 
     for (const data of tableData) {
       const currentSongLevel: string = data['level'];
-      const numberLevel = parseInt(currentSongLevel.split(' ')[1]);
+      const numberLevel = parseInt(currentSongLevel.split(' ')[1].replace('+', ''));
 
       try {
         const checkData = ratingDataJson[data['md5']]['fc_ratio'];
