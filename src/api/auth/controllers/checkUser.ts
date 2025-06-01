@@ -4,7 +4,7 @@ import { logger } from '~/config/winston';
 export const checkUser = async (req: Request, res: Response) => {
   try {
     const [userQuery] = await req.database.query(
-      'SELECT nickname, avatar FROM user WHERE uid = ?',
+      'SELECT nickname, avatar, admin FROM user WHERE uid = ?',
       [req.decoded['uid']]
     );
 
