@@ -48,3 +48,4 @@ scores/
 !.yarn/versions
 
 gradeData.json
+/table
