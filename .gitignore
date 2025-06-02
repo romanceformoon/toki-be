@@ -48,3 +48,6 @@ scores/
 !.yarn/versions
 
 gradeData.json
+
+AeryTableGenerator/*
+!AeryTableGenerator/AeryTableGenerator.py
