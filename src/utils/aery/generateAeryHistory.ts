@@ -40,7 +40,6 @@ export const generateAeryHistory = async (db: Database) => {
       'LEVEL 19+': [],
       'LEVEL 20': [],
       'LEVEL 20+': [],
-      'LEVEL 99': [],
     };
 
     const data = await axios.get(`https://asumatoki.kr/table/aery/data.json`);
