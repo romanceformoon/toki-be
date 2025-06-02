@@ -24,10 +24,10 @@ try:
 except:
     pass
 
-table_data = requests.get('https://asumatoki.kr/table/aery/data_test.json')
+table_data = requests.get('https://asumatoki.kr/table/aery/data.json')
 input_json = table_data.json()
 
-header_data = requests.get('https://asumatoki.kr/table/aery/header_test.json')
+header_data = requests.get('https://asumatoki.kr/table/aery/header.json')
 header_json = header_data.json()
 levels = header_json['level_order']
 last_update = header_json['last_update']
