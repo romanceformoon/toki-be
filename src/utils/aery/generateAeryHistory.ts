@@ -29,11 +29,18 @@ export const generateAeryHistory = async (db: Database) => {
       'LEVEL 13': [],
       'LEVEL 14': [],
       'LEVEL 15': [],
+      'LEVEL 15+': [],
       'LEVEL 16': [],
+      'LEVEL 16+': [],
       'LEVEL 17': [],
+      'LEVEL 17+': [],
       'LEVEL 18': [],
+      'LEVEL 18+': [],
       'LEVEL 19': [],
+      'LEVEL 19+': [],
       'LEVEL 20': [],
+      'LEVEL 20+': [],
+      'LEVEL 99': [],
     };
 
     const data = await axios.get(`https://asumatoki.kr/table/aery/data.json`);
@@ -47,7 +54,9 @@ export const generateAeryHistory = async (db: Database) => {
 
     for (const data of tableData) {
       const currentSongLevel: string = data['level'];
-      const numberLevel = parseInt(currentSongLevel.split(' ')[1].replace('+', ''));
+      const numberLevel = parseInt(
+        currentSongLevel.split(' ')[1].replace('+', '')
+      );
 
       try {
         const checkData = ratingDataJson[data['md5']]['fc_ratio'];
