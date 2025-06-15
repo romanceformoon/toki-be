@@ -51,3 +51,11 @@ gradeData.json
 
 AeryTableGenerator/*
 !AeryTableGenerator/AeryTableGenerator.py
+
+.pnp
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+
+table/aery/data_test.json
+table/aery/header_test.json
