@@ -4,12 +4,15 @@ import fs from 'fs';
 import path from 'path';
 import { logger } from '~/config/winston';
 
+// 파일 제공이 허용된 테이블 목록
+const ALLOWED_TABLES = ['aery', 'aery7', 'insane'];
+
 export const getTableFile = (req: Request, res: Response) => {
   try {
     const { tableName, fileName } = req.params;
 
     // 보안을 위해 경로 유효성 검사
-    if (!['aery', 'insane'].includes(tableName)) {
+    if (!ALLOWED_TABLES.includes(tableName)) {
       return res.status(404).json({
         success: false,
         message: '유효하지 않은 테이블 이름입니다.',
@@ -58,7 +61,7 @@ export const updateTableFile = (req: Request, res: Response) => {
     }
 
     // 보안을 위해 경로 유효성 검사
-    if (!['aery', 'insane'].includes(tableName)) {
+    if (!ALLOWED_TABLES.includes(tableName)) {
       return res.status(404).json({
         success: false,
         message: '유효하지 않은 테이블 이름입니다.',

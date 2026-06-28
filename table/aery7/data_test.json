@@ -1,0 +1,812 @@
+[
+	{
+		"md5": "2472eef532a6cc54b1ac77c267ba0369",
+		"org_level": 16,
+		"title": "ELIMINATOR [7KEYS] ",
+		"artist": "Cosmograph / yusi. obj.shLEE",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"2472eef532a6cc54b1ac77c267ba0369"
+		],
+		"org_md5": "2472eef532a6cc54b1ac77c267ba0369",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "f9f1afe5bc9a8e074166f25d509331d8",
+		"org_level": 9,
+		"title": "Aeventyr [7KEY NORMAL] ",
+		"artist": "Grand Thaw obj: 3cchobo",
+		"folder": "LEVEL 9",
+		"level": "LEVEL 9",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"f9f1afe5bc9a8e074166f25d509331d8"
+		],
+		"org_md5": "f9f1afe5bc9a8e074166f25d509331d8",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "5ba978f1634b931d68a98b73ba5cbf44",
+		"org_level": 18,
+		"title": "Air [ 7KEY AERY EX ]",
+		"artist": "SHIKI obj:3cchobo",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"5ba978f1634b931d68a98b73ba5cbf44"
+		],
+		"org_md5": "5ba978f1634b931d68a98b73ba5cbf44",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "7dae1416b2f5c0f69c866baa0cdf40b7",
+		"org_level": 8,
+		"title": "Air [ 7KEY .. ]",
+		"artist": "SHIKI obj: 3cchobo",
+		"folder": "LEVEL 8",
+		"level": "LEVEL 8",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"7dae1416b2f5c0f69c866baa0cdf40b7"
+		],
+		"org_md5": "7dae1416b2f5c0f69c866baa0cdf40b7",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "99180d304f6cf29301f35bf573a016cd",
+		"org_level": 17,
+		"title": "Drive me Dancin'! [ 7KEYS DANCE! ]",
+		"artist": "AIV feat.Yossy/S obj:3cchobo",
+		"folder": "LEVEL 17",
+		"level": "LEVEL 17",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"99180d304f6cf29301f35bf573a016cd"
+		],
+		"org_md5": "99180d304f6cf29301f35bf573a016cd",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "bf9f07219afeb6f6ed5fee58b9b1cdb6",
+		"org_level": 16,
+		"title": "Drive me Dancin'! [ 7KEYS DRIVE ]",
+		"artist": "AIV feat.Yossy/S obj:3cchobo",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"bf9f07219afeb6f6ed5fee58b9b1cdb6"
+		],
+		"org_md5": "bf9f07219afeb6f6ed5fee58b9b1cdb6",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "3ed5e3f2979a97a7752cba08f60b1e09",
+		"org_level": 17,
+		"title": "Al-raune [7KEYS] ",
+		"artist": "Micelle obj.shLEE",
+		"folder": "LEVEL 17",
+		"level": "LEVEL 17",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"3ed5e3f2979a97a7752cba08f60b1e09"
+		],
+		"org_md5": "3ed5e3f2979a97a7752cba08f60b1e09",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "265422e529d1b7a23c203c869b58d8eb",
+		"org_level": 16,
+		"title": "Argentite [7KEY AERY]",
+		"artist": "REVLIS obj:M",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"265422e529d1b7a23c203c869b58d8eb"
+		],
+		"org_md5": "265422e529d1b7a23c203c869b58d8eb",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "51c1fe00fa23bfc2631b2bdad5a65d9a",
+		"org_level": 8,
+		"title": "Artificial Rose [7KEY AERY]",
+		"artist": "メアリー obj:M1NG",
+		"folder": "LEVEL 8",
+		"level": "LEVEL 8",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"51c1fe00fa23bfc2631b2bdad5a65d9a"
+		],
+		"org_md5": "51c1fe00fa23bfc2631b2bdad5a65d9a",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "5e30863d272427644b95b5b44550bb36",
+		"org_level": 16,
+		"title": "Asteroid's Dream [7KEYS AERY]",
+		"artist": "brz1128 BGI:4ra8 obj:gochy",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"5e30863d272427644b95b5b44550bb36"
+		],
+		"org_md5": "5e30863d272427644b95b5b44550bb36",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "e7e5a96fa8d330f0cfceddaabf353929",
+		"org_level": 10,
+		"title": "B e l i - R [7K] ",
+		"artist": "+45 obj.shLEE",
+		"folder": "LEVEL 10",
+		"level": "LEVEL 10",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"e7e5a96fa8d330f0cfceddaabf353929"
+		],
+		"org_md5": "e7e5a96fa8d330f0cfceddaabf353929",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "ab9f23dac4b364afb54970c71e433e39",
+		"org_level": 17,
+		"title": "Babel [7KEYS] ",
+		"artist": "Nizikawa feat. nayuta, obj.shLEE Movie: Air",
+		"folder": "LEVEL 17",
+		"level": "LEVEL 17",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"ab9f23dac4b364afb54970c71e433e39"
+		],
+		"org_md5": "ab9f23dac4b364afb54970c71e433e39",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "662bac731e2f72eccfdce8f20ac80732",
+		"org_level": 16,
+		"title": "ダークサンバランド [7KEY AERY Training]",
+		"artist": "ダークサンバマスター佐藤 -SATOH- obj:M1NG",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"662bac731e2f72eccfdce8f20ac80732"
+		],
+		"org_md5": "662bac731e2f72eccfdce8f20ac80732",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "21d424214f08a70bc05e36d18d510e17",
+		"org_level": 16,
+		"title": "Defeat awaken battle ship [7KEYS] ",
+		"artist": "有賀 澪 BGA:しらたき Illust:Cleome obj:伊佐奈 瑠璃, obj.shLEE",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"21d424214f08a70bc05e36d18d510e17"
+		],
+		"org_md5": "21d424214f08a70bc05e36d18d510e17",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "7bebe3e6e500e16edb6e2a099c7a2508",
+		"org_level": 16,
+		"title": "Doppelganger [7KEY AERY]",
+		"artist": "LeaF obj:M1NG",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"7bebe3e6e500e16edb6e2a099c7a2508"
+		],
+		"org_md5": "7bebe3e6e500e16edb6e2a099c7a2508",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "cc2f66b2dea32105d550abeeb1fb7cac",
+		"org_level": 16,
+		"title": "exists Uniquely [7KEYS] ",
+		"artist": "Lipschitz obj.shLEE",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"cc2f66b2dea32105d550abeeb1fb7cac"
+		],
+		"org_md5": "cc2f66b2dea32105d550abeeb1fb7cac",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "095275c7b54c1633981194045a52c153",
+		"org_level": 14,
+		"title": "FREEDOM DiVE [7KEYS AERY]",
+		"artist": "xi obj:3cchobo",
+		"folder": "LEVEL 14",
+		"level": "LEVEL 14",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"095275c7b54c1633981194045a52c153"
+		],
+		"org_md5": "095275c7b54c1633981194045a52c153",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "f6800f974dacde1fc969f2735f0d47e3",
+		"org_level": 15,
+		"title": "myste`re? [ 7KEYS ... ]",
+		"artist": "HOUJIROU / BGA: hardlove obj: 3cchobo",
+		"folder": "LEVEL 15",
+		"level": "LEVEL 15",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"f6800f974dacde1fc969f2735f0d47e3"
+		],
+		"org_md5": "f6800f974dacde1fc969f2735f0d47e3",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "29f8924aff5b6dbd319dcb86991eb34b",
+		"org_level": 16,
+		"title": "flip69 [7KEY AERY DERAY]",
+		"artist": "pr.s obj:M1NG",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"29f8924aff5b6dbd319dcb86991eb34b"
+		],
+		"org_md5": "29f8924aff5b6dbd319dcb86991eb34b",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "2b488fc344940600e86927728450278e",
+		"org_level": 16,
+		"title": "ハイパーミラクルシューティングスター [7KEY AERY]",
+		"artist": "er ",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"2b488fc344940600e86927728450278e"
+		],
+		"org_md5": "2b488fc344940600e86927728450278e",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "16dee0cfcc6e1c61a56bc8b5a1497d03",
+		"org_level": 9,
+		"title": "Pangaea [ 7KEY AERY.. ] ",
+		"artist": "sasakure.UK obj:3cchobo",
+		"folder": "LEVEL 9",
+		"level": "LEVEL 9",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"16dee0cfcc6e1c61a56bc8b5a1497d03"
+		],
+		"org_md5": "16dee0cfcc6e1c61a56bc8b5a1497d03",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "1c8262921d3d5f7d31e5781837463b70",
+		"org_level": 18,
+		"title": "L9 [7KEY AERY EARTHQUAKE]",
+		"artist": "paraoka obj:M1NG",
+		"folder": "LEVEL DUMMY",
+		"level": "LEVEL DUMMY",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"1c8262921d3d5f7d31e5781837463b70"
+		],
+		"org_md5": "1c8262921d3d5f7d31e5781837463b70",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "374a67068cf997799f53633a2a6120d0",
+		"org_level": 15,
+		"title": "Princess × Pegasus [7KEYS] ",
+		"artist": "rider ILLUST by syuri22, obj.shLEE",
+		"folder": "LEVEL 15",
+		"level": "LEVEL 15",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"374a67068cf997799f53633a2a6120d0"
+		],
+		"org_md5": "374a67068cf997799f53633a2a6120d0",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "1c78ce94bd45aa9ac984b025415ba74b",
+		"org_level": 13,
+		"title": "Take The Long Way Home [7K] ",
+		"artist": "RiraN ft. core mc obj.shLEE",
+		"folder": "LEVEL 13",
+		"level": "LEVEL 13",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"1c78ce94bd45aa9ac984b025415ba74b"
+		],
+		"org_md5": "1c78ce94bd45aa9ac984b025415ba74b",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "d7b2ee4566187e528a1bba412f2d7791",
+		"org_level": 13,
+		"title": "Save Yourself [7KEYS] ",
+		"artist": "litmus* ft. Miori Celesta obj.shLEE",
+		"folder": "LEVEL 13",
+		"level": "LEVEL 13",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"d7b2ee4566187e528a1bba412f2d7791"
+		],
+		"org_md5": "d7b2ee4566187e528a1bba412f2d7791",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "f61a49588ad1ccc92d6f414ded5d7bac",
+		"org_level": 12,
+		"title": "Selenotaxis [7KEYS] ",
+		"artist": "140/fth + Est obj.shLEE",
+		"folder": "LEVEL 12",
+		"level": "LEVEL 12",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"f61a49588ad1ccc92d6f414ded5d7bac"
+		],
+		"org_md5": "f61a49588ad1ccc92d6f414ded5d7bac",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "0e24a580e3e2c24621746794e94e42ef",
+		"org_level": 18,
+		"title": "銀の風 [ 7KEYS ... ]",
+		"artist": "wa. remixed celas BGA:TOHRU MiTSUHASHi / obj: CHE.",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"0e24a580e3e2c24621746794e94e42ef"
+		],
+		"org_md5": "0e24a580e3e2c24621746794e94e42ef",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "561a7757ca8a8b4363118af02c25ffd0",
+		"org_level": 15,
+		"title": "Opaque Couche [7KEYS Latte]",
+		"artist": "siqlo Movie:出前 / obj:Rv",
+		"folder": "LEVEL 15",
+		"level": "LEVEL 15",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"561a7757ca8a8b4363118af02c25ffd0"
+		],
+		"org_md5": "561a7757ca8a8b4363118af02c25ffd0",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "9e7579bacd3877c8a9519c53e0d97322",
+		"org_level": 9,
+		"title": "Stella Story [ 7KEY .. ]",
+		"artist": "azu obj: 3cchobo",
+		"folder": "LEVEL 9",
+		"level": "LEVEL 9",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"9e7579bacd3877c8a9519c53e0d97322"
+		],
+		"org_md5": "9e7579bacd3877c8a9519c53e0d97322",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "2856c4035cf021483c34cbfc8a57fe75",
+		"org_level": 17,
+		"title": "c.s.q.n. [7KEYS Latte]",
+		"artist": "Aoi obj:Rv",
+		"folder": "LEVEL 17",
+		"level": "LEVEL 17",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"2856c4035cf021483c34cbfc8a57fe75"
+		],
+		"org_md5": "2856c4035cf021483c34cbfc8a57fe75",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "348c47e82b334e9fda430cc53a26d883",
+		"org_level": 18,
+		"title": "永劫の沙漏 [7KEY AERY] ",
+		"artist": "ATEMAK obj:Beatnoob resp. Elehis",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"348c47e82b334e9fda430cc53a26d883"
+		],
+		"org_md5": "348c47e82b334e9fda430cc53a26d883",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "544c85b69faf51c538548cb019acfc5e",
+		"org_level": 18,
+		"title": "VANGUARD-1 [7KEYS AERY]",
+		"artist": "II-L obj. Beatnoob",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"544c85b69faf51c538548cb019acfc5e"
+		],
+		"org_md5": "544c85b69faf51c538548cb019acfc5e",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "5b0d6056ea78edcb2a7013ec50d362ba",
+		"org_level": 18,
+		"title": "cold planet [ 7KEYS ... ]",
+		"artist": "knot obj: 3cchobo",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"5b0d6056ea78edcb2a7013ec50d362ba"
+		],
+		"org_md5": "5b0d6056ea78edcb2a7013ec50d362ba",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "04587aa290b34292f19ba13debb1daab",
+		"org_level": 18,
+		"title": "\"Fishpot\" [7KEYS AERY]",
+		"artist": "Lemi. obj:Beatnoob",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"04587aa290b34292f19ba13debb1daab"
+		],
+		"org_md5": "04587aa290b34292f19ba13debb1daab",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "a3c6ce83319e536c1676b08d7df3e63e",
+		"org_level": 20,
+		"title": "\"Fishpot\" [7KEYS AERY EX]",
+		"artist": "Lemi. obj:Beatnoob",
+		"folder": "LEVEL 20",
+		"level": "LEVEL 20",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"a3c6ce83319e536c1676b08d7df3e63e"
+		],
+		"org_md5": "a3c6ce83319e536c1676b08d7df3e63e",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "7fb060299a6056a6e3511cb7b5fab613",
+		"org_level": 11,
+		"title": "across the pleiades [7KEYS Latte]",
+		"artist": "lollipop obj:Rv",
+		"folder": "LEVEL 11",
+		"level": "LEVEL 11",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"7fb060299a6056a6e3511cb7b5fab613"
+		],
+		"org_md5": "7fb060299a6056a6e3511cb7b5fab613",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "f681e454b525c89f6851a223ee042366",
+		"org_level": 17,
+		"title": "Dream Of Winds [7KEYS AERY] ",
+		"artist": "LOVETM obj. Beatnoob",
+		"folder": "LEVEL 17",
+		"level": "LEVEL 17",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"f681e454b525c89f6851a223ee042366"
+		],
+		"org_md5": "f681e454b525c89f6851a223ee042366",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "4e3b54c7237b8f423544138a8ab8ec44",
+		"org_level": 20,
+		"title": "ペイペイ2000 [7KEYS AERY ApplePay]",
+		"artist": "モン・サン・ミシェル arr:魔女 / obj:Beatnoob resp. mog",
+		"folder": "LEVEL 20",
+		"level": "LEVEL 20",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"4e3b54c7237b8f423544138a8ab8ec44"
+		],
+		"org_md5": "4e3b54c7237b8f423544138a8ab8ec44",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "7b7820c68986b9250a108ed9c4da7905",
+		"org_level": 15,
+		"title": "Act Beloved [ 7KEYS .. ]",
+		"artist": "Nene Anegasaki feat. Salita Movie : Ryuka / obj : 3cchobo",
+		"folder": "LEVEL 15",
+		"level": "LEVEL 15",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"7b7820c68986b9250a108ed9c4da7905"
+		],
+		"org_md5": "7b7820c68986b9250a108ed9c4da7905",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "4ba9f4d74585800ea79c3f0c245765ec",
+		"org_level": 15,
+		"title": "リジットXXパラダイス [ 7KEY AERY HD ]",
+		"artist": "o.s.gate obj:3cchobo",
+		"folder": "LEVEL 15",
+		"level": "LEVEL 15",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"4ba9f4d74585800ea79c3f0c245765ec"
+		],
+		"org_md5": "4ba9f4d74585800ea79c3f0c245765ec",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "9c7c88de531d2c079aefaa5fae276117",
+		"org_level": 7,
+		"title": "リジットXXパラダイス [ 7KEY AERY NM ]",
+		"artist": "o.s.gate obj:3cchobo",
+		"folder": "LEVEL 7",
+		"level": "LEVEL 7",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"9c7c88de531d2c079aefaa5fae276117"
+		],
+		"org_md5": "9c7c88de531d2c079aefaa5fae276117",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "355c557e693a7becf6bc9eb67c187330",
+		"org_level": 15,
+		"title": "Head BONK ache [7KEYS Latte]",
+		"artist": "saaa ft. MC iwata Bros. / BGA : 空読無 白眼 obj:Rv",
+		"folder": "LEVEL 15",
+		"level": "LEVEL 15",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"355c557e693a7becf6bc9eb67c187330"
+		],
+		"org_md5": "355c557e693a7becf6bc9eb67c187330",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "491f8bd673f33e2b37ede9b1fcad635b",
+		"org_level": 12,
+		"title": "Lapis [7AERY NORMAL] ",
+		"artist": "SHIKI obj:3cchobo",
+		"folder": "LEVEL 12",
+		"level": "LEVEL 12",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"491f8bd673f33e2b37ede9b1fcad635b"
+		],
+		"org_md5": "491f8bd673f33e2b37ede9b1fcad635b",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "c60814512044029985ee76bb97f2573c",
+		"org_level": 18,
+		"title": "硬核機動 [ 7KEYS .. ]",
+		"artist": "しらいし obj: CHE.",
+		"folder": "LEVEL 18",
+		"level": "LEVEL 18",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"c60814512044029985ee76bb97f2573c"
+		],
+		"org_md5": "c60814512044029985ee76bb97f2573c",
+		"comment": "",
+		"adddate": "2026-06-28"
+	},
+	{
+		"md5": "380540106a460fd98efdcae0b08af934",
+		"org_level": 16,
+		"title": "Andro [7K] ",
+		"artist": "紅蓮月影 BGA:A-ZERO Project, obj.shLEE",
+		"folder": "LEVEL 16",
+		"level": "LEVEL 16",
+		"lr2_bmsid": null,
+		"url": "",
+		"url_diff": "",
+		"name_diff": null,
+		"org_md5s": [
+			"380540106a460fd98efdcae0b08af934"
+		],
+		"org_md5": "380540106a460fd98efdcae0b08af934",
+		"comment": "",
+		"adddate": "2026-06-28"
+	}
+]
